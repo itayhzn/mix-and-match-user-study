@@ -1,0 +1,43 @@
+{
+ "id": "Q003",
+ "source": {
+  "library": "g3_classical_chimera_simple03_s7",
+  "idea": "g3_classical_chimera",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   0
+  ],
+  [
+   0,
+   1
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A mythical winged beast with a single head, side view, plain background, with <r0>a lion's head</r0>, with <r1>a lion's body</r1>, in a realistic picture style",
+   "A mythical winged beast with a single head, side view, plain background, with <r0>a lion's head</r0>, with <r1>a panther's body</r1>, in a realistic picture style"
+  ],
+  "he": [
+   "יצור מיתולוגי מכונף עם ראש אחד, מבט מהצד, רקע חלק, עם <r0>ראש של אריה</r0>, עם <r1>גוף של אריה</r1>, בסגנון תמונה ריאליסטית",
+   "יצור מיתולוגי מכונף עם ראש אחד, מבט מהצד, רקע חלק, עם <r0>ראש של אריה</r0>, עם <r1>גוף של פנתר</r1>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "c4c904db8b570560",
+   "fde8b071c4352ec3"
+  ],
+  "other": [
+   "2344be6dc78561ae",
+   "042ed1e290753e73"
+  ]
+ }
+}

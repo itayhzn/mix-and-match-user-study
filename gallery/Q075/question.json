@@ -1,0 +1,43 @@
+{
+ "id": "Q075",
+ "source": {
+  "library": "g3_gnome_simple04_s7",
+  "idea": "g3_gnome",
+  "seed": 7
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   2,
+   0
+  ],
+  [
+   1,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A garden gnome with a long white beard standing on the lawn, front view, wearing <r0>a pointy red gnome hat</r0>, wearing <r1>a red tunic with a belt</r1>, in a digital painting style",
+   "A garden gnome with a long white beard standing on the lawn, front view, wearing <r0>a black witch hat</r0>, wearing <r1>a red tunic with a belt</r1>, in a digital painting style"
+  ],
+  "he": [
+   "גמד גינה עם זקן לבן ארוך עומד על הדשא, מבט מלפנים, חובש <r0>כובע גמדים אדום ומחודד</r0>, לובש <r1>טוניקה אדומה עם חגורה</r1>, בסגנון ציור דיגיטלי",
+   "גמד גינה עם זקן לבן ארוך עומד על הדשא, מבט מלפנים, חובש <r0>כובע מכשפה שחור</r0>, לובש <r1>טוניקה אדומה עם חגורה</r1>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "35103247ee609dd2",
+   "5d222f79c83b9594"
+  ],
+  "other": [
+   "e0c7dfae0971816f",
+   "c96d2b0c83cc8dc8"
+  ]
+ }
+}

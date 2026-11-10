@@ -1,0 +1,43 @@
+{
+ "id": "Q071",
+ "source": {
+  "library": "g3_figure_front_simple02_s7",
+  "idea": "g3_figure_front",
+  "seed": 7
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   1
+  ],
+  [
+   0,
+   0
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A full-body front view of a person standing straight with arms at their sides, on a plain white background, wearing <r0>a steel knight breastplate</r0>, wearing <r1>camouflage pants</r1>, in a cartoon style",
+   "A full-body front view of a person standing straight with arms at their sides, on a plain white background, wearing <r0>a steel knight breastplate</r0>, wearing <r1>brown corduroy pants</r1>, in a cartoon style"
+  ],
+  "he": [
+   "אדם בגוף מלא במבט מלפנים, עומד זקוף וידיו לצידי גופו, על רקע לבן חלק, לובש <r0>שריון חזה מפלדה של אביר</r0>, לובש <r1>מכנסי הסוואה</r1>, בסגנון מצויר",
+   "אדם בגוף מלא במבט מלפנים, עומד זקוף וידיו לצידי גופו, על רקע לבן חלק, לובש <r0>שריון חזה מפלדה של אביר</r0>, לובש <r1>מכנסי קורדרוי חומים</r1>, בסגנון מצויר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "dd9b7d7e9c6869f6",
+   "feee295a6b9c5ef4"
+  ],
+  "other": [
+   "a6d435ac321436a1",
+   "85fbd7a0d95022b5"
+  ]
+ }
+}

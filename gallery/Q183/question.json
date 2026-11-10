@@ -1,0 +1,45 @@
+{
+ "id": "Q183",
+ "source": {
+  "library": "g3_robot_06_s2025",
+  "idea": "g3_robot",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   1,
+   0,
+   0
+  ],
+  [
+   2,
+   0,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A robot standing in a workshop, with <r0>a boxy head with antennas and two eyes</r0>, with <r1>a boxy torso with dials</r1>, with <r2>short stubby legs</r2>, in a low poly style",
+   "A robot standing in a workshop, with <r0>a bucket-shaped head with two round eyes</r0>, with <r1>a boxy torso with dials</r1>, with <r2>short stubby legs</r2>, in a low poly style"
+  ],
+  "he": [
+   "רובוט עומד בסדנה, עם <r0>ראש מרובע עם אנטנות ושתי עיניים</r0>, עם <r1>גוף מרובע עם חוגות</r1>, עם <r2>רגליים קצרות ועבות</r2>, בסגנון low poly",
+   "רובוט עומד בסדנה, עם <r0>ראש בצורת דלי עם שתי עיניים עגולות</r0>, עם <r1>גוף מרובע עם חוגות</r1>, עם <r2>רגליים קצרות ועבות</r2>, בסגנון low poly"
+  ]
+ },
+ "images": {
+  "ours": [
+   "a7d05de91b4071eb",
+   "ce623f9e76892081"
+  ],
+  "other": [
+   "7c38f90df455b680",
+   "9f53ae89e98de862"
+  ]
+ }
+}

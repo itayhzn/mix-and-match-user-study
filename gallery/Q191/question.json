@@ -1,0 +1,47 @@
+{
+ "id": "Q191",
+ "source": {
+  "library": "g3_knight_07_s2025",
+  "idea": "g3_knight",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 4,
+ "combinations": [
+  [
+   0,
+   0,
+   3,
+   1
+  ],
+  [
+   0,
+   1,
+   3,
+   1
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A knight standing on a battlefield, wearing <r0>a bronze roman helmet</r0>, wearing <r1>shining silver plate armor</r1>, wearing <r2>a long red cape</r2>, next to <r3>a dark bay horse</r3>, in a pixel art style",
+   "A knight standing on a battlefield, wearing <r0>a bronze roman helmet</r0>, wearing <r1>golden ornate armor</r1>, wearing <r2>a long red cape</r2>, next to <r3>a dark bay horse</r3>, in a pixel art style"
+  ],
+  "he": [
+   "אביר עומד בשדה קרב, חובש <r0>קסדה רומית מארד</r0>, לובש <r1>שריון לוחות כסוף ומבריק</r1>, לובש <r2>גלימה אדומה ארוכה</r2>, ליד <r3>סוס חום-ערמוני כהה</r3>, בסגנון פיקסל ארט",
+   "אביר עומד בשדה קרב, חובש <r0>קסדה רומית מארד</r0>, לובש <r1>שריון זהוב מעוטר</r1>, לובש <r2>גלימה אדומה ארוכה</r2>, ליד <r3>סוס חום-ערמוני כהה</r3>, בסגנון פיקסל ארט"
+  ]
+ },
+ "images": {
+  "ours": [
+   "7caf0d4feb37da3f",
+   "26bb020a70669e6d"
+  ],
+  "other": [
+   "6b332c2e66aa6bc1",
+   "be00637241fea8a3"
+  ]
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "Q157",
+ "source": {
+  "library": "g3_face_05_s2025",
+  "idea": "g3_face",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   4,
+   1,
+   3
+  ],
+  [
+   1,
+   5,
+   3
+  ]
+ ],
+ "changed": [
+  0,
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A head-and-shoulders portrait of a person, with <r0>short curly red hair</r0>, wearing <r1>black cat-eye sunglasses</r1>, with <r2>a thick dark green mustache</r2>, in a low poly style",
+   "A head-and-shoulders portrait of a person, with <r0>a short dark purple bob cut</r0>, wearing <r1>dark green sports sunglasses</r1>, with <r2>a thick dark green mustache</r2>, in a low poly style"
+  ],
+  "he": [
+   "דיוקן ראש וכתפיים של אדם, עם <r0>שיער ג'ינג'י מתולתל קצר</r0>, מרכיב <r1>משקפי שמש שחורים בצורת עין חתול</r1>, עם <r2>שפם עבה בצבע ירוק כהה</r2>, בסגנון low poly",
+   "דיוקן ראש וכתפיים של אדם, עם <r0>תספורת בוב קצרה בסגול כהה</r0>, מרכיב <r1>משקפי שמש ספורטיביים בירוק כהה</r1>, עם <r2>שפם עבה בצבע ירוק כהה</r2>, בסגנון low poly"
+  ]
+ },
+ "images": {
+  "ours": [
+   "ddb6a670fb5c413f",
+   "4e034b048a1fe400"
+  ],
+  "other": [
+   "19fc633034171843",
+   "00ed4787b1f47830"
+  ]
+ }
+}

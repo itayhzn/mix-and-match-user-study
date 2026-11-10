@@ -1,0 +1,43 @@
+{
+ "id": "Q054",
+ "source": {
+  "library": "g3_face_front_simple02_s7",
+  "idea": "g3_face_front",
+  "seed": 7
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A front-facing portrait of a person from the shoulders up, with a neutral background, with <r0>a short dark purple bob cut</r0>, wearing <r1>a black turtleneck sweater</r1>, in a digital painting style",
+   "A front-facing portrait of a person from the shoulders up, with a neutral background, with <r0>a short dark purple bob cut</r0>, wearing <r1>a blue denim jacket</r1>, in a digital painting style"
+  ],
+  "he": [
+   "דיוקן של אדם מהכתפיים ומעלה, פונה קדימה, על רקע ניטרלי, עם <r0>תספורת קארה קצרה בסגול כהה</r0>, לובש <r1>סוודר גולף שחור</r1>, בסגנון ציור דיגיטלי",
+   "דיוקן של אדם מהכתפיים ומעלה, פונה קדימה, על רקע ניטרלי, עם <r0>תספורת קארה קצרה בסגול כהה</r0>, לובש <r1>ז׳קט ג׳ינס כחול</r1>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "eeb350b462b5dae0",
+   "639f36c1294fd6d9"
+  ],
+  "other": [
+   "46390a9e3f2d94cc",
+   "93f5e93440f490c8"
+  ]
+ }
+}

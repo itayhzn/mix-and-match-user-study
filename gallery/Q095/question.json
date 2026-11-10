@@ -1,0 +1,45 @@
+{
+ "id": "Q095",
+ "source": {
+  "library": "g3_classical_chimera_00_s2025",
+  "idea": "g3_classical_chimera",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   1,
+   0,
+   3
+  ],
+  [
+   1,
+   1,
+   3
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A mythical winged beast with a single head, with <r0>an eagle's head</r0>, with <r1>bat wings</r1>, with <r2>a horse's tail</r2>, in a watercolor painting style",
+   "A mythical winged beast with a single head, with <r0>an eagle's head</r0>, with <r1>fiery phoenix wings</r1>, with <r2>a horse's tail</r2>, in a watercolor painting style"
+  ],
+  "he": [
+   "חיה מיתית מכונפת עם ראש אחד, עם <r0>ראש של נשר</r0>, עם <r1>כנפי עטלף</r1>, עם <r2>זנב של סוס</r2>, בסגנון ציור בצבעי מים",
+   "חיה מיתית מכונפת עם ראש אחד, עם <r0>ראש של נשר</r0>, עם <r1>כנפיים בוערות של עוף החול</r1>, עם <r2>זנב של סוס</r2>, בסגנון ציור בצבעי מים"
+  ]
+ },
+ "images": {
+  "ours": [
+   "8e7c6f222aea33c1",
+   "7e449cd934b21306"
+  ],
+  "other": [
+   "1df6df6c4459c2d6",
+   "b1dfdde46bf4de89"
+  ]
+ }
+}

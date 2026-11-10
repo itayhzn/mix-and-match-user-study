@@ -1,0 +1,43 @@
+{
+ "id": "Q122",
+ "source": {
+  "library": "g3_snowman_08_s7",
+  "idea": "g3_snowman",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   1
+  ],
+  [
+   1,
+   1
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A snowman standing in a snowy garden, wearing <r0>a black top hat</r0>, with <r1>a brown pinecone nose</r1>, in a realistic picture style",
+   "A snowman standing in a snowy garden, wearing <r0>a tall green top hat</r0>, with <r1>a brown pinecone nose</r1>, in a realistic picture style"
+  ],
+  "he": [
+   "איש שלג עומד בגינה מושלגת, חובש <r0>כובע צילינדר שחור</r0>, עם <r1>אף מאצטרובל חום</r1>, בסגנון תמונה ריאליסטית",
+   "איש שלג עומד בגינה מושלגת, חובש <r0>כובע צילינדר ירוק וגבוה</r0>, עם <r1>אף מאצטרובל חום</r1>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "99e8c94c2d15b283",
+   "f11e70bfd1dc7a0b"
+  ],
+  "other": [
+   "6d6d7530215b23d4",
+   "81bc64753c0bea19"
+  ]
+ }
+}

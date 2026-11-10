@@ -1,0 +1,45 @@
+{
+ "id": "Q133",
+ "source": {
+  "library": "g3_bottle_06_s7",
+  "idea": "g3_bottle",
+  "seed": 7
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   2,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   1
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A close-up of a bottle standing on a table, with <r0>a wooden stopper</r0>, with <r1>a torn brown vintage label</r1>, with <r2>a purple glass body</r2>, in a line art style",
+   "A close-up of a bottle standing on a table, with <r0>a black rubber stopper</r0>, with <r1>a torn brown vintage label</r1>, with <r2>a purple glass body</r2>, in a line art style"
+  ],
+  "he": [
+   "תקריב של בקבוק שעומד על שולחן, עם <r0>פקק עץ</r0>, עם <r1>תווית וינטג' חומה וקרועה</r1>, עם <r2>גוף זכוכית סגול</r2>, בסגנון ציור קווי",
+   "תקריב של בקבוק שעומד על שולחן, עם <r0>פקק גומי שחור</r0>, עם <r1>תווית וינטג' חומה וקרועה</r1>, עם <r2>גוף זכוכית סגול</r2>, בסגנון ציור קווי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "7ca6e882623affe0",
+   "7ebfc17bb160a8d8"
+  ],
+  "other": [
+   "5f95f273d2091c2e",
+   "785e60e1a1169bf1"
+  ]
+ }
+}

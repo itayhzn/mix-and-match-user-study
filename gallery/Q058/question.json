@@ -1,0 +1,47 @@
+{
+ "id": "Q058",
+ "source": {
+  "library": "g3_animal_chimera_00_s2025",
+  "idea": "g3_animal_chimera",
+  "seed": 2025
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 4,
+ "combinations": [
+  [
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   1,
+   0,
+   0,
+   1
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A large animal with a single head standing in a savanna, side view, with <r0>the head of a lion</r0>, with <r1>the body of a bear</r1>, with <r2>the legs of a zebra</r2>, with <r3>the tail of a zebra</r3>, in a film noir style",
+   "A large animal with a single head standing in a savanna, side view, with <r0>the head of a tiger</r0>, with <r1>the body of a bear</r1>, with <r2>the legs of a zebra</r2>, with <r3>the tail of a zebra</r3>, in a film noir style"
+  ],
+  "he": [
+   "חיה גדולה עם ראש אחד עומדת בסוואנה, מבט מהצד, עם <r0>ראש של אריה</r0>, עם <r1>גוף של דוב</r1>, עם <r2>רגליים של זברה</r2>, עם <r3>זנב של זברה</r3>, בסגנון פילם נואר",
+   "חיה גדולה עם ראש אחד עומדת בסוואנה, מבט מהצד, עם <r0>ראש של טיגריס</r0>, עם <r1>גוף של דוב</r1>, עם <r2>רגליים של זברה</r2>, עם <r3>זנב של זברה</r3>, בסגנון פילם נואר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "995f72695cf16181",
+   "d48615d8dc09a36e"
+  ],
+  "other": [
+   "b6ce30be0ba206ba",
+   "bb0cb2437444220a"
+  ]
+ }
+}

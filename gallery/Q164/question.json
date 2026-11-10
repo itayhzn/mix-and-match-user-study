@@ -1,0 +1,45 @@
+{
+ "id": "Q164",
+ "source": {
+  "library": "g3_bottle_03_s2025",
+  "idea": "g3_bottle",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   3,
+   3,
+   0
+  ],
+  [
+   3,
+   3,
+   1
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A close-up of a bottle on a kitchen counter, with <r0>a golden foil cap</r0>, with <r1>a green paper label</r1>, with <r2>a cobalt blue glass body</r2>, in a low poly style",
+   "A close-up of a bottle on a kitchen counter, with <r0>a golden foil cap</r0>, with <r1>a green paper label</r1>, with <r2>a ribbed blue glass body</r2>, in a low poly style"
+  ],
+  "he": [
+   "תקריב של בקבוק על משטח עבודה במטבח, עם <r0>פקק מצופה רדיד זהב</r0>, עם <r1>תווית נייר ירוקה</r1>, עם <r2>גוף זכוכית בכחול קובלט</r2>, בסגנון low poly",
+   "תקריב של בקבוק על משטח עבודה במטבח, עם <r0>פקק מצופה רדיד זהב</r0>, עם <r1>תווית נייר ירוקה</r1>, עם <r2>גוף זכוכית כחול מחורץ</r2>, בסגנון low poly"
+  ]
+ },
+ "images": {
+  "ours": [
+   "3a85c94a7968a97c",
+   "0c817fa938f1a686"
+  ],
+  "other": [
+   "6f6fcaab9aea6b23",
+   "911406f85630caad"
+  ]
+ }
+}

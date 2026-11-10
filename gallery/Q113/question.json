@@ -1,0 +1,43 @@
+{
+ "id": "Q113",
+ "source": {
+  "library": "g3_snowman_simple02_s7",
+  "idea": "g3_snowman",
+  "seed": 7
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   1
+  ],
+  [
+   2,
+   1
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A snowman standing in the snow, front view, plain background, wearing <r0>a flower pot</r0>, wearing <r1>a feather boa</r1>, in a watercolor painting style",
+   "A snowman standing in the snow, front view, plain background, wearing <r0>a cooking pot</r0>, wearing <r1>a feather boa</r1>, in a watercolor painting style"
+  ],
+  "he": [
+   "איש שלג עומד בשלג, מבט מלפנים, רקע חלק, חובש <r0>עציץ פרחים</r0>, עונד <r1>בואת נוצות</r1>, בסגנון ציור בצבעי מים",
+   "איש שלג עומד בשלג, מבט מלפנים, רקע חלק, חובש <r0>סיר בישול</r0>, עונד <r1>בואת נוצות</r1>, בסגנון ציור בצבעי מים"
+  ]
+ },
+ "images": {
+  "ours": [
+   "3109d9ac865caeb8",
+   "6eb244a256cd7096"
+  ],
+  "other": [
+   "2db1b6df05e19523",
+   "a5b91f274cf59b29"
+  ]
+ }
+}

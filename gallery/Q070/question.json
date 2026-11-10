@@ -1,0 +1,45 @@
+{
+ "id": "Q070",
+ "source": {
+  "library": "g3_pirate_06_s7",
+  "idea": "g3_pirate",
+  "seed": 7
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   0,
+   0,
+   2
+  ],
+  [
+   0,
+   2,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A half-body portrait of a pirate on the deck of a ship, wearing <r0>a black tricorn hat with a skull</r0>, with <r1>a bushy auburn beard</r1>, with <r2>a red parrot on its shoulder</r2>, in an oil painting style",
+   "A half-body portrait of a pirate on the deck of a ship, wearing <r0>a black tricorn hat with a skull</r0>, with <r1>a bushy dark brown beard</r1>, with <r2>a red parrot on its shoulder</r2>, in an oil painting style"
+  ],
+  "he": [
+   "דיוקן חצי גוף של פיראט על סיפון ספינה, חובש <r0>כובע משולש שחור עם גולגולת</r0>, עם <r1>זקן עבות בצבע ערמוני</r1>, עם <r2>תוכי אדום על הכתף</r2>, בסגנון ציור שמן",
+   "דיוקן חצי גוף של פיראט על סיפון ספינה, חובש <r0>כובע משולש שחור עם גולגולת</r0>, עם <r1>זקן עבות בחום כהה</r1>, עם <r2>תוכי אדום על הכתף</r2>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "b08d5ae9d201c498",
+   "1ce546152900a084"
+  ],
+  "other": [
+   "1ffe489c058cd2d1",
+   "73d3c0b8caa500ce"
+  ]
+ }
+}

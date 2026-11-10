@@ -1,0 +1,45 @@
+{
+ "id": "Q144",
+ "source": {
+  "library": "g3_plant_05_s7",
+  "idea": "g3_plant",
+  "seed": 7
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   2,
+   1,
+   0
+  ],
+  [
+   2,
+   1,
+   2
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A close-up of a potted flowering plant on a wooden table, in <r0>a rusty tin pot</r0>, with <r1>orange marigolds</r1>, next to <r2>a sparrow</r2>, in a digital painting style",
+   "A close-up of a potted flowering plant on a wooden table, in <r0>a rusty tin pot</r0>, with <r1>orange marigolds</r1>, next to <r2>a blue tit</r2>, in a digital painting style"
+  ],
+  "he": [
+   "תקריב של צמח פורח בעציץ על שולחן עץ, בתוך <r0>עציץ פח חלוד</r0>, עם <r1>ציפורני חתול כתומות</r1>, ליד <r2>דרור</r2>, בסגנון ציור דיגיטלי",
+   "תקריב של צמח פורח בעציץ על שולחן עץ, בתוך <r0>עציץ פח חלוד</r0>, עם <r1>ציפורני חתול כתומות</r1>, ליד <r2>ירגזי כחול</r2>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "7e6e5b01505ed0e0",
+   "73487d54c998b95f"
+  ],
+  "other": [
+   "161dd91fc17b7033",
+   "abf021fcb8309a58"
+  ]
+ }
+}

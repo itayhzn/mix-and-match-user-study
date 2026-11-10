@@ -1,0 +1,47 @@
+{
+ "id": "Q193",
+ "source": {
+  "library": "g3_classical_chimera_05_s2025",
+  "idea": "g3_classical_chimera",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 4,
+ "combinations": [
+  [
+   1,
+   0,
+   2,
+   0
+  ],
+  [
+   1,
+   0,
+   0,
+   0
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A mythical winged creature with only one head, standing on a rocky cliff, with <r0>a ram's head</r0>, with <r1>fiery phoenix wings</r1>, with <r2>a horse's body</r2>, with <r3>a lion's tail</r3>, in an anime drawing style",
+   "A mythical winged creature with only one head, standing on a rocky cliff, with <r0>a ram's head</r0>, with <r1>fiery phoenix wings</r1>, with <r2>a bear's body</r2>, with <r3>a lion's tail</r3>, in an anime drawing style"
+  ],
+  "he": [
+   "יצור מיתי מכונף עם ראש אחד בלבד, עומד על צוק סלעי, עם <r0>ראש של איל</r0>, עם <r1>כנפיים בוערות של עוף החול</r1>, עם <r2>גוף של סוס</r2>, עם <r3>זנב של אריה</r3>, בסגנון ציור אנימה",
+   "יצור מיתי מכונף עם ראש אחד בלבד, עומד על צוק סלעי, עם <r0>ראש של איל</r0>, עם <r1>כנפיים בוערות של עוף החול</r1>, עם <r2>גוף של דוב</r2>, עם <r3>זנב של אריה</r3>, בסגנון ציור אנימה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "6784b877817364e7",
+   "a481438be2403a18"
+  ],
+  "other": [
+   "691584de4e04b17b",
+   "770c751327905bf1"
+  ]
+ }
+}

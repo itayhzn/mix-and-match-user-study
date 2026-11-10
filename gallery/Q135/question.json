@@ -1,0 +1,43 @@
+{
+ "id": "Q135",
+ "source": {
+  "library": "g3_animal_chimera_simple00_s2025",
+  "idea": "g3_animal_chimera",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A large animal with a single head standing on grass, side view, plain background, with <r0>the head of a tiger</r0>, with <r1>the body of a zebra</r1>, in an oil painting style",
+   "A large animal with a single head standing on grass, side view, plain background, with <r0>the head of a tiger</r0>, with <r1>the body of a tiger</r1>, in an oil painting style"
+  ],
+  "he": [
+   "חיה גדולה עם ראש אחד עומדת על דשא, מבט מהצד, רקע חלק, עם <r0>ראש של טיגריס</r0>, עם <r1>גוף של זברה</r1>, בסגנון ציור שמן",
+   "חיה גדולה עם ראש אחד עומדת על דשא, מבט מהצד, רקע חלק, עם <r0>ראש של טיגריס</r0>, עם <r1>גוף של טיגריס</r1>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "4bfc2869b190b170",
+   "ddf59e592b2061f5"
+  ],
+  "other": [
+   "8a83119d836d8679",
+   "84493d8a17af9616"
+  ]
+ }
+}

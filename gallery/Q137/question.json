@@ -1,0 +1,45 @@
+{
+ "id": "Q137",
+ "source": {
+  "library": "g3_snowman_05_s2025",
+  "idea": "g3_snowman",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   1,
+   1,
+   2
+  ],
+  [
+   1,
+   1,
+   3
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A snowman standing in a snowy forest, wearing <r0>a red top hat</r0>, wearing <r1>a plaid wool scarf</r1>, with <r2>a long orange carrot nose</r2>, in a pop art style",
+   "A snowman standing in a snowy forest, wearing <r0>a red top hat</r0>, wearing <r1>a plaid wool scarf</r1>, with <r2>a purple eggplant nose</r2>, in a pop art style"
+  ],
+  "he": [
+   "איש שלג עומד ביער מושלג, חובש <r0>כובע צילינדר אדום</r0>, עם <r1>צעיף צמר משובץ</r1>, עם <r2>אף גזר כתום וארוך</r2>, בסגנון פופ ארט",
+   "איש שלג עומד ביער מושלג, חובש <r0>כובע צילינדר אדום</r0>, עם <r1>צעיף צמר משובץ</r1>, עם <r2>אף מחציל סגול</r2>, בסגנון פופ ארט"
+  ]
+ },
+ "images": {
+  "ours": [
+   "62bc516b43b781b4",
+   "00adde5407d91c10"
+  ],
+  "other": [
+   "6c3263f07e4694a2",
+   "2ecae69899f6a046"
+  ]
+ }
+}

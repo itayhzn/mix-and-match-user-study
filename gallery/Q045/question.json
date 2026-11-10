@@ -1,0 +1,45 @@
+{
+ "id": "Q045",
+ "source": {
+  "library": "g3_snowman_06_s7",
+  "idea": "g3_snowman",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 3,
+ "combinations": [
+  [
+   2,
+   2,
+   0
+  ],
+  [
+   1,
+   2,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A snowman standing in a snowy garden, wearing <r0>a red top hat</r0>, wearing <r1>big black headphones</r1>, wearing <r2>a blue scarf with snowflakes</r2>, in a cartoon style",
+   "A snowman standing in a snowy garden, wearing <r0>a cooking pot</r0>, wearing <r1>big black headphones</r1>, wearing <r2>a blue scarf with snowflakes</r2>, in a cartoon style"
+  ],
+  "he": [
+   "איש שלג עומד בגינה מושלגת, חובש <r0>כובע צילינדר אדום</r0>, עם <r1>אוזניות שחורות גדולות</r1>, עם <r2>צעיף כחול עם פתיתי שלג</r2>, בסגנון מצויר",
+   "איש שלג עומד בגינה מושלגת, חובש <r0>סיר בישול</r0>, עם <r1>אוזניות שחורות גדולות</r1>, עם <r2>צעיף כחול עם פתיתי שלג</r2>, בסגנון מצויר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "cd0593071058880f",
+   "aeff416096313472"
+  ],
+  "other": [
+   "d5e89dedc51cfd66",
+   "51cbd8a1fba3be62"
+  ]
+ }
+}

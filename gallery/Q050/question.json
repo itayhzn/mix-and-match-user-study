@@ -1,0 +1,43 @@
+{
+ "id": "Q050",
+ "source": {
+  "library": "g3_fish_chimera_02_s7",
+  "idea": "g3_fish_chimera",
+  "seed": 7
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   1
+  ],
+  [
+   0,
+   1
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A big fish with one head swimming in the ocean, side view, with <r0>an orange clownfish fin</r0>, with <r1>a long flowing red betta fish tail</r1>, in a film noir style",
+   "A big fish with one head swimming in the ocean, side view, with <r0>a spiky red fin</r0>, with <r1>a long flowing red betta fish tail</r1>, in a film noir style"
+  ],
+  "he": [
+   "דג גדול עם ראש אחד שוחה באוקיינוס, מבט מהצד, עם <r0>סנפיר כתום של דג ליצן</r0>, עם <r1>זנב ארוך וגולש של דג בטא אדום</r1>, בסגנון פילם נואר",
+   "דג גדול עם ראש אחד שוחה באוקיינוס, מבט מהצד, עם <r0>סנפיר אדום קוצני</r0>, עם <r1>זנב ארוך וגולש של דג בטא אדום</r1>, בסגנון פילם נואר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "fbd77a9790b3b76e",
+   "e87767b8ccd64ee8"
+  ],
+  "other": [
+   "bdeeee68adb6752a",
+   "230ff072457438e5"
+  ]
+ }
+}

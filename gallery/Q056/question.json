@@ -1,0 +1,43 @@
+{
+ "id": "Q056",
+ "source": {
+  "library": "g3_mermaid_simple03_s2025",
+  "idea": "g3_mermaid",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   1
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A full-body mermaid with a long fish tail instead of legs, sitting on a rock, front view, plain background, with <r0>the upper body of a woman in a pearl top</r0>, with <r1>a blue scaly fish tail</r1>, in an oil painting style",
+   "A full-body mermaid with a long fish tail instead of legs, sitting on a rock, front view, plain background, with <r0>the upper body of a woman in a pearl top</r0>, with <r1>a golden fish tail with a fan fin</r1>, in an oil painting style"
+  ],
+  "he": [
+   "בת ים בגוף מלא עם זנב דג ארוך במקום רגליים, יושבת על סלע, מבט מלפנים, רקע חלק, עם <r0>פלג גוף עליון של אישה בטופ פנינים</r0>, עם <r1>זנב דג כחול מכוסה קשקשים</r1>, בסגנון ציור שמן",
+   "בת ים בגוף מלא עם זנב דג ארוך במקום רגליים, יושבת על סלע, מבט מלפנים, רקע חלק, עם <r0>פלג גוף עליון של אישה בטופ פנינים</r0>, עם <r1>זנב דג זהוב עם סנפיר מניפה</r1>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "850962c3ac22edc6",
+   "625bbae44c051e16"
+  ],
+  "other": [
+   "e6b9d89d8ac7b90b",
+   "67085eb59ac1470b"
+  ]
+ }
+}

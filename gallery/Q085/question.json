@@ -1,0 +1,43 @@
+{
+ "id": "Q085",
+ "source": {
+  "library": "g3_plant_00_s7",
+  "idea": "g3_plant",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   2,
+   3
+  ],
+  [
+   1,
+   3
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A close-up of a flowering plant in a pot on a windowsill, in <r0>a woven wicker pot</r0>, with <r1>blue hydrangeas</r1>, in a sketch style",
+   "A close-up of a flowering plant in a pot on a windowsill, in <r0>a rusty tin pot</r0>, with <r1>blue hydrangeas</r1>, in a sketch style"
+  ],
+  "he": [
+   "תקריב של צמח פורח בעציץ על אדן חלון, בתוך <r0>עציץ נצרים קלוע</r0>, עם <r1>פרחי הידרנגאה כחולים</r1>, בסגנון סקיצה",
+   "תקריב של צמח פורח בעציץ על אדן חלון, בתוך <r0>עציץ פח חלוד</r0>, עם <r1>פרחי הידרנגאה כחולים</r1>, בסגנון סקיצה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "7acc97a6a0dd21c7",
+   "08acfc2aedfa73ee"
+  ],
+  "other": [
+   "8902046ba025eea5",
+   "172b4d6be1a221d8"
+  ]
+ }
+}

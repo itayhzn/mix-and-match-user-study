@@ -1,0 +1,43 @@
+{
+ "id": "Q186",
+ "source": {
+  "library": "g3_branch_scene_simple03_s2025",
+  "idea": "g3_branch_scene",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   0
+  ],
+  [
+   0,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A close-up of a thick tree branch with a large bird and a large mushroom on it, with <r0>a black crow</r0>, with <r1>a purple mushroom</r1>, in a cartoon style",
+   "A close-up of a thick tree branch with a large bird and a large mushroom on it, with <r0>a blue jay</r0>, with <r1>a purple mushroom</r1>, in a cartoon style"
+  ],
+  "he": [
+   "תקריב של ענף עץ עבה ועליו ציפור גדולה ופטרייה גדולה, עם <r0>עורב שחור</r0>, עם <r1>פטרייה סגולה</r1>, בסגנון מצויר",
+   "תקריב של ענף עץ עבה ועליו ציפור גדולה ופטרייה גדולה, עם <r0>עורבני כחול</r0>, עם <r1>פטרייה סגולה</r1>, בסגנון מצויר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "e770f5d8dbe01748",
+   "87f5142594953b49"
+  ],
+  "other": [
+   "7d5b8385419bb626",
+   "22e7ada4a4617226"
+  ]
+ }
+}

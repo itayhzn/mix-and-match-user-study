@@ -1,0 +1,47 @@
+{
+ "id": "Q017",
+ "source": {
+  "library": "g3_classical_chimera_02_s7",
+  "idea": "g3_classical_chimera",
+  "seed": 7
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 4,
+ "combinations": [
+  [
+   1,
+   1,
+   1,
+   2
+  ],
+  [
+   1,
+   1,
+   2,
+   2
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A mythical winged beast with a single head, with <r0>a ram's head</r0>, with <r1>scaly dragon wings</r1>, with <r2>lion paws</r2>, with <r3>a dragon's tail</r3>, in a pixel art style",
+   "A mythical winged beast with a single head, with <r0>a ram's head</r0>, with <r1>scaly dragon wings</r1>, with <r2>bear paws</r2>, with <r3>a dragon's tail</r3>, in a pixel art style"
+  ],
+  "he": [
+   "יצור מיתולוגי מכונף עם ראש אחד, עם <r0>ראש של איל</r0>, עם <r1>כנפי דרקון מכוסות קשקשים</r1>, עם <r2>כפות של אריה</r2>, עם <r3>זנב של דרקון</r3>, בסגנון פיקסל ארט",
+   "יצור מיתולוגי מכונף עם ראש אחד, עם <r0>ראש של איל</r0>, עם <r1>כנפי דרקון מכוסות קשקשים</r1>, עם <r2>כפות של דוב</r2>, עם <r3>זנב של דרקון</r3>, בסגנון פיקסל ארט"
+  ]
+ },
+ "images": {
+  "ours": [
+   "43bdab236184c6ba",
+   "ba8e88a546918c48"
+  ],
+  "other": [
+   "c460b8995dda9b3d",
+   "5dc24e677513a7dc"
+  ]
+ }
+}

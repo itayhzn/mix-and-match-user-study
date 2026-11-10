@@ -1,0 +1,45 @@
+{
+ "id": "Q033",
+ "source": {
+  "library": "g3_robot_02_s7",
+  "idea": "g3_robot",
+  "seed": 7
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   1,
+   2,
+   0
+  ],
+  [
+   2,
+   2,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A robot standing in a workshop, with <r0>a bucket-shaped head with two round eyes</r0>, with <r1>hydraulic piston arms</r1>, with <r2>spring legs</r2>, in a pixel art style",
+   "A robot standing in a workshop, with <r0>an old television set head with two eyes on the screen</r0>, with <r1>hydraulic piston arms</r1>, with <r2>spring legs</r2>, in a pixel art style"
+  ],
+  "he": [
+   "רובוט עומד בסדנה, עם <r0>ראש בצורת דלי עם שתי עיניים עגולות</r0>, עם <r1>זרועות של בוכנות הידראוליות</r1>, עם <r2>רגליים של קפיצים</r2>, בסגנון פיקסל ארט",
+   "רובוט עומד בסדנה, עם <r0>ראש שהוא טלוויזיה ישנה עם שתי עיניים על המסך</r0>, עם <r1>זרועות של בוכנות הידראוליות</r1>, עם <r2>רגליים של קפיצים</r2>, בסגנון פיקסל ארט"
+  ]
+ },
+ "images": {
+  "ours": [
+   "4cb4f1e669270348",
+   "373e61537afe2dee"
+  ],
+  "other": [
+   "742334cc309a19d9",
+   "582ee559f2ea7f26"
+  ]
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "Q185",
+ "source": {
+  "library": "g3_dog_03_s2025",
+  "idea": "g3_dog",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   0,
+   3,
+   1
+  ],
+  [
+   0,
+   4,
+   1
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A portrait of a dog sitting on a sofa, with <r0>floppy golden retriever ears</r0>, wearing <r1>yellow tinted sunglasses</r1>, wearing <r2>a blue collar with a bell</r2>, in an anime drawing style",
+   "A portrait of a dog sitting on a sofa, with <r0>floppy golden retriever ears</r0>, wearing <r1>dark aviator sunglasses</r1>, wearing <r2>a blue collar with a bell</r2>, in an anime drawing style"
+  ],
+  "he": [
+   "דיוקן של כלב יושב על ספה, עם <r0>אוזני גולדן רטריבר שמוטות</r0>, מרכיב <r1>משקפי שמש בגוון צהוב</r1>, עונד <r2>קולר כחול עם פעמון</r2>, בסגנון ציור אנימה",
+   "דיוקן של כלב יושב על ספה, עם <r0>אוזני גולדן רטריבר שמוטות</r0>, מרכיב <r1>משקפי טייסים כהים</r1>, עונד <r2>קולר כחול עם פעמון</r2>, בסגנון ציור אנימה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "d240f3d83692f723",
+   "5d8333b54914e52b"
+  ],
+  "other": [
+   "54800ec3a2eefbef",
+   "09ad88b7fd74d828"
+  ]
+ }
+}

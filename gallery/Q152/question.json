@@ -1,0 +1,45 @@
+{
+ "id": "Q152",
+ "source": {
+  "library": "g3_figure_front_00_s7",
+  "idea": "g3_figure_front",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 3,
+ "combinations": [
+  [
+   4,
+   3,
+   2
+  ],
+  [
+   4,
+   1,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A full-body front view of a person standing straight with arms at their sides, on a plain white background, with <r0>a green ogre face</r0>, wearing <r1>the top of a Superman suit</r1>, wearing <r2>brown corduroy pants</r2>, in a cartoon style",
+   "A full-body front view of a person standing straight with arms at their sides, on a plain white background, with <r0>a green ogre face</r0>, wearing <r1>a black tuxedo jacket</r1>, wearing <r2>brown corduroy pants</r2>, in a cartoon style"
+  ],
+  "he": [
+   "דמות מלאה של אדם מלפנים, עומד זקוף וידיו לצדי גופו, על רקע לבן חלק, עם <r0>פני עוג ירוקות</r0>, לובש <r1>את החלק העליון של חליפת סופרמן</r1>, לובש <r2>מכנסי קורדרוי חומים</r2>, בסגנון מצויר",
+   "דמות מלאה של אדם מלפנים, עומד זקוף וידיו לצדי גופו, על רקע לבן חלק, עם <r0>פני עוג ירוקות</r0>, לובש <r1>ז'קט טוקסידו שחור</r1>, לובש <r2>מכנסי קורדרוי חומים</r2>, בסגנון מצויר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "9fd86f514fc8a11f",
+   "04db9e90d5684657"
+  ],
+  "other": [
+   "fe21e94ad1308950",
+   "a263d3498af7644e"
+  ]
+ }
+}

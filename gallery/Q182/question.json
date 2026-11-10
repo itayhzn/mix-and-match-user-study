@@ -1,0 +1,43 @@
+{
+ "id": "Q182",
+ "source": {
+  "library": "g3_baby_toy_simple01_s7",
+  "idea": "g3_baby_toy",
+  "seed": 7
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   3,
+   2
+  ],
+  [
+   3,
+   3
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A baby sitting on a white rug next to a big stuffed toy, front view, <r0>a baby in a striped onesie</r0>, next to <r1>a big teddy bear</r1>, in a realistic picture style",
+   "A baby sitting on a white rug next to a big stuffed toy, front view, <r0>a baby in a striped onesie</r0>, next to <r1>a plush dinosaur</r1>, in a realistic picture style"
+  ],
+  "he": [
+   "תינוק יושב על שטיח לבן ליד בובת פרווה גדולה, מבט מלפנים, <r0>תינוק בבגד גוף מפוספס</r0>, ליד <r1>דובי גדול</r1>, בסגנון תמונה ריאליסטית",
+   "תינוק יושב על שטיח לבן ליד בובת פרווה גדולה, מבט מלפנים, <r0>תינוק בבגד גוף מפוספס</r0>, ליד <r1>דינוזאור פרווה</r1>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "4eb65b2661f18db4",
+   "b9f92e894d38441e"
+  ],
+  "other": [
+   "33257f9c4894eda1",
+   "5ec8d495b241f9c7"
+  ]
+ }
+}

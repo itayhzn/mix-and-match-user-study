@@ -1,0 +1,43 @@
+{
+ "id": "Q061",
+ "source": {
+  "library": "g3_classical_chimera_simple04_s2025",
+  "idea": "g3_classical_chimera",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   3,
+   2
+  ],
+  [
+   3,
+   3
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A mythical winged beast with a single head, side view, plain background, with <r0>a dragon's head</r0>, with <r1>scaly dragon wings</r1>, in an oil painting style",
+   "A mythical winged beast with a single head, side view, plain background, with <r0>a dragon's head</r0>, with <r1>feathered owl wings</r1>, in an oil painting style"
+  ],
+  "he": [
+   "יצור מיתולוגי מכונף עם ראש אחד, מבט מהצד, רקע חלק, עם <r0>ראש של דרקון</r0>, עם <r1>כנפי דרקון מכוסות קשקשים</r1>, בסגנון ציור שמן",
+   "יצור מיתולוגי מכונף עם ראש אחד, מבט מהצד, רקע חלק, עם <r0>ראש של דרקון</r0>, עם <r1>כנפי ינשוף מנוצות</r1>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "5ddf30735489e1cd",
+   "b336d356e2334083"
+  ],
+  "other": [
+   "9b27618b1050ca6a",
+   "2f37ccc1f4f1e66c"
+  ]
+ }
+}

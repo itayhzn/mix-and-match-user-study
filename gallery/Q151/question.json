@@ -1,0 +1,45 @@
+{
+ "id": "Q151",
+ "source": {
+  "library": "g3_animal_chimera_06_s7",
+  "idea": "g3_animal_chimera",
+  "seed": 7
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   0,
+   2,
+   2
+  ],
+  [
+   0,
+   0,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A large animal with a single head standing in a savanna, side view, with <r0>the head of a zebra</r0>, with <r1>the body of a bear</r1>, with <r2>the tail of a zebra</r2>, in a realistic picture style",
+   "A large animal with a single head standing in a savanna, side view, with <r0>the head of a zebra</r0>, with <r1>the body of a cow</r1>, with <r2>the tail of a zebra</r2>, in a realistic picture style"
+  ],
+  "he": [
+   "חיה גדולה עם ראש אחד עומדת בסוואנה, מבט מהצד, עם <r0>ראש של זברה</r0>, עם <r1>גוף של דוב</r1>, עם <r2>זנב של זברה</r2>, בסגנון תמונה ריאליסטית",
+   "חיה גדולה עם ראש אחד עומדת בסוואנה, מבט מהצד, עם <r0>ראש של זברה</r0>, עם <r1>גוף של פרה</r1>, עם <r2>זנב של זברה</r2>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "cebdd47eecc5b0f3",
+   "fc7edab7607b5ee6"
+  ],
+  "other": [
+   "47786b3c264ab702",
+   "e0442ccc52015f34"
+  ]
+ }
+}

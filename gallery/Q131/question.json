@@ -1,0 +1,48 @@
+{
+ "id": "Q131",
+ "source": {
+  "library": "g3_animal_chimera_08_s2025",
+  "idea": "g3_animal_chimera",
+  "seed": 2025
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 4,
+ "combinations": [
+  [
+   0,
+   0,
+   2,
+   4
+  ],
+  [
+   0,
+   0,
+   0,
+   2
+  ]
+ ],
+ "changed": [
+  2,
+  3
+ ],
+ "prompts": {
+  "en": [
+   "A large animal with a single head standing in a savanna, side view, with <r0>the head of a deer</r0>, with <r1>the body of a zebra</r1>, with <r2>the legs of a deer</r2>, with <r3>the tail of a zebra</r3>, in a sketch style",
+   "A large animal with a single head standing in a savanna, side view, with <r0>the head of a deer</r0>, with <r1>the body of a zebra</r1>, with <r2>the legs of a horse</r2>, with <r3>the tail of a fox</r3>, in a sketch style"
+  ],
+  "he": [
+   "חיה גדולה עם ראש אחד עומדת בסוואנה, מבט מהצד, עם <r0>ראש של אייל</r0>, עם <r1>גוף של זברה</r1>, עם <r2>רגליים של אייל</r2>, עם <r3>זנב של זברה</r3>, בסגנון סקיצה",
+   "חיה גדולה עם ראש אחד עומדת בסוואנה, מבט מהצד, עם <r0>ראש של אייל</r0>, עם <r1>גוף של זברה</r1>, עם <r2>רגליים של סוס</r2>, עם <r3>זנב של שועל</r3>, בסגנון סקיצה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "42ce6b696e2ca9bd",
+   "01c00aefee46c44b"
+  ],
+  "other": [
+   "61f4db05536e81fc",
+   "d5a0eddf7b9bb53f"
+  ]
+ }
+}

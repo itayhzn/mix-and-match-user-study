@@ -1,0 +1,50 @@
+{
+ "id": "Q029",
+ "source": {
+  "library": "g3_person_pet_09_s7",
+  "idea": "g3_person_pet",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 5,
+ "combinations": [
+  [
+   1,
+   1,
+   0,
+   0,
+   3
+  ],
+  [
+   1,
+   4,
+   0,
+   0,
+   4
+  ]
+ ],
+ "changed": [
+  1,
+  4
+ ],
+ "prompts": {
+  "en": [
+   "A single person sitting on a bench with their pet, with <r0>a short dark purple bob cut</r0>, wearing <r1>a navy sweater</r1>, wearing <r2>black trousers</r2>, wearing <r3>green rubber boots</r3>, with <r4>a golden retriever</r4>, in an anime drawing style",
+   "A single person sitting on a bench with their pet, with <r0>a short dark purple bob cut</r0>, wearing <r1>a green flannel shirt</r1>, wearing <r2>black trousers</r2>, wearing <r3>green rubber boots</r3>, with <r4>a black cat</r4>, in an anime drawing style"
+  ],
+  "he": [
+   "אדם אחד יושב על ספסל עם חיית המחמד שלו, עם <r0>תספורת קארה קצרה בסגול כהה</r0>, לובש <r1>סוודר בכחול נייבי</r1>, <r2>מכנסיים שחורים</r2> ונועל <r3>מגפי גומי ירוקים</r3>, עם <r4>גולדן רטריבר</r4>, בסגנון ציור אנימה",
+   "אדם אחד יושב על ספסל עם חיית המחמד שלו, עם <r0>תספורת קארה קצרה בסגול כהה</r0>, לובש <r1>חולצת פלנל ירוקה</r1>, <r2>מכנסיים שחורים</r2> ונועל <r3>מגפי גומי ירוקים</r3>, עם <r4>חתול שחור</r4>, בסגנון ציור אנימה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "d45ce7f134a50ba3",
+   "a29ced01ae57ac18"
+  ],
+  "other": [
+   "e34671e80f4e34e5",
+   "20801af1f79c562e"
+  ]
+ }
+}

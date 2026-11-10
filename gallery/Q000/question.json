@@ -1,0 +1,49 @@
+{
+ "id": "Q000",
+ "source": {
+  "library": "g3_face_front_02_s7",
+  "idea": "g3_face_front",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 5,
+ "combinations": [
+  [
+   1,
+   2,
+   1,
+   2,
+   2
+  ],
+  [
+   1,
+   1,
+   1,
+   2,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A front-facing portrait of a person from the shoulders up, looking straight at the camera, with a neutral background, with <r0>short wavy brown hair</r0>, with <r1>red cat-eye glasses</r1>, with <r2>a nose with a gold nose ring</r2>, with <r3>a mouth with vampire fangs</r3>, wearing <r4>a black leather jacket</r4>, in a digital painting style",
+   "A front-facing portrait of a person from the shoulders up, looking straight at the camera, with a neutral background, with <r0>short wavy brown hair</r0>, with <r1>small gold wire-rimmed glasses</r1>, with <r2>a nose with a gold nose ring</r2>, with <r3>a mouth with vampire fangs</r3>, wearing <r4>a black leather jacket</r4>, in a digital painting style"
+  ],
+  "he": [
+   "דיוקן חזיתי של אדם מהכתפיים ומעלה, מביט ישר למצלמה, על רקע ניטרלי, עם <r0>שיער חום קצר וגלי</r0>, מרכיב <r1>משקפי עין חתול אדומים</r1>, עם <r2>אף עם נזם זהב</r2>, עם <r3>פה עם ניבי ערפד</r3>, לובש <r4>מעיל עור שחור</r4>, בסגנון ציור דיגיטלי",
+   "דיוקן חזיתי של אדם מהכתפיים ומעלה, מביט ישר למצלמה, על רקע ניטרלי, עם <r0>שיער חום קצר וגלי</r0>, מרכיב <r1>משקפיים קטנים במסגרת תיל זהובה</r1>, עם <r2>אף עם נזם זהב</r2>, עם <r3>פה עם ניבי ערפד</r3>, לובש <r4>מעיל עור שחור</r4>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "e561950beaad753d",
+   "e26d2be7e6179923"
+  ],
+  "other": [
+   "f4f14ddb7944996a",
+   "ebfa6cf264ca8b63"
+  ]
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "Q007",
+ "source": {
+  "library": "g3_face_02_s2025",
+  "idea": "g3_face",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   3,
+   0,
+   1
+  ],
+  [
+   3,
+   2,
+   1
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A close-up portrait of a person's face, with <r0>short auburn hair</r0>, with <r1>glowing red eyes</r1>, with <r2>a mouth with vampire fangs</r2>, in a sketch style",
+   "A close-up portrait of a person's face, with <r0>short auburn hair</r0>, with <r1>violet eyes</r1>, with <r2>a mouth with vampire fangs</r2>, in a sketch style"
+  ],
+  "he": [
+   "דיוקן תקריב של פני אדם, עם <r0>שיער קצר בצבע ערמוני-אדמדם</r0>, עם <r1>עיניים אדומות זוהרות</r1>, עם <r2>פה עם ניבי ערפד</r2>, בסגנון סקיצה",
+   "דיוקן תקריב של פני אדם, עם <r0>שיער קצר בצבע ערמוני-אדמדם</r0>, עם <r1>עיניים סגולות</r1>, עם <r2>פה עם ניבי ערפד</r2>, בסגנון סקיצה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "73a27975b5f28276",
+   "a9cd65e5069c968a"
+  ],
+  "other": [
+   "af0a6ba9dc858f8c",
+   "5009f93167b5916b"
+  ]
+ }
+}

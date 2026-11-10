@@ -1,0 +1,43 @@
+{
+ "id": "Q123",
+ "source": {
+  "library": "g3_rocket_02_s2025",
+  "idea": "g3_rocket",
+  "seed": 2025
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   3,
+   2
+  ],
+  [
+   3,
+   0
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A big rocket launching from a launch pad, with <r0>a shiny steel body</r0>, with <r1>red flames with black smoke</r1>, in an oil painting style",
+   "A big rocket launching from a launch pad, with <r0>a shiny steel body</r0>, with <r1>a long trail of orange fire</r1>, in an oil painting style"
+  ],
+  "he": [
+   "טיל גדול משוגר מכן שיגור, עם <r0>גוף פלדה מבריק</r0>, עם <r1>להבות אדומות ועשן שחור</r1>, בסגנון ציור שמן",
+   "טיל גדול משוגר מכן שיגור, עם <r0>גוף פלדה מבריק</r0>, עם <r1>שובל ארוך של אש כתומה</r1>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "d901305cc45e4501",
+   "4f9b7ac71b08e4e9"
+  ],
+  "other": [
+   "830660069e20c549",
+   "45f0f865a6d4531f"
+  ]
+ }
+}

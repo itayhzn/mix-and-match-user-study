@@ -1,0 +1,45 @@
+{
+ "id": "Q187",
+ "source": {
+  "library": "g3_snowman_00_s7",
+  "idea": "g3_snowman",
+  "seed": 7
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   4,
+   2,
+   1
+  ],
+  [
+   4,
+   3,
+   1
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A snowman standing in a snowy garden, wearing <r0>a black top hat</r0>, wearing <r1>a thick knitted scarf with tassels</r1>, with <r2>a green pickle nose</r2>, in an anime drawing style",
+   "A snowman standing in a snowy garden, wearing <r0>a black top hat</r0>, wearing <r1>a red knitted scarf</r1>, with <r2>a green pickle nose</r2>, in an anime drawing style"
+  ],
+  "he": [
+   "איש שלג עומד בגינה מושלגת, חובש <r0>כובע צילינדר שחור</r0>, עם <r1>צעיף סרוג עבה עם ציציות</r1>, עם <r2>אף ממלפפון חמוץ ירוק</r2>, בסגנון ציור אנימה",
+   "איש שלג עומד בגינה מושלגת, חובש <r0>כובע צילינדר שחור</r0>, עם <r1>צעיף סרוג אדום</r1>, עם <r2>אף ממלפפון חמוץ ירוק</r2>, בסגנון ציור אנימה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "f9bab2fc847a41bf",
+   "58793f55dce17714"
+  ],
+  "other": [
+   "824be9e373e8a34b",
+   "73e73333411c5dbd"
+  ]
+ }
+}

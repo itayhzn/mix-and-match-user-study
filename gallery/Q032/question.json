@@ -1,0 +1,43 @@
+{
+ "id": "Q032",
+ "source": {
+  "library": "g3_branch_scene_simple04_s7",
+  "idea": "g3_branch_scene",
+  "seed": 7
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A close-up of a thick tree branch with a large bird and a large mushroom on it, with <r0>a robin</r0>, with <r1>an orange mushroom</r1>, in a realistic picture style",
+   "A close-up of a thick tree branch with a large bird and a large mushroom on it, with <r0>a robin</r0>, with <r1>a blue mushroom</r1>, in a realistic picture style"
+  ],
+  "he": [
+   "תקריב של ענף עץ עבה ועליו ציפור גדולה ופטרייה גדולה, עם <r0>אדום חזה</r0>, עם <r1>פטרייה כתומה</r1>, בסגנון תמונה ריאליסטית",
+   "תקריב של ענף עץ עבה ועליו ציפור גדולה ופטרייה גדולה, עם <r0>אדום חזה</r0>, עם <r1>פטרייה כחולה</r1>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "164c1b7f60bf4c98",
+   "caf5c92a252aae14"
+  ],
+  "other": [
+   "838a6afb12668d3e",
+   "75edee1006fbf1d7"
+  ]
+ }
+}

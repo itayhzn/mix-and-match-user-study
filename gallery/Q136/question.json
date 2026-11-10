@@ -1,0 +1,43 @@
+{
+ "id": "Q136",
+ "source": {
+  "library": "g3_knight_simple02_s7",
+  "idea": "g3_knight",
+  "seed": 7
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   2,
+   2
+  ],
+  [
+   0,
+   2
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A knight standing straight, front view, plain background, wearing <r0>a bronze roman helmet</r0>, wearing <r1>rusty chain mail</r1>, in a realistic picture style",
+   "A knight standing straight, front view, plain background, wearing <r0>a golden crowned helmet</r0>, wearing <r1>rusty chain mail</r1>, in a realistic picture style"
+  ],
+  "he": [
+   "אביר עומד זקוף, מבט מלפנים, רקע חלק, חובש <r0>קסדה רומית מברונזה</r0>, לובש <r1>שריון טבעות חלוד</r1>, בסגנון תמונה ריאליסטית",
+   "אביר עומד זקוף, מבט מלפנים, רקע חלק, חובש <r0>קסדה זהובה עם כתר</r0>, לובש <r1>שריון טבעות חלוד</r1>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "d6f3893176ef57a6",
+   "a5cea07118802362"
+  ],
+  "other": [
+   "439a9a26508a87d7",
+   "6dcdeb697fd53bbf"
+  ]
+ }
+}

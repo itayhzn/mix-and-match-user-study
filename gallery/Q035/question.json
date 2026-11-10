@@ -1,0 +1,43 @@
+{
+ "id": "Q035",
+ "source": {
+  "library": "g3_fish_chimera_05_s7",
+  "idea": "g3_fish_chimera",
+  "seed": 7
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   2
+  ],
+  [
+   0,
+   0
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A strange fish with one head swimming near a coral reef, side view, with <r0>a spiky red fin</r0>, with <r1>a long flowing blue betta fish tail</r1>, in a pop art style",
+   "A strange fish with one head swimming near a coral reef, side view, with <r0>a spiky red fin</r0>, with <r1>a swordfish tail</r1>, in a pop art style"
+  ],
+  "he": [
+   "דג מוזר עם ראש אחד שוחה ליד שונית אלמוגים, מבט מהצד, עם <r0>סנפיר אדום קוצני</r0>, עם <r1>זנב כחול ארוך ומתנפנף של דג בטה</r1>, בסגנון פופ ארט",
+   "דג מוזר עם ראש אחד שוחה ליד שונית אלמוגים, מבט מהצד, עם <r0>סנפיר אדום קוצני</r0>, עם <r1>זנב של דג חרב</r1>, בסגנון פופ ארט"
+  ]
+ },
+ "images": {
+  "ours": [
+   "33d60cddde257162",
+   "c51305c3884e425d"
+  ],
+  "other": [
+   "6307b6f058236a02",
+   "56a25b4119a0fe65"
+  ]
+ }
+}

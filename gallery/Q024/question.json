@@ -1,0 +1,48 @@
+{
+ "id": "Q024",
+ "source": {
+  "library": "g3_bottle_01_s2025",
+  "idea": "g3_bottle",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 4,
+ "combinations": [
+  [
+   4,
+   0,
+   4,
+   0
+  ],
+  [
+   1,
+   0,
+   4,
+   5
+  ]
+ ],
+ "changed": [
+  0,
+  3
+ ],
+ "prompts": {
+  "en": [
+   "A close-up of a bottle on a kitchen counter, with <r0>a red metal cap</r0>, with <r1>a neck with a ribbon</r1>, with <r2>a purple label with a skull</r2>, with <r3>a purple glass body</r3>, in an oil painting style",
+   "A close-up of a bottle on a kitchen counter, with <r0>a cork stopper</r0>, with <r1>a neck with a ribbon</r1>, with <r2>a purple label with a skull</r2>, with <r3>an amber glass body</r3>, in an oil painting style"
+  ],
+  "he": [
+   "תקריב של בקבוק על משטח מטבח, עם <r0>מכסה מתכת אדום</r0>, עם <r1>צוואר קשור בסרט</r1>, עם <r2>תווית סגולה עם גולגולת</r2>, עם <r3>גוף מזכוכית סגולה</r3>, בסגנון ציור שמן",
+   "תקריב של בקבוק על משטח מטבח, עם <r0>פקק שעם</r0>, עם <r1>צוואר קשור בסרט</r1>, עם <r2>תווית סגולה עם גולגולת</r2>, עם <r3>גוף מזכוכית בצבע ענבר</r3>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "0b9509f497e3fb2f",
+   "f60c11e576e5a742"
+  ],
+  "other": [
+   "5ebfa83e55b03bf8",
+   "55b4fa9985bbf50f"
+  ]
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "id": "Q049",
+ "source": {
+  "library": "g3_knight_02_s2025",
+  "idea": "g3_knight",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 4,
+ "combinations": [
+  [
+   2,
+   0,
+   0,
+   2
+  ],
+  [
+   2,
+   2,
+   0,
+   3
+  ]
+ ],
+ "changed": [
+  1,
+  3
+ ],
+ "prompts": {
+  "en": [
+   "A knight standing in a castle courtyard, wearing <r0>a dark visored great helm</r0>, wearing <r1>black spiked armor</r1>, wearing <r2>a green velvet cape</r2>, next to <r3>a brown horse with red armor</r3>, in a line art style",
+   "A knight standing in a castle courtyard, wearing <r0>a dark visored great helm</r0>, wearing <r1>leather scale armor</r1>, wearing <r2>a green velvet cape</r2>, next to <r3>a gray horse with a blue blanket</r3>, in a line art style"
+  ],
+  "he": [
+   "אביר עומד בחצר טירה, חובש <r0>קסדה גדולה כהה עם מגן פנים</r0>, לובש <r1>שריון שחור עם קוצים</r1>, עוטה <r2>גלימת קטיפה ירוקה</r2>, ליד <r3>סוס חום עם שריון אדום</r3>, בסגנון ציור קווי",
+   "אביר עומד בחצר טירה, חובש <r0>קסדה גדולה כהה עם מגן פנים</r0>, לובש <r1>שריון קשקשים מעור</r1>, עוטה <r2>גלימת קטיפה ירוקה</r2>, ליד <r3>סוס אפור עם שמיכה כחולה</r3>, בסגנון ציור קווי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "214a0742d80500c0",
+   "e0c9683a630bb639"
+  ],
+  "other": [
+   "30ae3a01e30be35c",
+   "5cf6899040eccfc2"
+  ]
+ }
+}

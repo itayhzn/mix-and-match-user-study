@@ -1,0 +1,43 @@
+{
+ "id": "Q146",
+ "source": {
+  "library": "g3_bottle_simple00_s7",
+  "idea": "g3_bottle",
+  "seed": 7
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   2
+  ],
+  [
+   2,
+   2
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A single bottle standing on a white table, front view, with <r0>a golden foil cap</r0>, with <r1>a purple glass body</r1>, in a realistic picture style",
+   "A single bottle standing on a white table, front view, with <r0>a blue plastic screw cap</r0>, with <r1>a purple glass body</r1>, in a realistic picture style"
+  ],
+  "he": [
+   "בקבוק אחד עומד על שולחן לבן, מבט מלפנים, עם <r0>פקק עטוף ברדיד זהב</r0>, עם <r1>גוף זכוכית סגול</r1>, בסגנון תמונה ריאליסטית",
+   "בקבוק אחד עומד על שולחן לבן, מבט מלפנים, עם <r0>פקק הברגה כחול מפלסטיק</r0>, עם <r1>גוף זכוכית סגול</r1>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "4208a30fdfd35c3f",
+   "a08662069407665d"
+  ],
+  "other": [
+   "08fe7aa6ae7e9012",
+   "7e6f718e7e4e940e"
+  ]
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "Q031",
+ "source": {
+  "library": "g3_baby_toy_04_s2025",
+  "idea": "g3_baby_toy",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   1,
+   0,
+   0
+  ],
+  [
+   2,
+   0,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A baby sitting on a rug next to a big stuffed toy, wearing <r0>a knitted bonnet</r0>, <r1>a baby in a striped onesie</r1>, next to <r2>a plush monkey</r2>, in a sketch style",
+   "A baby sitting on a rug next to a big stuffed toy, wearing <r0>a striped knitted hat</r0>, <r1>a baby in a striped onesie</r1>, next to <r2>a plush monkey</r2>, in a sketch style"
+  ],
+  "he": [
+   "תינוק יושב על שטיח ליד בובת פרווה גדולה, חובש <r0>כובע תינוק סרוג</r0>, <r1>תינוק בבגד גוף מפוספס</r1>, ליד <r2>בובת קוף פרוותית</r2>, בסגנון סקיצה",
+   "תינוק יושב על שטיח ליד בובת פרווה גדולה, חובש <r0>כובע סרוג מפוספס</r0>, <r1>תינוק בבגד גוף מפוספס</r1>, ליד <r2>בובת קוף פרוותית</r2>, בסגנון סקיצה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "e23f35942a6e4a2a",
+   "2f5d09859b314849"
+  ],
+  "other": [
+   "92cffd7cb954e883",
+   "aeaa650a0a16b761"
+  ]
+ }
+}

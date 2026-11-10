@@ -1,0 +1,43 @@
+{
+ "id": "Q112",
+ "source": {
+  "library": "g3_plant_simple04_s2025",
+  "idea": "g3_plant",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   0
+  ],
+  [
+   0,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A single potted flowering plant on a plain table, front view, in <r0>a woven wicker pot</r0>, with <r1>yellow daisies</r1>, in an oil painting style",
+   "A single potted flowering plant on a plain table, front view, in <r0>a woven wicker pot</r0>, with <r1>blue hydrangeas</r1>, in an oil painting style"
+  ],
+  "he": [
+   "צמח פורח אחד בעציץ על שולחן פשוט, מבט מלפנים, ב<r0>עציץ נצרים קלוע</r0>, עם <r1>חינניות צהובות</r1>, בסגנון ציור שמן",
+   "צמח פורח אחד בעציץ על שולחן פשוט, מבט מלפנים, ב<r0>עציץ נצרים קלוע</r0>, עם <r1>פרחי הידרנגאה כחולים</r1>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "f5a04ca75a3c50ed",
+   "8ec7988d9a880090"
+  ],
+  "other": [
+   "529865a12a46f89a",
+   "08ed5be3f0302cd0"
+  ]
+ }
+}

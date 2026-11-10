@@ -1,0 +1,45 @@
+{
+ "id": "Q190",
+ "source": {
+  "library": "g3_baby_toy_01_s2025",
+  "idea": "g3_baby_toy",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   0,
+   1,
+   1
+  ],
+  [
+   2,
+   1,
+   1
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A baby sitting in a crib next to a big stuffed toy, wearing <r0>a knitted bonnet</r0>, <r1>a baby in a striped onesie</r1>, next to <r2>a plush dinosaur</r2>, in a watercolor painting style",
+   "A baby sitting in a crib next to a big stuffed toy, wearing <r0>a striped knitted hat</r0>, <r1>a baby in a striped onesie</r1>, next to <r2>a plush dinosaur</r2>, in a watercolor painting style"
+  ],
+  "he": [
+   "תינוק יושב בעריסה ליד בובה רכה גדולה, חובש <r0>כובע תינוקות סרוג</r0>, <r1>תינוק בבגד גוף מפוספס</r1>, ליד <r2>דינוזאור פרווה</r2>, בסגנון ציור בצבעי מים",
+   "תינוק יושב בעריסה ליד בובה רכה גדולה, חובש <r0>כובע סרוג מפוספס</r0>, <r1>תינוק בבגד גוף מפוספס</r1>, ליד <r2>דינוזאור פרווה</r2>, בסגנון ציור בצבעי מים"
+  ]
+ },
+ "images": {
+  "ours": [
+   "81c836f7f94877d8",
+   "d9f579451d4238da"
+  ],
+  "other": [
+   "2bdce43729f1a2c1",
+   "e82bfb0582c68dca"
+  ]
+ }
+}

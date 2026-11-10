@@ -1,0 +1,48 @@
+{
+ "id": "Q148",
+ "source": {
+  "library": "g3_knight_08_s2025",
+  "idea": "g3_knight",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 4,
+ "combinations": [
+  [
+   2,
+   4,
+   2,
+   1
+  ],
+  [
+   2,
+   4,
+   4,
+   3
+  ]
+ ],
+ "changed": [
+  2,
+  3
+ ],
+ "prompts": {
+  "en": [
+   "A knight standing in a castle courtyard, wearing <r0>a golden crowned helmet</r0>, wearing <r1>leather scale armor</r1>, wearing <r2>a black cape with a red cross</r2>, wearing <r3>chain mail boots</r3>, in a sketch style",
+   "A knight standing in a castle courtyard, wearing <r0>a golden crowned helmet</r0>, wearing <r1>leather scale armor</r1>, wearing <r2>a blue cape with a gold lion</r2>, wearing <r3>fur-lined boots</r3>, in a sketch style"
+  ],
+  "he": [
+   "אביר עומד בחצר טירה, חובש <r0>קסדה זהובה עם כתר</r0>, לובש <r1>שריון קשקשים מעור</r1>, לובש <r2>גלימה שחורה עם צלב אדום</r2>, נועל <r3>מגפי שריון טבעות</r3>, בסגנון סקיצה",
+   "אביר עומד בחצר טירה, חובש <r0>קסדה זהובה עם כתר</r0>, לובש <r1>שריון קשקשים מעור</r1>, לובש <r2>גלימה כחולה עם אריה זהוב</r2>, נועל <r3>מגפיים מרופדים בפרווה</r3>, בסגנון סקיצה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "dd3a0e460c966c66",
+   "61b4d452531be85d"
+  ],
+  "other": [
+   "0e54ccd0224ff17e",
+   "0ebeaa4ff2c9fd6d"
+  ]
+ }
+}

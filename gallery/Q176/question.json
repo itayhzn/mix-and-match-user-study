@@ -1,0 +1,47 @@
+{
+ "id": "Q176",
+ "source": {
+  "library": "g3_wedding_09_s2025",
+  "idea": "g3_wedding",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 4,
+ "combinations": [
+  [
+   2,
+   0,
+   0,
+   0
+  ],
+  [
+   2,
+   0,
+   0,
+   2
+  ]
+ ],
+ "changed": [
+  3
+ ],
+ "prompts": {
+  "en": [
+   "A bride and groom posing in a garden, the bride with <r0>long wavy brown hair</r0>, the bride wearing <r1>a lavender tulle gown</r1>, the groom with <r2>short wavy brown hair</r2>, the groom wearing <r3>a navy suit</r3>, in a pop art style",
+   "A bride and groom posing in a garden, the bride with <r0>long wavy brown hair</r0>, the bride wearing <r1>a lavender tulle gown</r1>, the groom with <r2>short wavy brown hair</r2>, the groom wearing <r3>a black tuxedo</r3>, in a pop art style"
+  ],
+  "he": [
+   "חתן וכלה מצטלמים בגינה, לכלה <r0>שיער חום ארוך וגלי</r0>, הכלה לובשת <r1>שמלת טול בצבע לבנדר</r1>, לחתן <r2>שיער חום קצר וגלי</r2>, החתן לובש <r3>חליפה בכחול נייבי</r3>, בסגנון פופ ארט",
+   "חתן וכלה מצטלמים בגינה, לכלה <r0>שיער חום ארוך וגלי</r0>, הכלה לובשת <r1>שמלת טול בצבע לבנדר</r1>, לחתן <r2>שיער חום קצר וגלי</r2>, החתן לובש <r3>טוקסידו שחור</r3>, בסגנון פופ ארט"
+  ]
+ },
+ "images": {
+  "ours": [
+   "4ddd20dad2de0332",
+   "0f9e18d0753f31b1"
+  ],
+  "other": [
+   "41a8dc251b33fba9",
+   "5fc331e6bfb06a2a"
+  ]
+ }
+}

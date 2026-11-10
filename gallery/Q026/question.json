@@ -1,0 +1,43 @@
+{
+ "id": "Q026",
+ "source": {
+  "library": "g3_person_pet_simple01_s7",
+  "idea": "g3_person_pet",
+  "seed": 7
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   2,
+   2
+  ],
+  [
+   0,
+   2
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A single person standing next to their pet, front view, plain background, <r0>a woman</r0>, with <r1>a tabby cat</r1>, in a watercolor painting style",
+   "A single person standing next to their pet, front view, plain background, <r0>an old lady</r0>, with <r1>a tabby cat</r1>, in a watercolor painting style"
+  ],
+  "he": [
+   "אדם יחיד עומד ליד חיית המחמד שלו, מבט מלפנים, רקע חלק, <r0>אישה</r0>, עם <r1>חתול טאבי מפוספס</r1>, בסגנון ציור בצבעי מים",
+   "אדם יחיד עומד ליד חיית המחמד שלו, מבט מלפנים, רקע חלק, <r0>אישה זקנה</r0>, עם <r1>חתול טאבי מפוספס</r1>, בסגנון ציור בצבעי מים"
+  ]
+ },
+ "images": {
+  "ours": [
+   "7a5b46c8fba41422",
+   "a5c6360eb2e38e00"
+  ],
+  "other": [
+   "9bffa600c212c776",
+   "0a8d1ccd02af4d3c"
+  ]
+ }
+}

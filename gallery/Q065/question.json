@@ -1,0 +1,43 @@
+{
+ "id": "Q065",
+ "source": {
+  "library": "g3_mermaid_05_s2025",
+  "idea": "g3_mermaid",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   3,
+   0
+  ],
+  [
+   3,
+   5
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A full-body mermaid with a long fish tail instead of legs, swimming underwater near a coral reef, with <r0>short spiky blue hair</r0>, with <r1>a teal fish tail with a fan fin</r1>, in a cartoon style",
+   "A full-body mermaid with a long fish tail instead of legs, swimming underwater near a coral reef, with <r0>short spiky blue hair</r0>, with <r1>a golden fish tail with a fan fin</r1>, in a cartoon style"
+  ],
+  "he": [
+   "בת ים בגוף מלא עם זנב דג ארוך במקום רגליים, שוחה מתחת למים ליד שונית אלמוגים, עם <r0>שיער כחול קצר ודוקרני</r0>, עם <r1>זנב דג כחול-ירקרק עם סנפיר מניפה</r1>, בסגנון מצויר",
+   "בת ים בגוף מלא עם זנב דג ארוך במקום רגליים, שוחה מתחת למים ליד שונית אלמוגים, עם <r0>שיער כחול קצר ודוקרני</r0>, עם <r1>זנב דג זהוב עם סנפיר מניפה</r1>, בסגנון מצויר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "e8a97b7bd2b90c1f",
+   "0cdffc2737aa6742"
+  ],
+  "other": [
+   "cd73dd24b6dfd847",
+   "b3de931b75fbf97e"
+  ]
+ }
+}

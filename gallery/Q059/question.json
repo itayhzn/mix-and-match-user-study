@@ -1,0 +1,43 @@
+{
+ "id": "Q059",
+ "source": {
+  "library": "g3_robot_simple01_s7",
+  "idea": "g3_robot",
+  "seed": 7
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   1
+  ],
+  [
+   2,
+   1
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A robot standing straight, front view, plain background, with <r0>a skull-shaped metal head with two eyes</r0>, with <r1>a barrel-shaped copper torso</r1>, in a realistic picture style",
+   "A robot standing straight, front view, plain background, with <r0>a helmet-shaped head with two glowing eyes</r0>, with <r1>a barrel-shaped copper torso</r1>, in a realistic picture style"
+  ],
+  "he": [
+   "רובוט עומד זקוף, מבט מלפנים, רקע חלק, עם <r0>ראש מתכת בצורת גולגולת עם שתי עיניים</r0>, עם <r1>גוף נחושת בצורת חבית</r1>, בסגנון תמונה ריאליסטית",
+   "רובוט עומד זקוף, מבט מלפנים, רקע חלק, עם <r0>ראש בצורת קסדה עם שתי עיניים זוהרות</r0>, עם <r1>גוף נחושת בצורת חבית</r1>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "ce1d7f89df836863",
+   "a00634779d67ad4c"
+  ],
+  "other": [
+   "a3a1789c29309f45",
+   "607041debd8c6cb0"
+  ]
+ }
+}

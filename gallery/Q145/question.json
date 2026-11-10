@@ -1,0 +1,43 @@
+{
+ "id": "Q145",
+ "source": {
+  "library": "g3_fish_chimera_04_s2025",
+  "idea": "g3_fish_chimera",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   0
+  ],
+  [
+   0,
+   1
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A big fish with one head swimming in the ocean, side view, with <r0>the head of a clownfish</r0>, with <r1>a long flowing blue betta fish tail</r1>, in a line art style",
+   "A big fish with one head swimming in the ocean, side view, with <r0>the head of a clownfish</r0>, with <r1>a fan-shaped goldfish tail</r1>, in a line art style"
+  ],
+  "he": [
+   "דג גדול עם ראש אחד שוחה באוקיינוס, מבט מהצד, עם <r0>ראש של דג ליצן</r0>, עם <r1>זנב כחול ארוך וגולש של דג בטה</r1>, בסגנון ציור קווי",
+   "דג גדול עם ראש אחד שוחה באוקיינוס, מבט מהצד, עם <r0>ראש של דג ליצן</r0>, עם <r1>זנב דמוי מניפה של דג זהב</r1>, בסגנון ציור קווי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "4a100374da542b71",
+   "a104627f7c63e1cd"
+  ],
+  "other": [
+   "71c226eec5c85e18",
+   "4357e8f4c240b560"
+  ]
+ }
+}

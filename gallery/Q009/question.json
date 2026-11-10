@@ -1,0 +1,43 @@
+{
+ "id": "Q009",
+ "source": {
+  "library": "g3_wedding_simple04_s2025",
+  "idea": "g3_wedding",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A bride and groom standing side by side, front view, plain background, the bride wearing <r0>a lavender tulle gown</r0>, the groom wearing <r1>a dark brown suit</r1>, in an oil painting style",
+   "A bride and groom standing side by side, front view, plain background, the bride wearing <r0>a lavender tulle gown</r0>, the groom wearing <r1>a navy suit</r1>, in an oil painting style"
+  ],
+  "he": [
+   "חתן וכלה עומדים זה לצד זה, מבט מלפנים, רקע חלק, הכלה לובשת <r0>שמלת טול בצבע לבנדר</r0>, החתן לובש <r1>חליפה חומה כהה</r1>, בסגנון ציור שמן",
+   "חתן וכלה עומדים זה לצד זה, מבט מלפנים, רקע חלק, הכלה לובשת <r0>שמלת טול בצבע לבנדר</r0>, החתן לובש <r1>חליפה בכחול נייבי</r1>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "98d4431d88761363",
+   "4c8c7e9023516393"
+  ],
+  "other": [
+   "41a5eca87f31d217",
+   "a40c8e73adc15490"
+  ]
+ }
+}

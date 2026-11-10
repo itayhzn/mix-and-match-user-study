@@ -1,0 +1,45 @@
+{
+ "id": "Q090",
+ "source": {
+  "library": "g3_dog_09_s2025",
+  "idea": "g3_dog",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   2,
+   1,
+   1
+  ],
+  [
+   2,
+   2,
+   1
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A portrait of a dog sitting on a sofa, with <r0>floppy golden retriever ears</r0>, wearing <r1>yellow tinted sunglasses</r1>, wearing <r2>a knitted scarf</r2>, in a cartoon style",
+   "A portrait of a dog sitting on a sofa, with <r0>floppy golden retriever ears</r0>, wearing <r1>dark aviator sunglasses</r1>, wearing <r2>a knitted scarf</r2>, in a cartoon style"
+  ],
+  "he": [
+   "דיוקן של כלב יושב על ספה, עם <r0>אוזני גולדן רטריבר שמוטות</r0>, מרכיב <r1>משקפי שמש בגוון צהוב</r1>, עם <r2>צעיף סרוג</r2>, בסגנון מצויר",
+   "דיוקן של כלב יושב על ספה, עם <r0>אוזני גולדן רטריבר שמוטות</r0>, מרכיב <r1>משקפי שמש טייסים כהים</r1>, עם <r2>צעיף סרוג</r2>, בסגנון מצויר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "2629ba37a789c3ea",
+   "db7e1bacc8af114e"
+  ],
+  "other": [
+   "ed8097c3d672fed7",
+   "bd091d002e2e83b3"
+  ]
+ }
+}

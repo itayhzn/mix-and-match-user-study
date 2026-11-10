@@ -1,0 +1,43 @@
+{
+ "id": "Q079",
+ "source": {
+  "library": "g3_rocket_05_s7",
+  "idea": "g3_rocket",
+  "seed": 7
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   3,
+   2
+  ],
+  [
+   3,
+   1
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A rocket flying up into the sky, with <r0>a red and white striped body</r0>, with <r1>green flames with sparks</r1>, in a film noir style",
+   "A rocket flying up into the sky, with <r0>a red and white striped body</r0>, with <r1>red flames with black smoke</r1>, in a film noir style"
+  ],
+  "he": [
+   "רקטה טסה מעלה לשמיים, עם <r0>גוף מפוספס באדום ולבן</r0>, עם <r1>להבות ירוקות עם ניצוצות</r1>, בסגנון פילם נואר",
+   "רקטה טסה מעלה לשמיים, עם <r0>גוף מפוספס באדום ולבן</r0>, עם <r1>להבות אדומות עם עשן שחור</r1>, בסגנון פילם נואר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "23a75e13f17d2e53",
+   "2f2efa0a7d7f3b32"
+  ],
+  "other": [
+   "6d31641e023049aa",
+   "8430521cfd22fa52"
+  ]
+ }
+}

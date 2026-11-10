@@ -1,0 +1,45 @@
+{
+ "id": "Q088",
+ "source": {
+  "library": "g3_pirate_07_s7",
+  "idea": "g3_pirate",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 3,
+ "combinations": [
+  [
+   2,
+   2,
+   1
+  ],
+  [
+   2,
+   1,
+   1
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A half-body portrait of a pirate on a sandy beach, wearing <r0>a red tricorn hat with gold trim</r0>, with <r1>a bushy red beard</r1>, wearing <r2>a green velvet coat</r2>, in an anime drawing style",
+   "A half-body portrait of a pirate on a sandy beach, wearing <r0>a red tricorn hat with gold trim</r0>, with <r1>a bushy dark brown beard</r1>, wearing <r2>a green velvet coat</r2>, in an anime drawing style"
+  ],
+  "he": [
+   "דיוקן חצי גוף של פיראט על חוף חולי, חובש <r0>כובע תלת-קרני אדום עם עיטור זהב</r0>, עם <r1>זקן אדום עבות</r1>, לובש <r2>מעיל קטיפה ירוק</r2>, בסגנון ציור אנימה",
+   "דיוקן חצי גוף של פיראט על חוף חולי, חובש <r0>כובע תלת-קרני אדום עם עיטור זהב</r0>, עם <r1>זקן עבות בחום כהה</r1>, לובש <r2>מעיל קטיפה ירוק</r2>, בסגנון ציור אנימה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "96c53257739d22f4",
+   "2be65b6e1241c447"
+  ],
+  "other": [
+   "7a1f8d962fb09ee1",
+   "0c31d736ebf9c71b"
+  ]
+ }
+}

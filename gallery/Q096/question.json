@@ -1,0 +1,45 @@
+{
+ "id": "Q096",
+ "source": {
+  "library": "g3_branch_scene_09_s2025",
+  "idea": "g3_branch_scene",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   3,
+   1,
+   3
+  ],
+  [
+   3,
+   1,
+   0
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A close-up of a tree branch in a forest with a bird on it, with <r0>a gray pigeon</r0>, with <r1>a yellow mushroom</r1>, with <r2>a holly leaf</r2>, in a low poly style",
+   "A close-up of a tree branch in a forest with a bird on it, with <r0>a gray pigeon</r0>, with <r1>a yellow mushroom</r1>, with <r2>a birch leaf</r2>, in a low poly style"
+  ],
+  "he": [
+   "תקריב של ענף עץ ביער ועליו ציפור, עם <r0>יונה אפורה</r0>, עם <r1>פטרייה צהובה</r1>, עם <r2>עלה הולי</r2>, בסגנון low poly",
+   "תקריב של ענף עץ ביער ועליו ציפור, עם <r0>יונה אפורה</r0>, עם <r1>פטרייה צהובה</r1>, עם <r2>עלה של עץ ליבנה</r2>, בסגנון low poly"
+  ]
+ },
+ "images": {
+  "ours": [
+   "e79b1633e0f36a64",
+   "c7ffd8d3afe173e1"
+  ],
+  "other": [
+   "290a48fb412f753c",
+   "30dc73ce6428f81d"
+  ]
+ }
+}

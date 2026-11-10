@@ -1,0 +1,43 @@
+{
+ "id": "Q127",
+ "source": {
+  "library": "g3_snowman_02_s2025",
+  "idea": "g3_snowman",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   2
+  ],
+  [
+   2,
+   2
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A snowman standing in a snowy garden, wearing <r0>a black top hat</r0>, wearing <r1>a feather boa</r1>, in a film noir style",
+   "A snowman standing in a snowy garden, wearing <r0>a red top hat</r0>, wearing <r1>a feather boa</r1>, in a film noir style"
+  ],
+  "he": [
+   "איש שלג עומד בגינה מושלגת, חובש <r0>כובע צילינדר שחור</r0>, עונד <r1>בואת נוצות</r1>, בסגנון פילם נואר",
+   "איש שלג עומד בגינה מושלגת, חובש <r0>כובע צילינדר אדום</r0>, עונד <r1>בואת נוצות</r1>, בסגנון פילם נואר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "db3c8299b13cf419",
+   "e55c226530c5aed8"
+  ],
+  "other": [
+   "096369e372052a0a",
+   "d0520ed5c3583479"
+  ]
+ }
+}

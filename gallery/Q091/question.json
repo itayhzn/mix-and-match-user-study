@@ -1,0 +1,43 @@
+{
+ "id": "Q091",
+ "source": {
+  "library": "g3_animal_chimera_simple01_s7",
+  "idea": "g3_animal_chimera",
+  "seed": 7
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   3,
+   2
+  ],
+  [
+   3,
+   0
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A large animal with a single head standing on grass, side view, plain background, with <r0>the body of a bear</r0>, with <r1>the tail of a lion</r1>, in a watercolor painting style",
+   "A large animal with a single head standing on grass, side view, plain background, with <r0>the body of a bear</r0>, with <r1>the tail of a cow</r1>, in a watercolor painting style"
+  ],
+  "he": [
+   "חיה גדולה עם ראש אחד עומדת על דשא, מבט מהצד, רקע חלק, עם <r0>גוף של דוב</r0>, עם <r1>זנב של אריה</r1>, בסגנון ציור בצבעי מים",
+   "חיה גדולה עם ראש אחד עומדת על דשא, מבט מהצד, רקע חלק, עם <r0>גוף של דוב</r0>, עם <r1>זנב של פרה</r1>, בסגנון ציור בצבעי מים"
+  ]
+ },
+ "images": {
+  "ours": [
+   "b092d2f96a372274",
+   "f484c0cfe87cc5e2"
+  ],
+  "other": [
+   "2fb42ede028ea435",
+   "782210b2dfcb09c2"
+  ]
+ }
+}

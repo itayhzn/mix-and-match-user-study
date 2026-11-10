@@ -1,0 +1,43 @@
+{
+ "id": "Q156",
+ "source": {
+  "library": "g3_plant_simple01_s7",
+  "idea": "g3_plant",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   0
+  ],
+  [
+   3,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A single potted flowering plant on a plain table, front view, in <r0>a blue glazed ceramic pot</r0>, with <r1>blue hydrangeas</r1>, in a digital painting style",
+   "A single potted flowering plant on a plain table, front view, in <r0>a terracotta pot</r0>, with <r1>blue hydrangeas</r1>, in a digital painting style"
+  ],
+  "he": [
+   "צמח פורח יחיד בעציץ על שולחן חלק, מבט מלפנים, ב<r0>עציץ קרמיקה כחול מזוגג</r0>, עם <r1>הידרנגאות כחולות</r1>, בסגנון ציור דיגיטלי",
+   "צמח פורח יחיד בעציץ על שולחן חלק, מבט מלפנים, ב<r0>עציץ טרקוטה</r0>, עם <r1>הידרנגאות כחולות</r1>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "9ab01accc0eecb63",
+   "2884d970307401e2"
+  ],
+  "other": [
+   "0077205498898c9f",
+   "100934aae10dc6e9"
+  ]
+ }
+}

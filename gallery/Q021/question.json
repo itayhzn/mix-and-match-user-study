@@ -1,0 +1,43 @@
+{
+ "id": "Q021",
+ "source": {
+  "library": "g3_rocket_08_s7",
+  "idea": "g3_rocket",
+  "seed": 7
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   3
+  ],
+  [
+   2,
+   3
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A big rocket launching from a launch pad, with <r0>a copper body with rivets</r0>, with <r1>a long trail of orange fire</r1>, in a pop art style",
+   "A big rocket launching from a launch pad, with <r0>a shiny steel body</r0>, with <r1>a long trail of orange fire</r1>, in a pop art style"
+  ],
+  "he": [
+   "טיל גדול ממריא מכן שיגור, עם <r0>גוף נחושת עם מסמרות</r0>, עם <r1>שובל ארוך של אש כתומה</r1>, בסגנון פופ ארט",
+   "טיל גדול ממריא מכן שיגור, עם <r0>גוף פלדה מבריק</r0>, עם <r1>שובל ארוך של אש כתומה</r1>, בסגנון פופ ארט"
+  ]
+ },
+ "images": {
+  "ours": [
+   "d9d228df6ba65817",
+   "bdecc3920c8996a3"
+  ],
+  "other": [
+   "9409bfc67dbb35e5",
+   "38787fd284ff9200"
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "id": "Q181",
+ "source": {
+  "library": "g3_face_front_simple00_s2025",
+  "idea": "g3_face_front",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   2
+  ],
+  [
+   0,
+   3
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A front-facing portrait of a person from the shoulders up, with a neutral background, with <r0>short auburn hair</r0>, wearing <r1>a black leather jacket</r1>, in an oil painting style",
+   "A front-facing portrait of a person from the shoulders up, with a neutral background, with <r0>short auburn hair</r0>, wearing <r1>a burgundy sweater</r1>, in an oil painting style"
+  ],
+  "he": [
+   "דיוקן חזיתי של אדם מהכתפיים ומעלה, על רקע ניטרלי, עם <r0>שיער קצר בצבע ערמוני</r0>, לובש <r1>מעיל עור שחור</r1>, בסגנון ציור שמן",
+   "דיוקן חזיתי של אדם מהכתפיים ומעלה, על רקע ניטרלי, עם <r0>שיער קצר בצבע ערמוני</r0>, לובש <r1>סוודר בצבע בורדו</r1>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "021eb8743e2189ea",
+   "b2eba25e9ed12378"
+  ],
+  "other": [
+   "15a352f300e43b53",
+   "8f6a95c3b4411fd2"
+  ]
+ }
+}

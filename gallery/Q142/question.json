@@ -1,0 +1,45 @@
+{
+ "id": "Q142",
+ "source": {
+  "library": "g3_mermaid_03_s7",
+  "idea": "g3_mermaid",
+  "seed": 7
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   2,
+   1,
+   0
+  ],
+  [
+   2,
+   1,
+   4
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A full-body mermaid with a long fish tail instead of legs, swimming underwater near a coral reef, with <r0>long wavy purple hair</r0>, with <r1>the upper body of a tattooed man</r1>, with <r2>a blue scaly fish tail</r2>, in a line art style",
+   "A full-body mermaid with a long fish tail instead of legs, swimming underwater near a coral reef, with <r0>long wavy purple hair</r0>, with <r1>the upper body of a tattooed man</r1>, with <r2>a purple fish tail</r2>, in a line art style"
+  ],
+  "he": [
+   "בת ים בגוף מלא עם זנב דג ארוך במקום רגליים, שוחה מתחת למים ליד שונית אלמוגים, עם <r0>שיער סגול ארוך וגלי</r0>, עם <r1>פלג גוף עליון של גבר מקועקע</r1>, עם <r2>זנב דג כחול עם קשקשים</r2>, בסגנון ציור קווי",
+   "בת ים בגוף מלא עם זנב דג ארוך במקום רגליים, שוחה מתחת למים ליד שונית אלמוגים, עם <r0>שיער סגול ארוך וגלי</r0>, עם <r1>פלג גוף עליון של גבר מקועקע</r1>, עם <r2>זנב דג סגול</r2>, בסגנון ציור קווי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "4f4bc1701e92a010",
+   "f48c6075dd9d3bc6"
+  ],
+  "other": [
+   "417d4d86f9546c6d",
+   "209fa3bd09eecc09"
+  ]
+ }
+}

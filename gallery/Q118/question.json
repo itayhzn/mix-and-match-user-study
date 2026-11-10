@@ -1,0 +1,43 @@
+{
+ "id": "Q118",
+ "source": {
+  "library": "g3_scarecrow_simple03_s2025",
+  "idea": "g3_scarecrow",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   2,
+   1
+  ],
+  [
+   2,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A scarecrow with a carved pumpkin head and its arms spread out to the sides on a wooden cross, standing in a field, front view, wearing <r0>a ragged green sweater</r0>, wearing <r1>ragged black trousers</r1>, in an oil painting style",
+   "A scarecrow with a carved pumpkin head and its arms spread out to the sides on a wooden cross, standing in a field, front view, wearing <r0>a ragged green sweater</r0>, wearing <r1>dark blue overalls</r1>, in an oil painting style"
+  ],
+  "he": [
+   "דחליל עם ראש דלעת מגולף וזרועות פרושות לצדדים על צלב עץ, עומד בשדה, מבט מלפנים, לובש <r0>סוודר ירוק בלוי</r0> ו<r1>מכנסיים שחורים בלויים</r1>, בסגנון ציור שמן",
+   "דחליל עם ראש דלעת מגולף וזרועות פרושות לצדדים על צלב עץ, עומד בשדה, מבט מלפנים, לובש <r0>סוודר ירוק בלוי</r0> ו<r1>אוברול כחול כהה</r1>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "33108d5b741fab11",
+   "6a0e25f81afe1a1a"
+  ],
+  "other": [
+   "2e1616a0d1de0867",
+   "ff7a026045261fcf"
+  ]
+ }
+}

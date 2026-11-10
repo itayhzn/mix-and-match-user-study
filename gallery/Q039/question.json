@@ -1,0 +1,45 @@
+{
+ "id": "Q039",
+ "source": {
+  "library": "g3_bottle_00_s7",
+  "idea": "g3_bottle",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 3,
+ "combinations": [
+  [
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   2,
+   1
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A close-up of a bottle standing on a table, with <r0>a black rubber stopper</r0>, with <r1>a purple label with a skull</r1>, with <r2>a red glass body</r2>, in a sketch style",
+   "A close-up of a bottle standing on a table, with <r0>a black rubber stopper</r0>, with <r1>a torn brown vintage label</r1>, with <r2>a red glass body</r2>, in a sketch style"
+  ],
+  "he": [
+   "תקריב של בקבוק עומד על שולחן, עם <r0>פקק גומי שחור</r0>, עם <r1>תווית סגולה עם גולגולת</r1>, עם <r2>גוף זכוכית אדום</r2>, בסגנון סקיצה",
+   "תקריב של בקבוק עומד על שולחן, עם <r0>פקק גומי שחור</r0>, עם <r1>תווית וינטג' חומה וקרועה</r1>, עם <r2>גוף זכוכית אדום</r2>, בסגנון סקיצה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "f89f783588b79948",
+   "9757c16e31cb8d57"
+  ],
+  "other": [
+   "b366fecd5211f651",
+   "2df3816cb40068e8"
+  ]
+ }
+}

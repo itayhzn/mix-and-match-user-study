@@ -1,0 +1,43 @@
+{
+ "id": "Q108",
+ "source": {
+  "library": "g3_rocket_simple04_s7",
+  "idea": "g3_rocket",
+  "seed": 7
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   3,
+   3
+  ],
+  [
+   3,
+   1
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A big rocket launching, front view, clear sky, with <r0>a red and white striped body</r0>, with <r1>red flames with black smoke</r1>, in an oil painting style",
+   "A big rocket launching, front view, clear sky, with <r0>a red and white striped body</r0>, with <r1>purple flames</r1>, in an oil painting style"
+  ],
+  "he": [
+   "רקטה גדולה משוגרת, מבט מלפנים, שמיים בהירים, עם <r0>גוף מפוספס באדום ולבן</r0>, עם <r1>להבות אדומות עם עשן שחור</r1>, בסגנון ציור שמן",
+   "רקטה גדולה משוגרת, מבט מלפנים, שמיים בהירים, עם <r0>גוף מפוספס באדום ולבן</r0>, עם <r1>להבות סגולות</r1>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "22a458edb7c86c97",
+   "e2772700cac1117c"
+  ],
+  "other": [
+   "d08d7a8149b0441e",
+   "b3dbd51fae22224c"
+  ]
+ }
+}

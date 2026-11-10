@@ -1,0 +1,45 @@
+{
+ "id": "Q094",
+ "source": {
+  "library": "g3_person_pet_08_s7",
+  "idea": "g3_person_pet",
+  "seed": 7
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   1,
+   3,
+   0
+  ],
+  [
+   3,
+   3,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A single person standing next to their pet in a park, wearing <r0>a brown corduroy jacket</r0>, wearing <r1>black trousers</r1>, with <r2>a brown rabbit</r2>, in an oil painting style",
+   "A single person standing next to their pet in a park, wearing <r0>a black leather jacket</r0>, wearing <r1>black trousers</r1>, with <r2>a brown rabbit</r2>, in an oil painting style"
+  ],
+  "he": [
+   "אדם אחד עומד ליד חיית מחמד בפארק, לובש <r0>ז'קט קורדרוי חום</r0>, לובש <r1>מכנסיים שחורים</r1>, עם <r2>ארנב חום</r2>, בסגנון ציור שמן",
+   "אדם אחד עומד ליד חיית מחמד בפארק, לובש <r0>מעיל עור שחור</r0>, לובש <r1>מכנסיים שחורים</r1>, עם <r2>ארנב חום</r2>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "90e2a1367fb77f1d",
+   "e1317557334130e9"
+  ],
+  "other": [
+   "0bf5542a9613d070",
+   "408ba4f9642fe358"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "id": "Q087",
+ "source": {
+  "library": "g3_face_01_s7",
+  "idea": "g3_face",
+  "seed": 7
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 4,
+ "combinations": [
+  [
+   1,
+   0,
+   0,
+   0
+  ],
+  [
+   2,
+   0,
+   0,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A head-and-shoulders portrait of a person, wearing <r0>a denim bucket hat</r0>, wearing <r1>black wayfarer sunglasses</r1>, with <r2>a thick ginger beard</r2>, wearing <r3>a red plaid flannel shirt</r3>, in a pixel art style",
+   "A head-and-shoulders portrait of a person, wearing <r0>a black beret</r0>, wearing <r1>black wayfarer sunglasses</r1>, with <r2>a thick ginger beard</r2>, wearing <r3>a red plaid flannel shirt</r3>, in a pixel art style"
+  ],
+  "he": [
+   "דיוקן ראש וכתפיים של אדם, חובש <r0>כובע דייגים מג׳ינס</r0>, מרכיב <r1>משקפי שמש שחורים מדגם וייפרר</r1>, עם <r2>זקן ג׳ינג׳י עבות</r2>, לובש <r3>חולצת פלנל משובצת אדומה</r3>, בסגנון פיקסל ארט",
+   "דיוקן ראש וכתפיים של אדם, חובש <r0>כומתה שחורה</r0>, מרכיב <r1>משקפי שמש שחורים מדגם וייפרר</r1>, עם <r2>זקן ג׳ינג׳י עבות</r2>, לובש <r3>חולצת פלנל משובצת אדומה</r3>, בסגנון פיקסל ארט"
+  ]
+ },
+ "images": {
+  "ours": [
+   "307d8d29a72bf998",
+   "dabb3d4e21274b4f"
+  ],
+  "other": [
+   "e6f8e973943d8ce8",
+   "cb9cb6bd057fbeb8"
+  ]
+ }
+}

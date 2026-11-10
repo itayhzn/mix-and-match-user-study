@@ -1,0 +1,43 @@
+{
+ "id": "Q073",
+ "source": {
+  "library": "g3_plant_03_s2025",
+  "idea": "g3_plant",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   1
+  ],
+  [
+   1,
+   3
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A close-up of a potted flowering plant on a wooden table, in <r0>a rusty tin pot</r0>, with <r1>orange marigolds</r1>, in a low poly style",
+   "A close-up of a potted flowering plant on a wooden table, in <r0>a rusty tin pot</r0>, with <r1>red roses</r1>, in a low poly style"
+  ],
+  "he": [
+   "תקריב של צמח פורח בעציץ על שולחן עץ, ב<r0>עציץ פח חלוד</r0>, עם <r1>ציפורני חתול כתומות</r1>, בסגנון low poly",
+   "תקריב של צמח פורח בעציץ על שולחן עץ, ב<r0>עציץ פח חלוד</r0>, עם <r1>ורדים אדומים</r1>, בסגנון low poly"
+  ]
+ },
+ "images": {
+  "ours": [
+   "15de7cdd0412424c",
+   "df1dd16308b35c1a"
+  ],
+  "other": [
+   "bc6d5fa5bbed65ea",
+   "da08809526a5d12e"
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "id": "Q104",
+ "source": {
+  "library": "g3_figure_front_simple01_s2025",
+  "idea": "g3_figure_front",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   1
+  ],
+  [
+   3,
+   1
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A full-body front view of a person standing straight with arms at their sides, on a plain white background, with <r0>a tiger face</r0>, wearing <r1>a black tuxedo jacket</r1>, in a digital painting style",
+   "A full-body front view of a person standing straight with arms at their sides, on a plain white background, with <r0>a werewolf face</r0>, wearing <r1>a black tuxedo jacket</r1>, in a digital painting style"
+  ],
+  "he": [
+   "אדם בגוף מלא במבט מלפנים, עומד זקוף וידיו לצידי גופו, על רקע לבן חלק, עם <r0>פנים של נמר</r0>, לובש <r1>ז'קט טוקסידו שחור</r1>, בסגנון ציור דיגיטלי",
+   "אדם בגוף מלא במבט מלפנים, עומד זקוף וידיו לצידי גופו, על רקע לבן חלק, עם <r0>פני איש זאב</r0>, לובש <r1>ז'קט טוקסידו שחור</r1>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "28abf0bdc449d672",
+   "131d77623da7ec4b"
+  ],
+  "other": [
+   "c0253874f1a783d0",
+   "1f902673777752c8"
+  ]
+ }
+}

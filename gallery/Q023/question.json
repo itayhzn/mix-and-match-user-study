@@ -1,0 +1,43 @@
+{
+ "id": "Q023",
+ "source": {
+  "library": "g3_baby_toy_simple04_s2025",
+  "idea": "g3_baby_toy",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   2,
+   2
+  ],
+  [
+   1,
+   2
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A baby sitting on a white rug next to a big stuffed toy, front view, <r0>a baby in a pink suit</r0>, next to <r1>a big teddy bear</r1>, in a digital painting style",
+   "A baby sitting on a white rug next to a big stuffed toy, front view, <r0>a baby in a green dinosaur onesie</r0>, next to <r1>a big teddy bear</r1>, in a digital painting style"
+  ],
+  "he": [
+   "תינוק יושב על שטיח לבן ליד בובת פרווה גדולה, מבט מלפנים, <r0>תינוק בחליפה ורודה</r0>, ליד <r1>דובי גדול</r1>, בסגנון ציור דיגיטלי",
+   "תינוק יושב על שטיח לבן ליד בובת פרווה גדולה, מבט מלפנים, <r0>תינוק בבגד גוף ירוק של דינוזאור</r0>, ליד <r1>דובי גדול</r1>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "e4c5fa95de8e26b7",
+   "62bfe385759f1cde"
+  ],
+  "other": [
+   "b94e663935318e04",
+   "c205b9aace55f2b4"
+  ]
+ }
+}

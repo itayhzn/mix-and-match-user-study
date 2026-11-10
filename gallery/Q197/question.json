@@ -1,0 +1,47 @@
+{
+ "id": "Q197",
+ "source": {
+  "library": "g3_figure_front_04_s7",
+  "idea": "g3_figure_front",
+  "seed": 7
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 4,
+ "combinations": [
+  [
+   2,
+   2,
+   2,
+   1
+  ],
+  [
+   0,
+   2,
+   2,
+   1
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A full-body front view of a person standing straight with arms at their sides, on a plain white background, wearing <r0>a brown flat cap</r0>, wearing <r1>a Hawaiian shirt</r1>, wearing <r2>camouflage pants</r2>, wearing <r3>black leather dress shoes</r3>, in a sketch style",
+   "A full-body front view of a person standing straight with arms at their sides, on a plain white background, wearing <r0>a red baseball cap</r0>, wearing <r1>a Hawaiian shirt</r1>, wearing <r2>camouflage pants</r2>, wearing <r3>black leather dress shoes</r3>, in a sketch style"
+  ],
+  "he": [
+   "אדם בגוף מלא במבט מלפנים, עומד זקוף וידיו לצידי גופו, על רקע לבן חלק, חובש <r0>כובע קסקט חום</r0>, לובש <r1>חולצה הוואית</r1>, לובש <r2>מכנסי הסוואה</r2>, נועל <r3>נעלי עור אלגנטיות שחורות</r3>, בסגנון סקיצה",
+   "אדם בגוף מלא במבט מלפנים, עומד זקוף וידיו לצידי גופו, על רקע לבן חלק, חובש <r0>כובע בייסבול אדום</r0>, לובש <r1>חולצה הוואית</r1>, לובש <r2>מכנסי הסוואה</r2>, נועל <r3>נעלי עור אלגנטיות שחורות</r3>, בסגנון סקיצה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "2d0e3742f863e6ea",
+   "6cec6c729857c5a8"
+  ],
+  "other": [
+   "96a7c6af218d3f60",
+   "9a6bd04e6d5f1f5f"
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "id": "Q121",
+ "source": {
+  "library": "g3_pirate_simple00_s2025",
+  "idea": "g3_pirate",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   1
+  ],
+  [
+   0,
+   0
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A half-body portrait of a pirate, front view, plain background, wearing <r0>a burgundy tricorn hat</r0>, wearing <r1>a blue naval coat with gold buttons</r1>, in a cartoon style",
+   "A half-body portrait of a pirate, front view, plain background, wearing <r0>a burgundy tricorn hat</r0>, wearing <r1>a burgundy coat with gold trim</r1>, in a cartoon style"
+  ],
+  "he": [
+   "דיוקן חצי גוף של פיראט, מבט מלפנים, רקע חלק, חובש <r0>כובע משולש בצבע בורדו</r0>, לובש <r1>מעיל ימי כחול עם כפתורי זהב</r1>, בסגנון מצויר",
+   "דיוקן חצי גוף של פיראט, מבט מלפנים, רקע חלק, חובש <r0>כובע משולש בצבע בורדו</r0>, לובש <r1>מעיל בורדו עם עיטור זהב</r1>, בסגנון מצויר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "012adfc30a3155c6",
+   "fb350a24f46ac1b0"
+  ],
+  "other": [
+   "f2781402f03b9a46",
+   "70471a10a1d800cb"
+  ]
+ }
+}

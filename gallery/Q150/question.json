@@ -1,0 +1,43 @@
+{
+ "id": "Q150",
+ "source": {
+  "library": "g3_mermaid_simple04_s2025",
+  "idea": "g3_mermaid",
+  "seed": 2025
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   3
+  ],
+  [
+   1,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A full-body mermaid with a long fish tail instead of legs, sitting on a rock, front view, plain background, with <r0>the upper body of a woman with a starfish necklace</r0>, with <r1>a golden fish tail with a fan fin</r1>, in a watercolor painting style",
+   "A full-body mermaid with a long fish tail instead of legs, sitting on a rock, front view, plain background, with <r0>the upper body of a woman with a starfish necklace</r0>, with <r1>a gray shark tail</r1>, in a watercolor painting style"
+  ],
+  "he": [
+   "בת ים בגוף מלא עם זנב דג ארוך במקום רגליים, יושבת על סלע, מבט מלפנים, רקע חלק, עם <r0>פלג גוף עליון של אישה עם שרשרת כוכב ים</r0>, עם <r1>זנב דג זהוב עם סנפיר מניפה</r1>, בסגנון ציור בצבעי מים",
+   "בת ים בגוף מלא עם זנב דג ארוך במקום רגליים, יושבת על סלע, מבט מלפנים, רקע חלק, עם <r0>פלג גוף עליון של אישה עם שרשרת כוכב ים</r0>, עם <r1>זנב כריש אפור</r1>, בסגנון ציור בצבעי מים"
+  ]
+ },
+ "images": {
+  "ours": [
+   "4834d6df61397992",
+   "a1891548c7d2a1bd"
+  ],
+  "other": [
+   "a4834ae6aab1fc66",
+   "9191dbda9adc0eb1"
+  ]
+ }
+}

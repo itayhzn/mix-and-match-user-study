@@ -1,0 +1,46 @@
+{
+ "id": "C01",
+ "source": {
+  "library": "g3_tree_animal_09_s7",
+  "idea": "g3_tree_animal",
+  "seed": 7,
+  "wrong": "g3_rocket_05_s2025"
+ },
+ "baseline": "catch",
+ "num_regions": 3,
+ "combinations": [
+  [
+   2,
+   1,
+   0
+  ],
+  [
+   2,
+   2,
+   0
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A lone tree on a hill with an animal beside it, with <r0>orange autumn leaves</r0>, with <r1>a trunk with an owl in a woodpecker hole</r1>, next to <r2>a red fox</r2>, in a realistic picture style",
+   "A lone tree on a hill with an animal beside it, with <r0>orange autumn leaves</r0>, with <r1>a dark oak trunk</r1>, next to <r2>a red fox</r2>, in a realistic picture style"
+  ],
+  "he": [
+   "עץ בודד על גבעה ולצדו חיה, עם <r0>עלי שלכת כתומים</r0>, עם <r1>גזע ובו ינשוף בתוך חור של נקר</r1>, ליד <r2>שועל אדום</r2>, בסגנון תמונה ריאליסטית",
+   "עץ בודד על גבעה ולצדו חיה, עם <r0>עלי שלכת כתומים</r0>, עם <r1>גזע אלון כהה</r1>, ליד <r2>שועל אדום</r2>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "594503d5f135e265",
+   "0ae5cb9681992775"
+  ],
+  "other": [
+   "17388151b1d3843c",
+   "705be770a4a925da"
+  ]
+ }
+}

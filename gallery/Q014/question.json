@@ -1,0 +1,43 @@
+{
+ "id": "Q014",
+ "source": {
+  "library": "g3_superhero_07_s2025",
+  "idea": "g3_superhero",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A half-body portrait of a superhero in a city street, wearing <r0>an orange mask with black stripes</r0>, wearing <r1>a blue cape with a high collar</r1>, in an anime drawing style",
+   "A half-body portrait of a superhero in a city street, wearing <r0>a black domino mask</r0>, wearing <r1>a blue cape with a high collar</r1>, in an anime drawing style"
+  ],
+  "he": [
+   "דיוקן חצי גוף של גיבור-על ברחוב עירוני, חובש <r0>מסכה כתומה עם פסים שחורים</r0>, לובש <r1>גלימה כחולה עם צווארון גבוה</r1>, בסגנון ציור אנימה",
+   "דיוקן חצי גוף של גיבור-על ברחוב עירוני, חובש <r0>מסכת עיניים שחורה</r0>, לובש <r1>גלימה כחולה עם צווארון גבוה</r1>, בסגנון ציור אנימה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "85456458acaba75a",
+   "fc0879e67e764c80"
+  ],
+  "other": [
+   "383ca87a307b507f",
+   "be15a492c76a77e1"
+  ]
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "id": "Q043",
+ "source": {
+  "library": "g3_tree_animal_01_s2025",
+  "idea": "g3_tree_animal",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 4,
+ "combinations": [
+  [
+   3,
+   1,
+   3,
+   3
+  ],
+  [
+   3,
+   2,
+   3,
+   1
+  ]
+ ],
+ "changed": [
+  1,
+  3
+ ],
+ "prompts": {
+  "en": [
+   "A lone tree on a hill with an animal beside it, with <r0>orange autumn leaves</r0>, with <r1>a mossy trunk</r1>, with <r2>roots covered in mushrooms</r2>, next to <r3>a red fox</r3>, in an anime drawing style",
+   "A lone tree on a hill with an animal beside it, with <r0>orange autumn leaves</r0>, with <r1>a trunk with a carved heart</r1>, with <r2>roots covered in mushrooms</r2>, next to <r3>a lynx</r3>, in an anime drawing style"
+  ],
+  "he": [
+   "עץ בודד על גבעה וחיה לצדו, עם <r0>עלי שלכת כתומים</r0>, עם <r1>גזע מכוסה טחב</r1>, עם <r2>שורשים מכוסים בפטריות</r2>, ליד <r3>שועל אדום</r3>, בסגנון ציור אנימה",
+   "עץ בודד על גבעה וחיה לצדו, עם <r0>עלי שלכת כתומים</r0>, עם <r1>גזע עם לב חרוט</r1>, עם <r2>שורשים מכוסים בפטריות</r2>, ליד <r3>לינקס</r3>, בסגנון ציור אנימה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "134938350307e51c",
+   "145bae103a343966"
+  ],
+  "other": [
+   "098af12bd788ec25",
+   "0785e897f10302be"
+  ]
+ }
+}

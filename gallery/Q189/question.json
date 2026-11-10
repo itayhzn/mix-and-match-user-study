@@ -1,0 +1,50 @@
+{
+ "id": "Q189",
+ "source": {
+  "library": "g3_face_front_09_s2025",
+  "idea": "g3_face_front",
+  "seed": 2025
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 5,
+ "combinations": [
+  [
+   2,
+   1,
+   0,
+   0,
+   1
+  ],
+  [
+   2,
+   0,
+   2,
+   0,
+   1
+  ]
+ ],
+ "changed": [
+  1,
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A symmetrical front-facing head-and-shoulders portrait of a person, with a plain gray background, with <r0>short auburn hair</r0>, with <r1>round green-framed glasses</r1>, with <r2>a long pointed witch nose</r2>, with <r3>bright red lipstick</r3>, wearing <r4>a black turtleneck sweater</r4>, in a sketch style",
+   "A symmetrical front-facing head-and-shoulders portrait of a person, with a plain gray background, with <r0>short auburn hair</r0>, with <r1>red cat-eye glasses</r1>, with <r2>a nose with a black stud</r2>, with <r3>bright red lipstick</r3>, wearing <r4>a black turtleneck sweater</r4>, in a sketch style"
+  ],
+  "he": [
+   "דיוקן ראש וכתפיים סימטרי וחזיתי של אדם, על רקע אפור חלק, עם <r0>שיער קצר בצבע ערמוני</r0>, מרכיב <r1>משקפיים עגולים במסגרת ירוקה</r1>, עם <r2>אף מכשפה ארוך ומחודד</r2>, עם <r3>שפתון אדום בוהק</r3>, לובש <r4>סוודר גולף שחור</r4>, בסגנון סקיצה",
+   "דיוקן ראש וכתפיים סימטרי וחזיתי של אדם, על רקע אפור חלק, עם <r0>שיער קצר בצבע ערמוני</r0>, מרכיב <r1>משקפי עין חתול אדומים</r1>, עם <r2>אף עם עגיל נקודה שחור</r2>, עם <r3>שפתון אדום בוהק</r3>, לובש <r4>סוודר גולף שחור</r4>, בסגנון סקיצה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "6286b4eee29ec1bb",
+   "8ae0a5db9921795b"
+  ],
+  "other": [
+   "178d963a30923bee",
+   "7ae4d8447bc15017"
+  ]
+ }
+}

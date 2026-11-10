@@ -1,0 +1,47 @@
+{
+ "id": "Q109",
+ "source": {
+  "library": "g3_animal_chimera_09_s2025",
+  "idea": "g3_animal_chimera",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 4,
+ "combinations": [
+  [
+   2,
+   0,
+   1,
+   2
+  ],
+  [
+   2,
+   2,
+   1,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A strange animal with one head standing in a meadow, side view, with <r0>long curved ibex horns</r0>, with <r1>the head of a tiger</r1>, with <r2>the body of a tiger</r2>, with <r3>the tail of a fox</r3>, in an oil painting style",
+   "A strange animal with one head standing in a meadow, side view, with <r0>long curved ibex horns</r0>, with <r1>the head of a horse</r1>, with <r2>the body of a tiger</r2>, with <r3>the tail of a fox</r3>, in an oil painting style"
+  ],
+  "he": [
+   "חיה מוזרה עם ראש אחד עומדת באחו, מבט מהצד, עם <r0>קרני יעל ארוכות ומעוקלות</r0>, עם <r1>ראש של טיגריס</r1>, עם <r2>גוף של טיגריס</r2>, עם <r3>זנב של שועל</r3>, בסגנון ציור שמן",
+   "חיה מוזרה עם ראש אחד עומדת באחו, מבט מהצד, עם <r0>קרני יעל ארוכות ומעוקלות</r0>, עם <r1>ראש של סוס</r1>, עם <r2>גוף של טיגריס</r2>, עם <r3>זנב של שועל</r3>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "d55a440d51795a7f",
+   "73347b8aa8ae0695"
+  ],
+  "other": [
+   "f7f358f67c54f8c2",
+   "7c1e054ad958d959"
+  ]
+ }
+}

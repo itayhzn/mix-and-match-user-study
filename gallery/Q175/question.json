@@ -1,0 +1,45 @@
+{
+ "id": "Q175",
+ "source": {
+  "library": "g3_rocket_09_s7",
+  "idea": "g3_rocket",
+  "seed": 7
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   1,
+   0,
+   1
+  ],
+  [
+   1,
+   4,
+   1
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A rocket flying up into the sky, with <r0>a red nose cone</r0>, with <r1>a shiny steel body</r1>, with <r2>red flames with black smoke</r2>, in a cartoon style",
+   "A rocket flying up into the sky, with <r0>a red nose cone</r0>, with <r1>a red and white striped body</r1>, with <r2>red flames with black smoke</r2>, in a cartoon style"
+  ],
+  "he": [
+   "רקטה טסה מעלה לשמיים, עם <r0>חרטום אדום</r0>, עם <r1>גוף פלדה מבריק</r1>, עם <r2>להבות אדומות עם עשן שחור</r2>, בסגנון מצויר",
+   "רקטה טסה מעלה לשמיים, עם <r0>חרטום אדום</r0>, עם <r1>גוף בפסים אדומים ולבנים</r1>, עם <r2>להבות אדומות עם עשן שחור</r2>, בסגנון מצויר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "2caa804c9a23a2e0",
+   "5b9feba696aee058"
+  ],
+  "other": [
+   "c5fe6eadbad42150",
+   "dd4f0de9f7454da8"
+  ]
+ }
+}

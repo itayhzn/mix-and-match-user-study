@@ -1,0 +1,45 @@
+{
+ "id": "Q126",
+ "source": {
+  "library": "g3_pirate_03_s2025",
+  "idea": "g3_pirate",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   0,
+   0,
+   2
+  ],
+  [
+   0,
+   0,
+   1
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A half-body portrait of a pirate on a sandy beach, wearing <r0>a blue tricorn hat</r0>, wearing <r1>a green velvet coat</r1>, next to <r2>a blue parrot</r2>, in a realistic picture style",
+   "A half-body portrait of a pirate on a sandy beach, wearing <r0>a blue tricorn hat</r0>, wearing <r1>a green velvet coat</r1>, next to <r2>a black raven</r2>, in a realistic picture style"
+  ],
+  "he": [
+   "דיוקן חצי גוף של פיראט על חוף חולי, חובש <r0>כובע תלת-קרני כחול</r0>, לובש <r1>מעיל קטיפה ירוק</r1>, ליד <r2>תוכי כחול</r2>, בסגנון תמונה ריאליסטית",
+   "דיוקן חצי גוף של פיראט על חוף חולי, חובש <r0>כובע תלת-קרני כחול</r0>, לובש <r1>מעיל קטיפה ירוק</r1>, ליד <r2>עורב שחור</r2>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "6fb7adbd3de4950c",
+   "34a53eb9604cefc3"
+  ],
+  "other": [
+   "52078b1fee07d151",
+   "b355b115b298fd2a"
+  ]
+ }
+}

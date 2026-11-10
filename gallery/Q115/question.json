@@ -1,0 +1,47 @@
+{
+ "id": "Q115",
+ "source": {
+  "library": "g3_face_09_s7",
+  "idea": "g3_face",
+  "seed": 7
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 4,
+ "combinations": [
+  [
+   1,
+   1,
+   1,
+   1
+  ],
+  [
+   1,
+   1,
+   1,
+   2
+  ]
+ ],
+ "changed": [
+  3
+ ],
+ "prompts": {
+  "en": [
+   "A head-and-shoulders portrait of a person, wearing <r0>a denim bucket hat</r0>, with <r1>round tortoiseshell glasses</r1>, with <r2>a tongue sticking out</r2>, wearing <r3>a black turtleneck sweater</r3>, in a pop art style",
+   "A head-and-shoulders portrait of a person, wearing <r0>a denim bucket hat</r0>, with <r1>round tortoiseshell glasses</r1>, with <r2>a tongue sticking out</r2>, wearing <r3>a burgundy sweater</r3>, in a pop art style"
+  ],
+  "he": [
+   "דיוקן ראש וכתפיים של אדם, חובש <r0>כובע דייגים מג'ינס</r0>, מרכיב <r1>משקפיים עגולים במסגרת בדוגמת שריון צב</r1>, עם <r2>לשון שלוחה החוצה</r2>, לובש <r3>סוודר גולף שחור</r3>, בסגנון פופ ארט",
+   "דיוקן ראש וכתפיים של אדם, חובש <r0>כובע דייגים מג'ינס</r0>, מרכיב <r1>משקפיים עגולים במסגרת בדוגמת שריון צב</r1>, עם <r2>לשון שלוחה החוצה</r2>, לובש <r3>סוודר בצבע בורדו</r3>, בסגנון פופ ארט"
+  ]
+ },
+ "images": {
+  "ours": [
+   "86d8c9fc5dd65f13",
+   "15e38b8954e60fc0"
+  ],
+  "other": [
+   "f81ba8bf0a7db267",
+   "da4977c1eb90ba60"
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "id": "Q143",
+ "source": {
+  "library": "g3_bottle_simple03_s7",
+  "idea": "g3_bottle",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   3,
+   2
+  ],
+  [
+   3,
+   0
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A single bottle standing on a white table, front view, with <r0>a black rubber stopper</r0>, with <r1>a torn brown vintage label</r1>, in a digital painting style",
+   "A single bottle standing on a white table, front view, with <r0>a black rubber stopper</r0>, with <r1>a green paper label</r1>, in a digital painting style"
+  ],
+  "he": [
+   "בקבוק אחד עומד על שולחן לבן, מבט מלפנים, עם <r0>פקק גומי שחור</r0>, עם <r1>תווית וינטג׳ חומה וקרועה</r1>, בסגנון ציור דיגיטלי",
+   "בקבוק אחד עומד על שולחן לבן, מבט מלפנים, עם <r0>פקק גומי שחור</r0>, עם <r1>תווית נייר ירוקה</r1>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "21e103c4f93e57d0",
+   "8dcdeb4fe3ff8d05"
+  ],
+  "other": [
+   "c5321e31d109957b",
+   "571d5ba5681fc9a0"
+  ]
+ }
+}

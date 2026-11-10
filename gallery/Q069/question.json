@@ -1,0 +1,43 @@
+{
+ "id": "Q069",
+ "source": {
+  "library": "g3_pirate_simple04_s2025",
+  "idea": "g3_pirate",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   3,
+   2
+  ],
+  [
+   0,
+   2
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A half-body portrait of a pirate, front view, plain background, wearing <r0>a blue tricorn hat</r0>, wearing <r1>a green velvet coat</r1>, in a digital painting style",
+   "A half-body portrait of a pirate, front view, plain background, wearing <r0>a red tricorn hat with gold trim</r0>, wearing <r1>a green velvet coat</r1>, in a digital painting style"
+  ],
+  "he": [
+   "דיוקן חצי גוף של פיראט, מבט מלפנים, רקע חלק, חובש <r0>כובע משולש כחול</r0>, לובש <r1>מעיל קטיפה ירוק</r1>, בסגנון ציור דיגיטלי",
+   "דיוקן חצי גוף של פיראט, מבט מלפנים, רקע חלק, חובש <r0>כובע תלת-קרני אדום עם עיטור זהב</r0>, לובש <r1>מעיל קטיפה ירוק</r1>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "3e04a9bd13c47834",
+   "461740311ad9ca46"
+  ],
+  "other": [
+   "d31ca3cdb6ed097f",
+   "f9526f0aafbd9375"
+  ]
+ }
+}

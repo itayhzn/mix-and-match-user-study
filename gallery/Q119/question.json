@@ -1,0 +1,43 @@
+{
+ "id": "Q119",
+ "source": {
+  "library": "g3_gnome_simple03_s7",
+  "idea": "g3_gnome",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   0
+  ],
+  [
+   2,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A garden gnome with a long white beard standing on the lawn, front view, wearing <r0>a blue wizard hat with stars</r0>, next to <r1>a big brown mushroom</r1>, in a watercolor painting style",
+   "A garden gnome with a long white beard standing on the lawn, front view, wearing <r0>a black witch hat</r0>, next to <r1>a big brown mushroom</r1>, in a watercolor painting style"
+  ],
+  "he": [
+   "גמד גינה עם זקן לבן ארוך עומד על הדשא, מבט מלפנים, חובש <r0>כובע קוסמים כחול עם כוכבים</r0>, ליד <r1>פטרייה חומה גדולה</r1>, בסגנון ציור בצבעי מים",
+   "גמד גינה עם זקן לבן ארוך עומד על הדשא, מבט מלפנים, חובש <r0>כובע מכשפה שחור</r0>, ליד <r1>פטרייה חומה גדולה</r1>, בסגנון ציור בצבעי מים"
+  ]
+ },
+ "images": {
+  "ours": [
+   "ee6c9d8a5f575e68",
+   "2c57bf9872e0c055"
+  ],
+  "other": [
+   "68bb48afcbbbd973",
+   "9b958d13c3550270"
+  ]
+ }
+}

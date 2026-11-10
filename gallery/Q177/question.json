@@ -1,0 +1,45 @@
+{
+ "id": "Q177",
+ "source": {
+  "library": "g3_rocket_03_s2025",
+  "idea": "g3_rocket",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   0,
+   1,
+   4
+  ],
+  [
+   4,
+   1,
+   4
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A rocket flying up into the sky, with <r0>a pointed black nose cone</r0>, with <r1>a blue body with portholes</r1>, with <r2>green flames with sparks</r2>, in an anime drawing style",
+   "A rocket flying up into the sky, with <r0>a red nose cone</r0>, with <r1>a blue body with portholes</r1>, with <r2>green flames with sparks</r2>, in an anime drawing style"
+  ],
+  "he": [
+   "טיל טס מעלה אל השמיים, עם <r0>חרטום שחור מחודד</r0>, עם <r1>גוף כחול עם צוהרים</r1>, עם <r2>להבות ירוקות עם ניצוצות</r2>, בסגנון ציור אנימה",
+   "טיל טס מעלה אל השמיים, עם <r0>חרטום אדום</r0>, עם <r1>גוף כחול עם צוהרים</r1>, עם <r2>להבות ירוקות עם ניצוצות</r2>, בסגנון ציור אנימה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "639d2f875b79614f",
+   "0567690f3f2a3095"
+  ],
+  "other": [
+   "23829b78f3543b05",
+   "bccf0858872738d5"
+  ]
+ }
+}

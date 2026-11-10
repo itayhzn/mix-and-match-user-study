@@ -1,0 +1,43 @@
+{
+ "id": "Q030",
+ "source": {
+  "library": "g3_baby_toy_simple03_s2025",
+  "idea": "g3_baby_toy",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   0
+  ],
+  [
+   0,
+   1
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A baby sitting on a white rug next to a big stuffed toy, front view, <r0>a baby in a yellow duck costume</r0>, next to <r1>a plush lion</r1>, in a watercolor painting style",
+   "A baby sitting on a white rug next to a big stuffed toy, front view, <r0>a baby in a yellow duck costume</r0>, next to <r1>a big teddy bear</r1>, in a watercolor painting style"
+  ],
+  "he": [
+   "תינוק יושב על שטיח לבן ליד בובת פרווה גדולה, מבט מלפנים, <r0>תינוק בתחפושת ברווז צהובה</r0>, ליד <r1>אריה פרווה</r1>, בסגנון ציור בצבעי מים",
+   "תינוק יושב על שטיח לבן ליד בובת פרווה גדולה, מבט מלפנים, <r0>תינוק בתחפושת ברווז צהובה</r0>, ליד <r1>דובי גדול</r1>, בסגנון ציור בצבעי מים"
+  ]
+ },
+ "images": {
+  "ours": [
+   "580fe6948eb24ecc",
+   "6dbbe21fc2e223ba"
+  ],
+  "other": [
+   "89b4cbc6c7472cc8",
+   "276283e40e3707b2"
+  ]
+ }
+}

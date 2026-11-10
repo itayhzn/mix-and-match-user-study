@@ -1,0 +1,45 @@
+{
+ "id": "Q013",
+ "source": {
+  "library": "g3_wedding_03_s7",
+  "idea": "g3_wedding",
+  "seed": 7
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   1,
+   1,
+   0
+  ],
+  [
+   1,
+   1,
+   2
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A bride and groom posing in a garden, the bride wearing <r0>a white beaded mermaid dress</r0>, the groom with <r1>short wavy brown hair</r1>, the groom wearing <r2>a burgundy velvet suit</r2>, in an oil painting style",
+   "A bride and groom posing in a garden, the bride wearing <r0>a white beaded mermaid dress</r0>, the groom with <r1>short wavy brown hair</r1>, the groom wearing <r2>a charcoal gray suit</r2>, in an oil painting style"
+  ],
+  "he": [
+   "חתן וכלה מצטלמים בגן, הכלה לובשת <r0>שמלת בת ים לבנה עם חרוזים</r0>, לחתן <r1>שיער חום קצר וגלי</r1>, החתן לובש <r2>חליפת קטיפה בצבע בורדו</r2>, בסגנון ציור שמן",
+   "חתן וכלה מצטלמים בגן, הכלה לובשת <r0>שמלת בת ים לבנה עם חרוזים</r0>, לחתן <r1>שיער חום קצר וגלי</r1>, החתן לובש <r2>חליפה בצבע אפור פחם</r2>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "748b91379c628b2f",
+   "f3dd16fc34dc81c8"
+  ],
+  "other": [
+   "754b2b0d6fad3b32",
+   "cd4d49cc4b18a965"
+  ]
+ }
+}

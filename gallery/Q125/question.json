@@ -1,0 +1,43 @@
+{
+ "id": "Q125",
+ "source": {
+  "library": "g3_face_simple03_s2025",
+  "idea": "g3_face",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   2,
+   1
+  ],
+  [
+   0,
+   1
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A close-up portrait of a person's face, front view, plain background, wearing <r0>a black beret</r0>, with <r1>round tortoiseshell glasses</r1>, in a digital painting style",
+   "A close-up portrait of a person's face, front view, plain background, wearing <r0>a denim bucket hat</r0>, with <r1>round tortoiseshell glasses</r1>, in a digital painting style"
+  ],
+  "he": [
+   "דיוקן תקריב של פני אדם, מבט מלפנים, רקע חלק, חובש <r0>כומתה שחורה</r0>, מרכיב <r1>משקפיים עגולים במסגרת בדוגמת שריון צב</r1>, בסגנון ציור דיגיטלי",
+   "דיוקן תקריב של פני אדם, מבט מלפנים, רקע חלק, חובש <r0>כובע דייגים מג'ינס</r0>, מרכיב <r1>משקפיים עגולים במסגרת בדוגמת שריון צב</r1>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "c1583d3c7006fad1",
+   "29ecb0f5937f2d8c"
+  ],
+  "other": [
+   "3d20cc0d0ec5b2fc",
+   "10467b9d1f83e372"
+  ]
+ }
+}

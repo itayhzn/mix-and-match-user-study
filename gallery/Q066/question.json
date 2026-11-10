@@ -1,0 +1,43 @@
+{
+ "id": "Q066",
+ "source": {
+  "library": "g3_person_pet_simple00_s2025",
+  "idea": "g3_person_pet",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   3,
+   1
+  ],
+  [
+   3,
+   3
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A single person standing next to their pet, front view, plain background, <r0>a woman</r0>, with <r1>a boxer dog</r1>, in an oil painting style",
+   "A single person standing next to their pet, front view, plain background, <r0>a woman</r0>, with <r1>a german shepherd</r1>, in an oil painting style"
+  ],
+  "he": [
+   "אדם אחד עומד ליד חיית המחמד שלו, מבט מלפנים, רקע חלק, <r0>אישה</r0>, עם <r1>כלב בוקסר</r1>, בסגנון ציור שמן",
+   "אדם אחד עומד ליד חיית המחמד שלו, מבט מלפנים, רקע חלק, <r0>אישה</r0>, עם <r1>רועה גרמני</r1>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "ad5d0f327b1fcfa9",
+   "cfd667388c5deac1"
+  ],
+  "other": [
+   "1719518d74b291ef",
+   "ff84603581f5025c"
+  ]
+ }
+}

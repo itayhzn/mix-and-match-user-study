@@ -1,0 +1,43 @@
+{
+ "id": "Q159",
+ "source": {
+  "library": "g3_tree_animal_simple02_s2025",
+  "idea": "g3_tree_animal",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   1
+  ],
+  [
+   0,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A single tree standing in an empty meadow, front view, with <r0>purple jacaranda flowers</r0>, with <r1>a plain brown trunk</r1>, in a watercolor painting style",
+   "A single tree standing in an empty meadow, front view, with <r0>purple jacaranda flowers</r0>, with <r1>a twisted gnarled trunk</r1>, in a watercolor painting style"
+  ],
+  "he": [
+   "עץ בודד עומד באחו ריק, מבט מלפנים, עם <r0>פרחי סיגלון סגולים</r0>, עם <r1>גזע חום פשוט</r1>, בסגנון ציור בצבעי מים",
+   "עץ בודד עומד באחו ריק, מבט מלפנים, עם <r0>פרחי סיגלון סגולים</r0>, עם <r1>גזע מפותל ומסוקס</r1>, בסגנון ציור בצבעי מים"
+  ]
+ },
+ "images": {
+  "ours": [
+   "9885fcae300b6bc4",
+   "c7c8d404b4f9391b"
+  ],
+  "other": [
+   "f3da44e0d3798c66",
+   "3775dbfce75e2fe1"
+  ]
+ }
+}

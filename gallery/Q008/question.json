@@ -1,0 +1,45 @@
+{
+ "id": "Q008",
+ "source": {
+  "library": "g3_dog_06_s7",
+  "idea": "g3_dog",
+  "seed": 7
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   3,
+   4,
+   5
+  ],
+  [
+   3,
+   4,
+   3
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A close-up portrait of a dog, with <r0>fluffy poodle ears</r0>, wearing <r1>blue mirrored sunglasses</r1>, wearing <r2>a pink collar with a name tag</r2>, in a digital painting style",
+   "A close-up portrait of a dog, with <r0>fluffy poodle ears</r0>, wearing <r1>blue mirrored sunglasses</r1>, wearing <r2>a knitted scarf</r2>, in a digital painting style"
+  ],
+  "he": [
+   "דיוקן תקריב של כלב, עם <r0>אוזני פודל פרוותיות</r0>, מרכיב <r1>משקפי שמש כחולים עם עדשות מראה</r1>, עונד <r2>קולר ורוד עם תג שם</r2>, בסגנון ציור דיגיטלי",
+   "דיוקן תקריב של כלב, עם <r0>אוזני פודל פרוותיות</r0>, מרכיב <r1>משקפי שמש כחולים עם עדשות מראה</r1>, עונד <r2>צעיף סרוג</r2>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "f891eba8342eee15",
+   "81f086b994b294ed"
+  ],
+  "other": [
+   "6c9e3cfa7bc77850",
+   "b3567a0c425effd7"
+  ]
+ }
+}

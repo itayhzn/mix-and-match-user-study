@@ -1,0 +1,45 @@
+{
+ "id": "Q082",
+ "source": {
+  "library": "g3_gnome_05_s7",
+  "idea": "g3_gnome",
+  "seed": 7
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   1,
+   1,
+   0
+  ],
+  [
+   0,
+   1,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A garden gnome with a long white beard sitting on a rock, wearing <r0>a striped party hat</r0>, wearing <r1>a green tunic with a belt</r1>, wearing <r2>dark wooden clogs</r2>, in a pixel art style",
+   "A garden gnome with a long white beard sitting on a rock, wearing <r0>a pointy red gnome hat</r0>, wearing <r1>a green tunic with a belt</r1>, wearing <r2>dark wooden clogs</r2>, in a pixel art style"
+  ],
+  "he": [
+   "גמד גינה עם זקן לבן ארוך יושב על סלע, חובש <r0>כובע מסיבה מפוספס</r0>, לובש <r1>טוניקה ירוקה עם חגורה</r1>, נועל <r2>קבקבי עץ כהים</r2>, בסגנון פיקסל ארט",
+   "גמד גינה עם זקן לבן ארוך יושב על סלע, חובש <r0>כובע גמדים אדום ומחודד</r0>, לובש <r1>טוניקה ירוקה עם חגורה</r1>, נועל <r2>קבקבי עץ כהים</r2>, בסגנון פיקסל ארט"
+  ]
+ },
+ "images": {
+  "ours": [
+   "d601b48a1154bbbf",
+   "0a4ef861a7a1b318"
+  ],
+  "other": [
+   "d3fc831c8cfc6076",
+   "51bc4470c24d01c7"
+  ]
+ }
+}

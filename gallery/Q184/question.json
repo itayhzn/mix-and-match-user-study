@@ -1,0 +1,45 @@
+{
+ "id": "Q184",
+ "source": {
+  "library": "g3_tree_animal_00_s2025",
+  "idea": "g3_tree_animal",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   0,
+   1,
+   0
+  ],
+  [
+   1,
+   1,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A tree standing in a meadow with an animal next to it, with <r0>orange autumn leaves</r0>, with <r1>a dark oak trunk</r1>, next to <r2>a hare</r2>, in an oil painting style",
+   "A tree standing in a meadow with an animal next to it, with <r0>purple jacaranda flowers</r0>, with <r1>a dark oak trunk</r1>, next to <r2>a hare</r2>, in an oil painting style"
+  ],
+  "he": [
+   "עץ עומד באחו וחיה לידו, עם <r0>עלי שלכת כתומים</r0>, עם <r1>גזע אלון כהה</r1>, ליד <r2>ארנבת</r2>, בסגנון ציור שמן",
+   "עץ עומד באחו וחיה לידו, עם <r0>פרחי סיגלון סגולים</r0>, עם <r1>גזע אלון כהה</r1>, ליד <r2>ארנבת</r2>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "773d566ac58f2983",
+   "d7882dc698882c05"
+  ],
+  "other": [
+   "f2940fb61e3530a3",
+   "18bd9f474e0fb268"
+  ]
+ }
+}

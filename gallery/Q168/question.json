@@ -1,0 +1,43 @@
+{
+ "id": "Q168",
+ "source": {
+  "library": "g3_tree_animal_simple03_s7",
+  "idea": "g3_tree_animal",
+  "seed": 7
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   2,
+   1
+  ],
+  [
+   2,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A single tree standing in an empty meadow, front view, with <r0>green summer leaves</r0>, with <r1>a dark oak trunk</r1>, in a digital painting style",
+   "A single tree standing in an empty meadow, front view, with <r0>green summer leaves</r0>, with <r1>a trunk with an owl in a woodpecker hole</r1>, in a digital painting style"
+  ],
+  "he": [
+   "עץ בודד עומד באחו ריק, מבט מלפנים, עם <r0>עלים ירוקים של קיץ</r0>, עם <r1>גזע אלון כהה</r1>, בסגנון ציור דיגיטלי",
+   "עץ בודד עומד באחו ריק, מבט מלפנים, עם <r0>עלים ירוקים של קיץ</r0>, עם <r1>גזע עם ינשוף בחור של נקר</r1>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "46a80ce0d3ff6754",
+   "6fa92794888233a9"
+  ],
+  "other": [
+   "f0bd35d3da5a83c9",
+   "c2a72f7c71597515"
+  ]
+ }
+}

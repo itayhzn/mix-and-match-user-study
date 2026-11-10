@@ -1,0 +1,45 @@
+{
+ "id": "Q173",
+ "source": {
+  "library": "g3_scarecrow_08_s7",
+  "idea": "g3_scarecrow",
+  "seed": 7
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   4,
+   5,
+   5
+  ],
+  [
+   4,
+   5,
+   3
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A scarecrow with a carved pumpkin head and its arms spread out to the sides on a wooden cross, standing in a wheat field, wearing <r0>a dark green bucket hat</r0>, wearing <r1>a black and red plaid shirt</r1>, with <r2>a brown hawk flying next to it</r2>, in a watercolor painting style",
+   "A scarecrow with a carved pumpkin head and its arms spread out to the sides on a wooden cross, standing in a wheat field, wearing <r0>a dark green bucket hat</r0>, wearing <r1>a black and red plaid shirt</r1>, with <r2>a brown owl flying next to it</r2>, in a watercolor painting style"
+  ],
+  "he": [
+   "דחליל עם ראש דלעת מגולף וזרועות פרושות לצדדים על צלב עץ, עומד בשדה חיטה, חובש <r0>כובע דייגים ירוק כהה</r0>, לובש <r1>חולצה משובצת בשחור ואדום</r1>, עם <r2>נץ חום שעף לידו</r2>, בסגנון ציור בצבעי מים",
+   "דחליל עם ראש דלעת מגולף וזרועות פרושות לצדדים על צלב עץ, עומד בשדה חיטה, חובש <r0>כובע דייגים ירוק כהה</r0>, לובש <r1>חולצה משובצת בשחור ואדום</r1>, עם <r2>ינשוף חום שעף לידו</r2>, בסגנון ציור בצבעי מים"
+  ]
+ },
+ "images": {
+  "ours": [
+   "05ec0b0083737467",
+   "0de2ad42dec715c1"
+  ],
+  "other": [
+   "6ca4d1f4becc76db",
+   "34cebe0c8ec8539e"
+  ]
+ }
+}

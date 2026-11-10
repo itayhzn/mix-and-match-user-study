@@ -1,0 +1,43 @@
+{
+ "id": "Q004",
+ "source": {
+  "library": "g3_dog_simple00_s2025",
+  "idea": "g3_dog",
+  "seed": 2025
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   1
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A close-up portrait of a dog facing the camera, plain background, wearing <r0>a yellow bucket hat</r0>, wearing <r1>a red leather collar</r1>, in a realistic picture style",
+   "A close-up portrait of a dog facing the camera, plain background, wearing <r0>a yellow bucket hat</r0>, wearing <r1>a blue collar with a bell</r1>, in a realistic picture style"
+  ],
+  "he": [
+   "דיוקן תקריב של כלב שמביט למצלמה, רקע חלק, חובש <r0>כובע דייגים צהוב</r0>, עם <r1>קולר עור אדום</r1>, בסגנון תמונה ריאליסטית",
+   "דיוקן תקריב של כלב שמביט למצלמה, רקע חלק, חובש <r0>כובע דייגים צהוב</r0>, עם <r1>קולר כחול עם פעמון</r1>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "f49ba5bcde9899f0",
+   "58fff76147413d6e"
+  ],
+  "other": [
+   "88d6805bec72c3be",
+   "26fcc3411f57e34d"
+  ]
+ }
+}

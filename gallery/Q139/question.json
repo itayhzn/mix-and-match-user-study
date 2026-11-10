@@ -1,0 +1,45 @@
+{
+ "id": "Q139",
+ "source": {
+  "library": "g3_robot_09_s2025",
+  "idea": "g3_robot",
+  "seed": 2025
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 3,
+ "combinations": [
+  [
+   1,
+   1,
+   0
+  ],
+  [
+   1,
+   1,
+   2
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A robot standing on a city street, with <r0>an old television set head with two eyes on the screen</r0>, with <r1>a boxy torso with dials</r1>, with <r2>thin chrome legs</r2>, in a line art style",
+   "A robot standing on a city street, with <r0>an old television set head with two eyes on the screen</r0>, with <r1>a boxy torso with dials</r1>, with <r2>hydraulic piston legs</r2>, in a line art style"
+  ],
+  "he": [
+   "רובוט עומד ברחוב עירוני, עם <r0>ראש של טלוויזיה ישנה עם שתי עיניים על המסך</r0>, עם <r1>פלג גוף עליון מרובע עם חוגות</r1>, עם <r2>רגליים דקות מכרום</r2>, בסגנון ציור קווי",
+   "רובוט עומד ברחוב עירוני, עם <r0>ראש של טלוויזיה ישנה עם שתי עיניים על המסך</r0>, עם <r1>פלג גוף עליון מרובע עם חוגות</r1>, עם <r2>רגליים עם בוכנות הידראוליות</r2>, בסגנון ציור קווי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "4f8ece35ce2be547",
+   "eb1ac23c2350b7cf"
+  ],
+  "other": [
+   "32e706bcb51bb7fb",
+   "fa53281577257652"
+  ]
+ }
+}

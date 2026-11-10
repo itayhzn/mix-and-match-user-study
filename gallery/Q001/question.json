@@ -1,0 +1,43 @@
+{
+ "id": "Q001",
+ "source": {
+  "library": "g3_fish_chimera_simple03_s2025",
+  "idea": "g3_fish_chimera",
+  "seed": 2025
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   2
+  ],
+  [
+   3,
+   2
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A big fish swimming in clear blue water, side view, plain background, with <r0>the head of a lionfish</r0>, with <r1>a long flowing red betta fish tail</r1>, in an oil painting style",
+   "A big fish swimming in clear blue water, side view, plain background, with <r0>the head of a pufferfish</r0>, with <r1>a long flowing red betta fish tail</r1>, in an oil painting style"
+  ],
+  "he": [
+   "דג גדול שוחה במים כחולים וצלולים, מבט מהצד, רקע חלק, עם <r0>ראש של דג אריה</r0>, עם <r1>זנב אדום ארוך וגולש של דג בטה</r1>, בסגנון ציור שמן",
+   "דג גדול שוחה במים כחולים וצלולים, מבט מהצד, רקע חלק, עם <r0>ראש של אבו נפחא</r0>, עם <r1>זנב אדום ארוך וגולש של דג בטה</r1>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "e339dbbeef9598b0",
+   "71a6874c39e01572"
+  ],
+  "other": [
+   "da21d50e9b887f48",
+   "2e9694e087363e98"
+  ]
+ }
+}

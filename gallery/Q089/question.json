@@ -1,0 +1,43 @@
+{
+ "id": "Q089",
+ "source": {
+  "library": "g3_knight_simple00_s7",
+  "idea": "g3_knight",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A knight standing straight, front view, plain background, wearing <r0>a steel helmet with a visor</r0>, wearing <r1>shining silver plate armor</r1>, in a digital painting style",
+   "A knight standing straight, front view, plain background, wearing <r0>a golden crowned helmet</r0>, wearing <r1>shining silver plate armor</r1>, in a digital painting style"
+  ],
+  "he": [
+   "אביר עומד זקוף, מבט מלפנים, רקע חלק, חובש <r0>קסדת פלדה עם מגן פנים</r0>, לובש <r1>שריון לוחות כסוף ובוהק</r1>, בסגנון ציור דיגיטלי",
+   "אביר עומד זקוף, מבט מלפנים, רקע חלק, חובש <r0>קסדה זהובה עם כתר</r0>, לובש <r1>שריון לוחות כסוף ובוהק</r1>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "cdc07607e25acc5e",
+   "4bcd6bc51f613e08"
+  ],
+  "other": [
+   "19f40077657f2cb8",
+   "2bcc85e7f826f1c3"
+  ]
+ }
+}

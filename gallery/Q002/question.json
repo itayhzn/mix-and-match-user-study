@@ -1,0 +1,45 @@
+{
+ "id": "Q002",
+ "source": {
+  "library": "g3_wedding_01_s7",
+  "idea": "g3_wedding",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 3,
+ "combinations": [
+  [
+   2,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A bride and groom posing in a garden, the bride with <r0>long straight black hair</r0>, the bride wearing <r1>a champagne silk gown</r1>, the groom wearing <r2>a dark brown suit</r2>, in a pixel art style",
+   "A bride and groom posing in a garden, the bride with <r0>long wavy brown hair</r0>, the bride wearing <r1>a champagne silk gown</r1>, the groom wearing <r2>a dark brown suit</r2>, in a pixel art style"
+  ],
+  "he": [
+   "חתן וכלה מצטלמים בגן, לכלה <r0>שיער שחור ארוך וחלק</r0>, הכלה לובשת <r1>שמלת משי בצבע שמפניה</r1>, החתן לובש <r2>חליפה בצבע חום כהה</r2>, בסגנון פיקסל ארט",
+   "חתן וכלה מצטלמים בגן, לכלה <r0>שיער חום גלי ארוך</r0>, הכלה לובשת <r1>שמלת משי בצבע שמפניה</r1>, החתן לובש <r2>חליפה בצבע חום כהה</r2>, בסגנון פיקסל ארט"
+  ]
+ },
+ "images": {
+  "ours": [
+   "9036ee36256aca6f",
+   "47ad908845b8ad47"
+  ],
+  "other": [
+   "ba6bd9e980aa9d49",
+   "ba96a1fe40687394"
+  ]
+ }
+}

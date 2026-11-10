@@ -1,0 +1,43 @@
+{
+ "id": "Q199",
+ "source": {
+  "library": "g3_person_pet_01_s2025",
+  "idea": "g3_person_pet",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   2,
+   0
+  ],
+  [
+   1,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A single person sitting on a bench with their pet, <r0>a woman</r0>, with <r1>a brown rabbit</r1>, in a line art style",
+   "A single person sitting on a bench with their pet, <r0>a man</r0>, with <r1>a brown rabbit</r1>, in a line art style"
+  ],
+  "he": [
+   "אדם אחד יושב על ספסל עם חיית מחמד, <r0>אישה</r0>, עם <r1>ארנב חום</r1>, בסגנון ציור קווי",
+   "אדם אחד יושב על ספסל עם חיית מחמד, <r0>גבר</r0>, עם <r1>ארנב חום</r1>, בסגנון ציור קווי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "593ddd4a918f76ec",
+   "ceaf06170e40eb0c"
+  ],
+  "other": [
+   "8552f1c4c867afd0",
+   "a5e7f9bac2cf1d66"
+  ]
+ }
+}

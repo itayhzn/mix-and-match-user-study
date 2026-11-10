@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Image comparison study</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='6' width='12' height='20' rx='3' fill='%234a6fa5'/%3E%3Crect x='18' y='6' width='12' height='20' rx='3' fill='%23d08a3a'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<main id="app" aria-live="polite"></main>
+
+<div id="rotate" class="rotate" hidden>
+  <div class="rotate-box">
+    <svg viewBox="0 0 64 64" width="64" height="64" aria-hidden="true">
+      <rect x="20" y="8" width="24" height="44" rx="4" fill="none" stroke="currentColor" stroke-width="3"/>
+      <path d="M10 40 a24 24 0 0 0 20 16" fill="none" stroke="currentColor" stroke-width="3"/>
+      <path d="M26 52 l5 4 -5 4" fill="none" stroke="currentColor" stroke-width="3"/>
+    </svg>
+    <p id="rotate-text"></p>
+    <button id="rotate-dismiss" class="link" type="button" hidden></button>
+  </div>
+</div>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

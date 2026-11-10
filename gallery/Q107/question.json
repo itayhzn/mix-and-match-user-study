@@ -1,0 +1,43 @@
+{
+ "id": "Q107",
+ "source": {
+  "library": "g3_rocket_simple01_s2025",
+  "idea": "g3_rocket",
+  "seed": 2025
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   2
+  ],
+  [
+   1,
+   0
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A big rocket launching, front view, clear sky, with <r0>a body painted with stars</r0>, with <r1>purple flames</r1>, in a digital painting style",
+   "A big rocket launching, front view, clear sky, with <r0>a body painted with stars</r0>, with <r1>a short burst of yellow fire</r1>, in a digital painting style"
+  ],
+  "he": [
+   "טיל גדול משוגר, מבט מלפנים, שמיים בהירים, עם <r0>גוף מצויר בכוכבים</r0>, עם <r1>להבות סגולות</r1>, בסגנון ציור דיגיטלי",
+   "טיל גדול משוגר, מבט מלפנים, שמיים בהירים, עם <r0>גוף מצויר בכוכבים</r0>, עם <r1>פרץ קצר של אש צהובה</r1>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "154fa68cd986da31",
+   "442ee706f488e282"
+  ],
+  "other": [
+   "9b463b8c3adfd8e9",
+   "871302572ade6367"
+  ]
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "Q015",
+ "source": {
+  "library": "g3_face_front_07_s7",
+  "idea": "g3_face_front",
+  "seed": 7
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   1,
+   1,
+   0
+  ],
+  [
+   4,
+   1,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A symmetrical front-facing head-and-shoulders portrait of a person, with a plain gray background, with <r0>short straight black hair</r0>, with <r1>thick black-rimmed glasses</r1>, wearing <r2>a brown leather jacket</r2>, in a realistic picture style",
+   "A symmetrical front-facing head-and-shoulders portrait of a person, with a plain gray background, with <r0>a short black afro</r0>, with <r1>thick black-rimmed glasses</r1>, wearing <r2>a brown leather jacket</r2>, in a realistic picture style"
+  ],
+  "he": [
+   "דיוקן סימטרי מלפנים של אדם, ראש וכתפיים, על רקע אפור חלק, עם <r0>שיער שחור חלק וקצר</r0>, עם <r1>משקפיים עבים במסגרת שחורה</r1>, לובש <r2>ז'קט עור חום</r2>, בסגנון תמונה ריאליסטית",
+   "דיוקן סימטרי מלפנים של אדם, ראש וכתפיים, על רקע אפור חלק, עם <r0>תספורת אפרו שחורה קצרה</r0>, עם <r1>משקפיים עבים במסגרת שחורה</r1>, לובש <r2>ז'קט עור חום</r2>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "22f23a108a440b6e",
+   "b92000a35dd7ccda"
+  ],
+  "other": [
+   "cb352c195f7b329a",
+   "e135a44fb3d3c5bc"
+  ]
+ }
+}

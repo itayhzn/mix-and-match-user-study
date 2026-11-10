@@ -1,0 +1,43 @@
+{
+ "id": "Q179",
+ "source": {
+  "library": "g3_robot_simple00_s2025",
+  "idea": "g3_robot",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   2,
+   3
+  ],
+  [
+   2,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A robot standing straight, front view, plain background, with <r0>a boxy head with antennas and two eyes</r0>, with <r1>a torso with a glowing core</r1>, in a cartoon style",
+   "A robot standing straight, front view, plain background, with <r0>a boxy head with antennas and two eyes</r0>, with <r1>a torso with a screen</r1>, in a cartoon style"
+  ],
+  "he": [
+   "רובוט עומד זקוף, מבט מלפנים, רקע חלק, עם <r0>ראש מרובע עם אנטנות ושתי עיניים</r0>, עם <r1>גוף עם ליבה זוהרת</r1>, בסגנון מצויר",
+   "רובוט עומד זקוף, מבט מלפנים, רקע חלק, עם <r0>ראש מרובע עם אנטנות ושתי עיניים</r0>, עם <r1>גוף עם מסך</r1>, בסגנון מצויר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "d71c61dbf7d1830a",
+   "d02da60172aa3e6e"
+  ],
+  "other": [
+   "e4d25f287780d4ea",
+   "463c4d617f96f0d5"
+  ]
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "Q092",
+ "source": {
+  "library": "g3_scarecrow_04_s7",
+  "idea": "g3_scarecrow",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 3,
+ "combinations": [
+  [
+   0,
+   2,
+   3
+  ],
+  [
+   0,
+   0,
+   3
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A scarecrow with a carved pumpkin head and its arms spread out to the sides on a wooden cross, standing in a wheat field, wearing <r0>a red plaid flannel shirt</r0>, wearing <r1>ragged black trousers</r1>, with <r2>a brown hawk flying next to it</r2>, in a digital painting style",
+   "A scarecrow with a carved pumpkin head and its arms spread out to the sides on a wooden cross, standing in a wheat field, wearing <r0>a red plaid flannel shirt</r0>, wearing <r1>dark blue overalls</r1>, with <r2>a brown hawk flying next to it</r2>, in a digital painting style"
+  ],
+  "he": [
+   "דחליל עם ראש דלעת מגולף וזרועות פרושות לצדדים על צלב עץ, עומד בשדה חיטה, לובש <r0>חולצת פלנל משובצת אדומה</r0>, לובש <r1>מכנסיים שחורים מרופטים</r1>, עם <r2>נץ חום שעף לידו</r2>, בסגנון ציור דיגיטלי",
+   "דחליל עם ראש דלעת מגולף וזרועות פרושות לצדדים על צלב עץ, עומד בשדה חיטה, לובש <r0>חולצת פלנל משובצת אדומה</r0>, לובש <r1>אוברול כחול כהה</r1>, עם <r2>נץ חום שעף לידו</r2>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "24ee68ddc2cc4139",
+   "a56cad4c5202b072"
+  ],
+  "other": [
+   "3493aef73bbea46d",
+   "218ad0f6d67bca3a"
+  ]
+ }
+}

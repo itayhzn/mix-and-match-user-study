@@ -1,0 +1,46 @@
+{
+ "id": "Q028",
+ "source": {
+  "library": "g3_gnome_00_s7",
+  "idea": "g3_gnome",
+  "seed": 7
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   2,
+   3,
+   0
+  ],
+  [
+   2,
+   0,
+   1
+  ]
+ ],
+ "changed": [
+  1,
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A garden gnome with a long white beard standing on the lawn, wearing <r0>a pointy knitted hat with a pompom</r0>, wearing <r1>a brown leather jerkin</r1>, wearing <r2>green rubber boots</r2>, in a line art style",
+   "A garden gnome with a long white beard standing on the lawn, wearing <r0>a pointy knitted hat with a pompom</r0>, wearing <r1>a purple tunic</r1>, wearing <r2>brown leather boots</r2>, in a line art style"
+  ],
+  "he": [
+   "גמד גינה עם זקן לבן ארוך עומד על הדשא, חובש <r0>כובע סרוג מחודד עם פונפון</r0>, לובש <r1>אפודת עור חומה</r1>, נועל <r2>מגפי גומי ירוקים</r2>, בסגנון ציור קווי",
+   "גמד גינה עם זקן לבן ארוך עומד על הדשא, חובש <r0>כובע סרוג מחודד עם פונפון</r0>, לובש <r1>טוניקה סגולה</r1>, נועל <r2>מגפי עור חומים</r2>, בסגנון ציור קווי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "d2753a514690e9ca",
+   "27d216b5d57e08cd"
+  ],
+  "other": [
+   "e141f7e7e0ba8c25",
+   "88830b843fb86052"
+  ]
+ }
+}

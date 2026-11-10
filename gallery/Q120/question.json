@@ -1,0 +1,43 @@
+{
+ "id": "Q120",
+ "source": {
+  "library": "g3_superhero_04_s2025",
+  "idea": "g3_superhero",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   2,
+   3
+  ],
+  [
+   1,
+   3
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A half-body portrait of a superhero on a rooftop at night, wearing <r0>a red mask with a lightning bolt</r0>, wearing <r1>a long red cape</r1>, in a pixel art style",
+   "A half-body portrait of a superhero on a rooftop at night, wearing <r0>a black domino mask</r0>, wearing <r1>a long red cape</r1>, in a pixel art style"
+  ],
+  "he": [
+   "דיוקן חצי גוף של גיבור-על על גג בלילה, חובש <r0>מסכה אדומה עם ברק</r0>, לובש <r1>גלימה אדומה ארוכה</r1>, בסגנון פיקסל ארט",
+   "דיוקן חצי גוף של גיבור-על על גג בלילה, חובש <r0>מסכת עיניים שחורה</r0>, לובש <r1>גלימה אדומה ארוכה</r1>, בסגנון פיקסל ארט"
+  ]
+ },
+ "images": {
+  "ours": [
+   "6b430935309cf59d",
+   "03636408173b244f"
+  ],
+  "other": [
+   "7a2a075e8178fff5",
+   "ad748065dd56e466"
+  ]
+ }
+}

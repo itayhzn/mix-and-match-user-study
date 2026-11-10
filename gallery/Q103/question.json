@@ -1,0 +1,43 @@
+{
+ "id": "Q103",
+ "source": {
+  "library": "g3_branch_scene_02_s7",
+  "idea": "g3_branch_scene",
+  "seed": 7
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   1
+  ],
+  [
+   2,
+   1
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A close-up of a mossy tree branch with a bird and a mushroom on it, with <r0>a black crow</r0>, with <r1>a purple mushroom</r1>, in a cartoon style",
+   "A close-up of a mossy tree branch with a bird and a mushroom on it, with <r0>an owl</r0>, with <r1>a purple mushroom</r1>, in a cartoon style"
+  ],
+  "he": [
+   "תקריב של ענף עץ מכוסה טחב ועליו ציפור ופטרייה, עם <r0>עורב שחור</r0>, עם <r1>פטרייה סגולה</r1>, בסגנון מצויר",
+   "תקריב של ענף עץ מכוסה טחב ועליו ציפור ופטרייה, עם <r0>ינשוף</r0>, עם <r1>פטרייה סגולה</r1>, בסגנון מצויר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "8c817f4b28965a1f",
+   "2921a4369b01cb38"
+  ],
+  "other": [
+   "c9e0e57d89c6ec50",
+   "543f2e17a55f7d4f"
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "id": "Q084",
+ "source": {
+  "library": "g3_robot_simple02_s2025",
+  "idea": "g3_robot",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   1
+  ],
+  [
+   0,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A robot standing straight, front view, plain background, with <r0>a round glass dome head with two eyes</r0>, with <r1>a sleek blue torso</r1>, in an oil painting style",
+   "A robot standing straight, front view, plain background, with <r0>a round glass dome head with two eyes</r0>, with <r1>a boxy torso with dials</r1>, in an oil painting style"
+  ],
+  "he": [
+   "רובוט עומד זקוף, מבט מלפנים, רקע חלק, עם <r0>ראש בצורת כיפת זכוכית עגולה עם שתי עיניים</r0>, עם <r1>גוף כחול חלק ומלוטש</r1>, בסגנון ציור שמן",
+   "רובוט עומד זקוף, מבט מלפנים, רקע חלק, עם <r0>ראש בצורת כיפת זכוכית עגולה עם שתי עיניים</r0>, עם <r1>פלג גוף עליון מרובע עם חוגות</r1>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "853e71298231e30d",
+   "d376e11adcebfb91"
+  ],
+  "other": [
+   "be465b562e7cc643",
+   "6f5cba939f9e86be"
+  ]
+ }
+}

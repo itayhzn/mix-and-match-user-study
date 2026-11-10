@@ -1,0 +1,43 @@
+{
+ "id": "Q147",
+ "source": {
+  "library": "g3_bottle_simple02_s7",
+  "idea": "g3_bottle",
+  "seed": 7
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A single bottle standing on a white table, front view, with <r0>a cork stopper</r0>, with <r1>a ribbed blue glass body</r1>, in a watercolor painting style",
+   "A single bottle standing on a white table, front view, with <r0>a cork stopper</r0>, with <r1>a dark brown glass body</r1>, in a watercolor painting style"
+  ],
+  "he": [
+   "בקבוק יחיד עומד על שולחן לבן, מבט מלפנים, עם <r0>פקק שעם</r0>, עם <r1>גוף מזכוכית כחולה מצולעת</r1>, בסגנון ציור בצבעי מים",
+   "בקבוק יחיד עומד על שולחן לבן, מבט מלפנים, עם <r0>פקק שעם</r0>, עם <r1>גוף זכוכית חום כהה</r1>, בסגנון ציור בצבעי מים"
+  ]
+ },
+ "images": {
+  "ours": [
+   "564f363d49090850",
+   "ecc1c3dd307d5f8d"
+  ],
+  "other": [
+   "7556c548d4bab75d",
+   "5d4b329af282f1dc"
+  ]
+ }
+}

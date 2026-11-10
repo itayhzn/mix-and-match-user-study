@@ -1,0 +1,45 @@
+{
+ "id": "Q038",
+ "source": {
+  "library": "g3_superhero_03_s7",
+  "idea": "g3_superhero",
+  "seed": 7
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   1,
+   2,
+   0
+  ],
+  [
+   2,
+   2,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A half-body portrait of a superhero in a city street, wearing <r0>a blue mask with silver stars</r0>, wearing <r1>a blue cape with a high collar</r1>, with <r2>a flame emblem</r2>, in a realistic picture style",
+   "A half-body portrait of a superhero in a city street, wearing <r0>a red mask with a lightning bolt</r0>, wearing <r1>a blue cape with a high collar</r1>, with <r2>a flame emblem</r2>, in a realistic picture style"
+  ],
+  "he": [
+   "דיוקן חצי גוף של גיבור-על ברחוב עירוני, חובש <r0>מסכה כחולה עם כוכבים כסופים</r0>, לובש <r1>גלימה כחולה עם צווארון גבוה</r1>, עם <r2>סמל של להבה</r2>, בסגנון תמונה ריאליסטית",
+   "דיוקן חצי גוף של גיבור-על ברחוב עירוני, חובש <r0>מסכה אדומה עם ברק</r0>, לובש <r1>גלימה כחולה עם צווארון גבוה</r1>, עם <r2>סמל של להבה</r2>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "38117f2e46aeb454",
+   "87e4f9e57512dda2"
+  ],
+  "other": [
+   "2c880a45ffcf4235",
+   "5f34dd84f19ec9a9"
+  ]
+ }
+}

@@ -1,0 +1,7 @@
+tools/records.jsonl
+tools/untranslated.json
+tools/translation_review.html
+.DS_Store
+__pycache__/
+tools/untranslated_*.json
+tools/translations_he_*.json

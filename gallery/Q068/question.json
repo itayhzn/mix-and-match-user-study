@@ -1,0 +1,45 @@
+{
+ "id": "Q068",
+ "source": {
+  "library": "g3_pirate_00_s2025",
+  "idea": "g3_pirate",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   1,
+   2,
+   0
+  ],
+  [
+   0,
+   2,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A half-body portrait of a pirate on the deck of a ship, wearing <r0>a blue tricorn hat</r0>, with <r1>a bushy black beard</r1>, with <r2>a blue-and-yellow macaw on its shoulder</r2>, in a pop art style",
+   "A half-body portrait of a pirate on the deck of a ship, wearing <r0>a black tricorn hat with a skull</r0>, with <r1>a bushy black beard</r1>, with <r2>a blue-and-yellow macaw on its shoulder</r2>, in a pop art style"
+  ],
+  "he": [
+   "דיוקן חצי גוף של פיראט על סיפון ספינה, חובש <r0>כובע משולש כחול</r0>, עם <r1>זקן שחור עבות</r1>, עם <r2>תוכי מקאו כחול-צהוב על הכתף</r2>, בסגנון פופ ארט",
+   "דיוקן חצי גוף של פיראט על סיפון ספינה, חובש <r0>כובע משולש שחור עם גולגולת</r0>, עם <r1>זקן שחור עבות</r1>, עם <r2>תוכי מקאו כחול-צהוב על הכתף</r2>, בסגנון פופ ארט"
+  ]
+ },
+ "images": {
+  "ours": [
+   "f83ebd397e2fc066",
+   "42d208f8a1ac2dc6"
+  ],
+  "other": [
+   "08fc9d0d807b9227",
+   "4bbf0f52c789671b"
+  ]
+ }
+}

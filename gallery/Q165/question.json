@@ -1,0 +1,47 @@
+{
+ "id": "Q165",
+ "source": {
+  "library": "g3_gnome_03_s7",
+  "idea": "g3_gnome",
+  "seed": 7
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 4,
+ "combinations": [
+  [
+   1,
+   0,
+   2,
+   3
+  ],
+  [
+   1,
+   0,
+   1,
+   3
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A garden gnome with a long white beard sitting on a rock, wearing <r0>a black witch hat</r0>, wearing <r1>a blue tunic with brass buttons</r1>, wearing <r2>red clown shoes</r2>, next to <r3>a big green mushroom</r3>, in a watercolor painting style",
+   "A garden gnome with a long white beard sitting on a rock, wearing <r0>a black witch hat</r0>, wearing <r1>a blue tunic with brass buttons</r1>, wearing <r2>green rubber boots</r2>, next to <r3>a big green mushroom</r3>, in a watercolor painting style"
+  ],
+  "he": [
+   "גמד גינה עם זקן לבן ארוך יושב על סלע, חובש <r0>כובע מכשפה שחור</r0>, לובש <r1>טוניקה כחולה עם כפתורי פליז</r1>, נועל <r2>נעלי ליצן אדומות</r2>, ליד <r3>פטרייה ירוקה גדולה</r3>, בסגנון ציור בצבעי מים",
+   "גמד גינה עם זקן לבן ארוך יושב על סלע, חובש <r0>כובע מכשפה שחור</r0>, לובש <r1>טוניקה כחולה עם כפתורי פליז</r1>, נועל <r2>מגפי גומי ירוקים</r2>, ליד <r3>פטרייה ירוקה גדולה</r3>, בסגנון ציור בצבעי מים"
+  ]
+ },
+ "images": {
+  "ours": [
+   "1f80a5355de686f9",
+   "6c52bea18e1a5e73"
+  ],
+  "other": [
+   "543cc5971cabf169",
+   "90f42ed55a21b57e"
+  ]
+ }
+}

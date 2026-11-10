@@ -1,0 +1,43 @@
+{
+ "id": "Q110",
+ "source": {
+  "library": "g3_branch_scene_06_s2025",
+  "idea": "g3_branch_scene",
+  "seed": 2025
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   3
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A close-up of a mossy tree branch with a bird and a mushroom on it, with <r0>an owl</r0>, with <r1>a glowing green mushroom</r1>, in a sketch style",
+   "A close-up of a mossy tree branch with a bird and a mushroom on it, with <r0>an owl</r0>, with <r1>a red and white mushroom</r1>, in a sketch style"
+  ],
+  "he": [
+   "תקריב של ענף עץ מכוסה טחב ועליו ציפור ופטרייה, עם <r0>ינשוף</r0>, עם <r1>פטרייה ירוקה זוהרת</r1>, בסגנון סקיצה",
+   "תקריב של ענף עץ מכוסה טחב ועליו ציפור ופטרייה, עם <r0>ינשוף</r0>, עם <r1>פטרייה אדומה ולבנה</r1>, בסגנון סקיצה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "c313bbf479bfb949",
+   "d971d101053ab95e"
+  ],
+  "other": [
+   "0287682b31c0b6f5",
+   "5f6c1ae998cd5371"
+  ]
+ }
+}

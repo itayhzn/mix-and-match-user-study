@@ -1,0 +1,43 @@
+{
+ "id": "Q188",
+ "source": {
+  "library": "g3_classical_chimera_simple01_s2025",
+  "idea": "g3_classical_chimera",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   2,
+   2
+  ],
+  [
+   1,
+   2
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A mythical winged beast with a single head, side view, plain background, with <r0>a lion's head</r0>, with <r1>a tiger's body</r1>, in a digital painting style",
+   "A mythical winged beast with a single head, side view, plain background, with <r0>a dragon's head</r0>, with <r1>a tiger's body</r1>, in a digital painting style"
+  ],
+  "he": [
+   "חיה מיתולוגית מכונפת עם ראש אחד, מבט מהצד, רקע חלק, עם <r0>ראש של אריה</r0>, עם <r1>גוף של טיגריס</r1>, בסגנון ציור דיגיטלי",
+   "חיה מיתולוגית מכונפת עם ראש אחד, מבט מהצד, רקע חלק, עם <r0>ראש של דרקון</r0>, עם <r1>גוף של טיגריס</r1>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "ba29a54da1c75a0e",
+   "7c7800247fee2412"
+  ],
+  "other": [
+   "7992a49e6055f550",
+   "d67637a8132b0423"
+  ]
+ }
+}

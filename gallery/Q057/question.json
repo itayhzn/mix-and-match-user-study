@@ -1,0 +1,47 @@
+{
+ "id": "Q057",
+ "source": {
+  "library": "g3_gnome_08_s2025",
+  "idea": "g3_gnome",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 4,
+ "combinations": [
+  [
+   0,
+   2,
+   2,
+   1
+  ],
+  [
+   2,
+   2,
+   2,
+   1
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A garden gnome with a long white beard standing on the lawn, wearing <r0>a striped party hat</r0>, wearing <r1>a red tunic with a belt</r1>, wearing <r2>red pointy shoes</r2>, next to <r3>a giant red toadstool</r3>, in an anime drawing style",
+   "A garden gnome with a long white beard standing on the lawn, wearing <r0>a tall green felt hat</r0>, wearing <r1>a red tunic with a belt</r1>, wearing <r2>red pointy shoes</r2>, next to <r3>a giant red toadstool</r3>, in an anime drawing style"
+  ],
+  "he": [
+   "גמד גינה עם זקן לבן ארוך עומד על הדשא, חובש <r0>כובע מסיבה מפוספס</r0>, לובש <r1>טוניקה אדומה עם חגורה</r1>, נועל <r2>נעליים אדומות מחודדות</r2>, ליד <r3>פטריית רעל אדומה ענקית</r3>, בסגנון ציור אנימה",
+   "גמד גינה עם זקן לבן ארוך עומד על הדשא, חובש <r0>כובע לבד ירוק וגבוה</r0>, לובש <r1>טוניקה אדומה עם חגורה</r1>, נועל <r2>נעליים אדומות מחודדות</r2>, ליד <r3>פטריית רעל אדומה ענקית</r3>, בסגנון ציור אנימה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "8a4faeaaf4d6ad04",
+   "99c036505d914503"
+  ],
+  "other": [
+   "2f42c31712efaf9a",
+   "ef4606237fe26547"
+  ]
+ }
+}

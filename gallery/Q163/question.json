@@ -1,0 +1,45 @@
+{
+ "id": "Q163",
+ "source": {
+  "library": "g3_superhero_09_s2025",
+  "idea": "g3_superhero",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   2,
+   0,
+   0
+  ],
+  [
+   2,
+   0,
+   2
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A half-body portrait of a superhero in a city street, wearing <r0>a purple mask with feathers</r0>, wearing <r1>a golden cape with stars</r1>, with <r2>a spider emblem</r2>, in a film noir style",
+   "A half-body portrait of a superhero in a city street, wearing <r0>a purple mask with feathers</r0>, wearing <r1>a golden cape with stars</r1>, with <r2>a lightning bolt emblem</r2>, in a film noir style"
+  ],
+  "he": [
+   "דיוקן חצי גוף של גיבור-על ברחוב עירוני, עוטה <r0>מסכה סגולה עם נוצות</r0>, לובש <r1>גלימה זהובה עם כוכבים</r1>, עם <r2>סמל של עכביש</r2>, בסגנון פילם נואר",
+   "דיוקן חצי גוף של גיבור-על ברחוב עירוני, עוטה <r0>מסכה סגולה עם נוצות</r0>, לובש <r1>גלימה זהובה עם כוכבים</r1>, עם <r2>סמל של ברק</r2>, בסגנון פילם נואר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "482ab846da9f0c2d",
+   "5a7ef1719d9b76c1"
+  ],
+  "other": [
+   "17e1c0a48bfc6b97",
+   "44b4e89abd3a6ea8"
+  ]
+ }
+}

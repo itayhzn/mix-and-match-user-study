@@ -1,0 +1,43 @@
+{
+ "id": "Q129",
+ "source": {
+  "library": "g3_classical_chimera_simple02_s7",
+  "idea": "g3_classical_chimera",
+  "seed": 7
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   3,
+   3
+  ],
+  [
+   0,
+   3
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A mythical winged beast with a single head, side view, plain background, with <r0>an eagle's head</r0>, with <r1>fiery phoenix wings</r1>, in a cartoon style",
+   "A mythical winged beast with a single head, side view, plain background, with <r0>a ram's head</r0>, with <r1>fiery phoenix wings</r1>, in a cartoon style"
+  ],
+  "he": [
+   "חיה מיתולוגית מכונפת עם ראש אחד, מבט מהצד, רקע חלק, עם <r0>ראש של עיט</r0>, עם <r1>כנפיים בוערות של עוף החול</r1>, בסגנון מצויר",
+   "חיה מיתולוגית מכונפת עם ראש אחד, מבט מהצד, רקע חלק, עם <r0>ראש של איל</r0>, עם <r1>כנפיים בוערות של עוף החול</r1>, בסגנון מצויר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "b8fa3dc19adc7599",
+   "8080eaea66fc41a2"
+  ],
+  "other": [
+   "c79300b41d9f919f",
+   "9387888d4d8c1460"
+  ]
+ }
+}

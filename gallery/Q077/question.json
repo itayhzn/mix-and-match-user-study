@@ -1,0 +1,45 @@
+{
+ "id": "Q077",
+ "source": {
+  "library": "g3_scarecrow_05_s7",
+  "idea": "g3_scarecrow",
+  "seed": 7
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   0,
+   2,
+   2
+  ],
+  [
+   2,
+   2,
+   2
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A scarecrow with a carved gourd head and its arms spread out to the sides on a wooden cross, standing in a pumpkin patch, wearing <r0>a tattered gray bowler hat</r0>, wearing <r1>a ragged green sweater</r1>, wearing <r2>faded green work pants</r2>, in a line art style",
+   "A scarecrow with a carved gourd head and its arms spread out to the sides on a wooden cross, standing in a pumpkin patch, wearing <r0>a brown cowboy hat</r0>, wearing <r1>a ragged green sweater</r1>, wearing <r2>faded green work pants</r2>, in a line art style"
+  ],
+  "he": [
+   "דחליל עם ראש מגולף מדלעת וזרועות פרושות לצדדים על צלב עץ, עומד בשדה דלעות, חובש <r0>כובע מגבעת אפור ומרופט</r0>, לובש <r1>סוודר ירוק בלוי</r1> ו<r2>מכנסי עבודה ירוקים דהויים</r2>, בסגנון ציור קווי",
+   "דחליל עם ראש מגולף מדלעת וזרועות פרושות לצדדים על צלב עץ, עומד בשדה דלעות, חובש <r0>כובע בוקרים חום</r0>, לובש <r1>סוודר ירוק בלוי</r1> ו<r2>מכנסי עבודה ירוקים דהויים</r2>, בסגנון ציור קווי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "1d3aebf5ab16b5ec",
+   "bc022a6df966f683"
+  ],
+  "other": [
+   "c99f58113cfd25f0",
+   "ab2769c87e45fdc8"
+  ]
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "Q149",
+ "source": {
+  "library": "g3_knight_01_s7",
+  "idea": "g3_knight",
+  "seed": 7
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   1,
+   1,
+   2
+  ],
+  [
+   1,
+   1,
+   3
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A knight standing on a battlefield, wearing <r0>a golden crowned helmet</r0>, wearing <r1>blue enameled armor</r1>, next to <r2>a golden armored horse</r2>, in a digital painting style",
+   "A knight standing on a battlefield, wearing <r0>a golden crowned helmet</r0>, wearing <r1>blue enameled armor</r1>, next to <r2>a gray horse with a blue blanket</r2>, in a digital painting style"
+  ],
+  "he": [
+   "אביר עומד בשדה קרב, חובש <r0>קסדה זהובה עם כתר</r0>, לובש <r1>שריון כחול מצופה אמייל</r1>, ליד <r2>סוס בשריון זהוב</r2>, בסגנון ציור דיגיטלי",
+   "אביר עומד בשדה קרב, חובש <r0>קסדה זהובה עם כתר</r0>, לובש <r1>שריון כחול מצופה אמייל</r1>, ליד <r2>סוס אפור עם שמיכה כחולה</r2>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "2ba75bf99d10a83a",
+   "45bfcf06c1e7021d"
+  ],
+  "other": [
+   "b784ff3bf67451c2",
+   "b054250d51e77faa"
+  ]
+ }
+}

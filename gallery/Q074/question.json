@@ -1,0 +1,43 @@
+{
+ "id": "Q074",
+ "source": {
+  "library": "g3_snowman_simple03_s2025",
+  "idea": "g3_snowman",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   3,
+   0
+  ],
+  [
+   3,
+   1
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A snowman standing in the snow, front view, plain background, wearing <r0>a cooking pot</r0>, wearing <r1>a thick knitted scarf with tassels</r1>, in a digital painting style",
+   "A snowman standing in the snow, front view, plain background, wearing <r0>a cooking pot</r0>, wearing <r1>a long striped scarf</r1>, in a digital painting style"
+  ],
+  "he": [
+   "איש שלג עומד בשלג, מבט מלפנים, רקע חלק, חובש <r0>סיר בישול</r0>, עוטה <r1>צעיף סרוג עבה עם גדילים</r1>, בסגנון ציור דיגיטלי",
+   "איש שלג עומד בשלג, מבט מלפנים, רקע חלק, חובש <r0>סיר בישול</r0>, עוטה <r1>צעיף ארוך מפוספס</r1>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "9d2d8468a416addb",
+   "34053afca253d484"
+  ],
+  "other": [
+   "0e06bb7bf34e2b12",
+   "78ab53698526f13c"
+  ]
+ }
+}

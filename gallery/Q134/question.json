@@ -1,0 +1,47 @@
+{
+ "id": "Q134",
+ "source": {
+  "library": "g3_face_front_08_s7",
+  "idea": "g3_face_front",
+  "seed": 7
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 4,
+ "combinations": [
+  [
+   2,
+   2,
+   1,
+   0
+  ],
+  [
+   0,
+   2,
+   1,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A front-facing portrait of a person from the shoulders up, looking straight at the camera, with a neutral background, with <r0>a short black afro</r0>, with <r1>glowing red eyes</r1>, with <r2>an open surprised mouth</r2>, wearing <r3>a dark green hoodie</r3>, in a pixel art style",
+   "A front-facing portrait of a person from the shoulders up, looking straight at the camera, with a neutral background, with <r0>short curly red hair</r0>, with <r1>glowing red eyes</r1>, with <r2>an open surprised mouth</r2>, wearing <r3>a dark green hoodie</r3>, in a pixel art style"
+  ],
+  "he": [
+   "דיוקן של אדם מהכתפיים ומעלה, פונה קדימה ומביט ישר למצלמה, על רקע ניטרלי, עם <r0>שיער אפרו שחור קצר</r0>, עם <r1>עיניים אדומות זוהרות</r1>, עם <r2>פה פעור בהפתעה</r2>, לובש <r3>קפוצ'ון ירוק כהה</r3>, בסגנון פיקסל ארט",
+   "דיוקן של אדם מהכתפיים ומעלה, פונה קדימה ומביט ישר למצלמה, על רקע ניטרלי, עם <r0>שיער אדום קצר ומתולתל</r0>, עם <r1>עיניים אדומות זוהרות</r1>, עם <r2>פה פעור בהפתעה</r2>, לובש <r3>קפוצ'ון ירוק כהה</r3>, בסגנון פיקסל ארט"
+  ]
+ },
+ "images": {
+  "ours": [
+   "f9e58a4b60fe99a0",
+   "acb1ffe22f42cfe1"
+  ],
+  "other": [
+   "5e0c0a7baa1cfa36",
+   "79ae6d58a8ad2682"
+  ]
+ }
+}

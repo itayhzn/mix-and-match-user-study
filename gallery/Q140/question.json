@@ -1,0 +1,51 @@
+{
+ "id": "Q140",
+ "source": {
+  "library": "g3_face_front_05_s2025",
+  "idea": "g3_face_front",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 6,
+ "combinations": [
+  [
+   2,
+   0,
+   1,
+   0,
+   1,
+   1
+  ],
+  [
+   2,
+   0,
+   2,
+   0,
+   1,
+   1
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A symmetrical front-facing head-and-shoulders portrait of a person, with a plain gray background, wearing <r0>a red baseball cap</r0>, with <r1>big black headphones</r1>, with <r2>square blue-framed glasses</r2>, with <r3>a red clown nose</r3>, with <r4>a thick ginger beard</r4>, wearing <r5>a dark green hoodie</r5>, in a cartoon style",
+   "A symmetrical front-facing head-and-shoulders portrait of a person, with a plain gray background, wearing <r0>a red baseball cap</r0>, with <r1>big black headphones</r1>, with <r2>small gold wire-rimmed glasses</r2>, with <r3>a red clown nose</r3>, with <r4>a thick ginger beard</r4>, wearing <r5>a dark green hoodie</r5>, in a cartoon style"
+  ],
+  "he": [
+   "דיוקן סימטרי של ראש וכתפיים של אדם מלפנים, על רקע אפור חלק, חובש <r0>כובע בייסבול אדום</r0>, עם <r1>אוזניות שחורות גדולות</r1>, עם <r2>משקפיים מרובעים עם מסגרת כחולה</r2>, עם <r3>אף ליצן אדום</r3>, עם <r4>זקן ג׳ינג׳י עבות</r4>, לובש <r5>קפוצ׳ון ירוק כהה</r5>, בסגנון מצויר",
+   "דיוקן סימטרי של ראש וכתפיים של אדם מלפנים, על רקע אפור חלק, חובש <r0>כובע בייסבול אדום</r0>, עם <r1>אוזניות שחורות גדולות</r1>, עם <r2>משקפיים קטנים עם מסגרת תיל זהובה</r2>, עם <r3>אף ליצן אדום</r3>, עם <r4>זקן ג׳ינג׳י עבות</r4>, לובש <r5>קפוצ׳ון ירוק כהה</r5>, בסגנון מצויר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "aac3d5189b1d6c48",
+   "de120c2b0d4b821f"
+  ],
+  "other": [
+   "379cfa1996469101",
+   "d5c9dacc03930523"
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "id": "Q048",
+ "source": {
+  "library": "g3_robot_01_s2025",
+  "idea": "g3_robot",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 4,
+ "combinations": [
+  [
+   1,
+   3,
+   4,
+   2
+  ],
+  [
+   1,
+   1,
+   4,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A robot standing on a city street, with <r0>a helmet-shaped head with two glowing eyes</r0>, with <r1>a sleek blue torso</r1>, with <r2>drill arms</r2>, with <r3>heavy metal legs with boots</r3>, in a realistic picture style",
+   "A robot standing on a city street, with <r0>a helmet-shaped head with two glowing eyes</r0>, with <r1>a rusty riveted torso</r1>, with <r2>drill arms</r2>, with <r3>heavy metal legs with boots</r3>, in a realistic picture style"
+  ],
+  "he": [
+   "רובוט עומד ברחוב עירוני, עם <r0>ראש בצורת קסדה עם שתי עיניים זוהרות</r0>, עם <r1>פלג גוף עליון כחול ומלוטש</r1>, עם <r2>זרועות מקדחה</r2>, עם <r3>רגלי מתכת כבדות עם מגפיים</r3>, בסגנון תמונה ריאליסטית",
+   "רובוט עומד ברחוב עירוני, עם <r0>ראש בצורת קסדה עם שתי עיניים זוהרות</r0>, עם <r1>פלג גוף עליון חלוד ומסומרר</r1>, עם <r2>זרועות מקדחה</r2>, עם <r3>רגלי מתכת כבדות עם מגפיים</r3>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "faea1005d50e857c",
+   "a1786ad8230db5e4"
+  ],
+  "other": [
+   "d70a6f0ff4f134b6",
+   "3b9211662163a19c"
+  ]
+ }
+}

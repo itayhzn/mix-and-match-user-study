@@ -1,0 +1,48 @@
+{
+ "id": "Q198",
+ "source": {
+  "library": "g3_robot_07_s7",
+  "idea": "g3_robot",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 4,
+ "combinations": [
+  [
+   3,
+   0,
+   2,
+   3
+  ],
+  [
+   4,
+   2,
+   2,
+   3
+  ]
+ ],
+ "changed": [
+  0,
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A robot standing on a city street, with <r0>a round glass dome head with two eyes</r0>, with <r1>a barrel-shaped copper torso</r1>, with <r2>drill arms</r2>, with <r3>heavy metal legs with boots</r3>, in a film noir style",
+   "A robot standing on a city street, with <r0>a bucket-shaped head with two round eyes</r0>, with <r1>a boxy torso with dials</r1>, with <r2>drill arms</r2>, with <r3>heavy metal legs with boots</r3>, in a film noir style"
+  ],
+  "he": [
+   "רובוט עומד ברחוב עירוני, עם <r0>ראש בצורת כיפת זכוכית עגולה עם שתי עיניים</r0>, עם <r1>גוף נחושת בצורת חבית</r1>, עם <r2>זרועות מקדחה</r2>, עם <r3>רגלי מתכת כבדות עם מגפיים</r3>, בסגנון פילם נואר",
+   "רובוט עומד ברחוב עירוני, עם <r0>ראש בצורת דלי עם שתי עיניים עגולות</r0>, עם <r1>גוף מרובע עם חוגות</r1>, עם <r2>זרועות מקדחה</r2>, עם <r3>רגלי מתכת כבדות עם מגפיים</r3>, בסגנון פילם נואר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "63a36d23ae547c16",
+   "33e84500208454dc"
+  ],
+  "other": [
+   "4414d9d46455d629",
+   "1e19bd623dc70316"
+  ]
+ }
+}

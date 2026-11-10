@@ -1,0 +1,43 @@
+{
+ "id": "Q018",
+ "source": {
+  "library": "g3_wedding_00_s7",
+  "idea": "g3_wedding",
+  "seed": 7
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A bride and groom standing together at their wedding, the bride wearing <r0>a white lace wedding dress</r0>, the groom wearing <r1>a dark brown suit</r1>, in a realistic picture style",
+   "A bride and groom standing together at their wedding, the bride wearing <r0>a blush pink gown</r0>, the groom wearing <r1>a dark brown suit</r1>, in a realistic picture style"
+  ],
+  "he": [
+   "חתן וכלה עומדים יחד בחתונה שלהם, הכלה לובשת <r0>שמלת כלה לבנה מתחרה</r0>, החתן לובש <r1>חליפה חומה כהה</r1>, בסגנון תמונה ריאליסטית",
+   "חתן וכלה עומדים יחד בחתונה שלהם, הכלה לובשת <r0>שמלה בצבע ורוד פודרה</r0>, החתן לובש <r1>חליפה חומה כהה</r1>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "4498fd149e3fde21",
+   "52b2b29414f55ef9"
+  ],
+  "other": [
+   "2fb71730daae21f6",
+   "746d962172dd6d6a"
+  ]
+ }
+}

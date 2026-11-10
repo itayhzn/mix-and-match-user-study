@@ -1,0 +1,43 @@
+{
+ "id": "Q167",
+ "source": {
+  "library": "g3_tree_animal_simple04_s2025",
+  "idea": "g3_tree_animal",
+  "seed": 2025
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   3,
+   0
+  ],
+  [
+   1,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A single tree standing in an empty meadow, front view, with <r0>purple jacaranda flowers</r0>, with <r1>a trunk with a carved heart</r1>, in a cartoon style",
+   "A single tree standing in an empty meadow, front view, with <r0>pink cherry blossoms</r0>, with <r1>a trunk with a carved heart</r1>, in a cartoon style"
+  ],
+  "he": [
+   "עץ יחיד עומד באחו ריק, מבט מלפנים, עם <r0>פרחי סיגלון סגולים</r0>, עם <r1>גזע עם לב חרוט</r1>, בסגנון מצויר",
+   "עץ יחיד עומד באחו ריק, מבט מלפנים, עם <r0>פריחת דובדבן ורודה</r0>, עם <r1>גזע עם לב חרוט</r1>, בסגנון מצויר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "2b46e3bb4b9744e7",
+   "57612763d6b3de6f"
+  ],
+  "other": [
+   "24702fce090d6ad1",
+   "da6ad570dd6a6616"
+  ]
+ }
+}

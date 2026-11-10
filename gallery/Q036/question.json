@@ -1,0 +1,43 @@
+{
+ "id": "Q036",
+ "source": {
+  "library": "g3_branch_scene_simple00_s7",
+  "idea": "g3_branch_scene",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   2,
+   0
+  ],
+  [
+   2,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A close-up of a thick tree branch with a large bird and a large mushroom on it, with <r0>a gray pigeon</r0>, with <r1>a blue mushroom</r1>, in an oil painting style",
+   "A close-up of a thick tree branch with a large bird and a large mushroom on it, with <r0>a gray pigeon</r0>, with <r1>a glowing green mushroom</r1>, in an oil painting style"
+  ],
+  "he": [
+   "תקריב של ענף עץ עבה ועליו ציפור גדולה ופטרייה גדולה, עם <r0>יונה אפורה</r0>, עם <r1>פטרייה כחולה</r1>, בסגנון ציור שמן",
+   "תקריב של ענף עץ עבה ועליו ציפור גדולה ופטרייה גדולה, עם <r0>יונה אפורה</r0>, עם <r1>פטרייה ירוקה זוהרת</r1>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "ecb1a1612aae38d9",
+   "a7f105791697c9f5"
+  ],
+  "other": [
+   "3dd29733c76abcff",
+   "44f2eb0336632c07"
+  ]
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "C03",
+ "source": {
+  "library": "g3_robot_09_s7",
+  "idea": "g3_robot",
+  "seed": 7,
+  "wrong": "g3_gnome_06_s2025"
+ },
+ "baseline": "catch",
+ "num_regions": 3,
+ "combinations": [
+  [
+   1,
+   2,
+   3
+  ],
+  [
+   0,
+   2,
+   3
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A robot standing on a city street, with <r0>an old television set head with two eyes on the screen</r0>, with <r1>a torso with a screen</r1>, with <r2>legs with rocket boosters</r2>, in a line art style",
+   "A robot standing on a city street, with <r0>a bucket-shaped head with two round eyes</r0>, with <r1>a torso with a screen</r1>, with <r2>legs with rocket boosters</r2>, in a line art style"
+  ],
+  "he": [
+   "רובוט עומד ברחוב עירוני, עם <r0>ראש שהוא טלוויזיה ישנה עם שתי עיניים על המסך</r0>, עם <r1>פלג גוף עליון עם מסך</r1>, עם <r2>רגליים עם מנועי רקטה</r2>, בסגנון ציור קווי",
+   "רובוט עומד ברחוב עירוני, עם <r0>ראש בצורת דלי עם שתי עיניים עגולות</r0>, עם <r1>פלג גוף עליון עם מסך</r1>, עם <r2>רגליים עם מנועי רקטה</r2>, בסגנון ציור קווי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "9c9a10b9a965e476",
+   "963d433b7de1f0f6"
+  ],
+  "other": [
+   "57d296599d0bde30",
+   "6ace69c2d7f2095a"
+  ]
+ }
+}

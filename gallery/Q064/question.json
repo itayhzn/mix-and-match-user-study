@@ -1,0 +1,43 @@
+{
+ "id": "Q064",
+ "source": {
+  "library": "g3_person_pet_simple04_s2025",
+  "idea": "g3_person_pet",
+  "seed": 2025
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   2,
+   0
+  ],
+  [
+   2,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A single person standing next to their pet, front view, plain background, <r0>a woman</r0>, with <r1>a chocolate labrador</r1>, in a realistic picture style",
+   "A single person standing next to their pet, front view, plain background, <r0>a woman</r0>, with <r1>a border collie</r1>, in a realistic picture style"
+  ],
+  "he": [
+   "אדם אחד עומד ליד חיית המחמד, מבט מלפנים, רקע חלק, <r0>אישה</r0>, עם <r1>לברדור בצבע חום שוקולד</r1>, בסגנון תמונה ריאליסטית",
+   "אדם אחד עומד ליד חיית המחמד, מבט מלפנים, רקע חלק, <r0>אישה</r0>, עם <r1>בורדר קולי</r1>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "6aaf573015150846",
+   "4bb715fb69361ae5"
+  ],
+  "other": [
+   "9b9e413d8072db78",
+   "3e986fccbd04c58e"
+  ]
+ }
+}

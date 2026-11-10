@@ -1,0 +1,47 @@
+{
+ "id": "Q171",
+ "source": {
+  "library": "g3_face_06_s7",
+  "idea": "g3_face",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 4,
+ "combinations": [
+  [
+   1,
+   1,
+   2,
+   2
+  ],
+  [
+   2,
+   1,
+   2,
+   2
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A close-up portrait of a person's face, with <r0>short spiky blue hair</r0>, with <r1>square blue-framed glasses</r1>, with <r2>a bushy bright red mustache</r2>, wearing <r3>a blue denim jacket</r3>, in a film noir style",
+   "A close-up portrait of a person's face, with <r0>a short dark purple bob cut</r0>, with <r1>square blue-framed glasses</r1>, with <r2>a bushy bright red mustache</r2>, wearing <r3>a blue denim jacket</r3>, in a film noir style"
+  ],
+  "he": [
+   "דיוקן תקריב של פני אדם, עם <r0>שיער כחול קצר ודוקרני</r0>, עם <r1>משקפיים מרובעים במסגרת כחולה</r1>, עם <r2>שפם עבות בצבע אדום עז</r2>, לובש <r3>ז'קט ג'ינס כחול</r3>, בסגנון פילם נואר",
+   "דיוקן תקריב של פני אדם, עם <r0>תספורת קארה קצרה בסגול כהה</r0>, עם <r1>משקפיים מרובעים במסגרת כחולה</r1>, עם <r2>שפם עבות בצבע אדום עז</r2>, לובש <r3>ז'קט ג'ינס כחול</r3>, בסגנון פילם נואר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "18ef9eeaf182047a",
+   "423518a8a5d57cbe"
+  ],
+  "other": [
+   "1dbd71317bf58e39",
+   "fabe05c1e3c709f3"
+  ]
+ }
+}

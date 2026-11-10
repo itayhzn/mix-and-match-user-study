@@ -1,0 +1,45 @@
+{
+ "id": "Q117",
+ "source": {
+  "library": "g3_tree_animal_09_s2025",
+  "idea": "g3_tree_animal",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   2,
+   0,
+   1
+  ],
+  [
+   2,
+   0,
+   0
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A lone tree on a hill with an animal beside it, with <r0>orange autumn leaves</r0>, with <r1>a twisted gnarled trunk</r1>, next to <r2>a raccoon</r2>, in a realistic picture style",
+   "A lone tree on a hill with an animal beside it, with <r0>orange autumn leaves</r0>, with <r1>a twisted gnarled trunk</r1>, next to <r2>a red fox</r2>, in a realistic picture style"
+  ],
+  "he": [
+   "עץ בודד על גבעה וחיה לצידו, עם <r0>עלי שלכת כתומים</r0>, עם <r1>גזע מפותל ומסוקס</r1>, ליד <r2>דביבון</r2>, בסגנון תמונה ריאליסטית",
+   "עץ בודד על גבעה וחיה לצידו, עם <r0>עלי שלכת כתומים</r0>, עם <r1>גזע מפותל ומסוקס</r1>, ליד <r2>שועל אדום</r2>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "5c60dfd2324b66eb",
+   "48e02f1785517e5d"
+  ],
+  "other": [
+   "d1c0969ba471d58d",
+   "747aa87144c2896a"
+  ]
+ }
+}

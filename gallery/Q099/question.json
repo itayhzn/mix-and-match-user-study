@@ -1,0 +1,43 @@
+{
+ "id": "Q099",
+ "source": {
+  "library": "g3_knight_simple01_s2025",
+  "idea": "g3_knight",
+  "seed": 2025
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   3,
+   1
+  ],
+  [
+   3,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A knight standing straight, front view, plain background, wearing <r0>a dark visored great helm</r0>, wearing <r1>black spiked armor</r1>, in a cartoon style",
+   "A knight standing straight, front view, plain background, wearing <r0>a dark visored great helm</r0>, wearing <r1>blue enameled armor</r1>, in a cartoon style"
+  ],
+  "he": [
+   "אביר עומד זקוף, מבט מלפנים, רקע חלק, חובש <r0>קסדה גדולה וכהה עם מגן פנים</r0>, לובש <r1>שריון שחור עם דוקרנים</r1>, בסגנון מצויר",
+   "אביר עומד זקוף, מבט מלפנים, רקע חלק, חובש <r0>קסדה גדולה וכהה עם מגן פנים</r0>, לובש <r1>שריון כחול מצופה אמייל</r1>, בסגנון מצויר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "c3912cf14277e678",
+   "bea948a142720986"
+  ],
+  "other": [
+   "6e7322cac3818f49",
+   "8011f72adafa728e"
+  ]
+ }
+}

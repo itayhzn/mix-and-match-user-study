@@ -1,0 +1,45 @@
+{
+ "id": "Q062",
+ "source": {
+  "library": "g3_scarecrow_01_s7",
+  "idea": "g3_scarecrow",
+  "seed": 7
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   1,
+   0,
+   0
+  ],
+  [
+   3,
+   0,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A scarecrow with a carved gourd head and its arms spread out to the sides on a wooden cross, standing in a pumpkin patch, wearing <r0>a dark green bucket hat</r0>, wearing <r1>a black and red plaid shirt</r1>, with <r2>a brown hawk perched on its arm</r2>, in an anime drawing style",
+   "A scarecrow with a carved gourd head and its arms spread out to the sides on a wooden cross, standing in a pumpkin patch, wearing <r0>a tattered gray bowler hat</r0>, wearing <r1>a black and red plaid shirt</r1>, with <r2>a brown hawk perched on its arm</r2>, in an anime drawing style"
+  ],
+  "he": [
+   "דחליל עם ראש דלעת מגולף וזרועות פרושות לצדדים על צלב עץ, עומד בשדה דלעות, חובש <r0>כובע דייגים ירוק כהה</r0>, לובש <r1>חולצה משובצת בשחור ואדום</r1>, עם <r2>נץ חום שיושב על זרועו</r2>, בסגנון ציור אנימה",
+   "דחליל עם ראש דלעת מגולף וזרועות פרושות לצדדים על צלב עץ, עומד בשדה דלעות, חובש <r0>כובע באולר אפור ומרופט</r0>, לובש <r1>חולצה משובצת בשחור ואדום</r1>, עם <r2>נץ חום שיושב על זרועו</r2>, בסגנון ציור אנימה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "da131485b0563096",
+   "6d09eea6f8085e96"
+  ],
+  "other": [
+   "5ac219fa151c76d6",
+   "f2bc7f2a31d1650f"
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "id": "Q016",
+ "source": {
+  "library": "g3_baby_toy_00_s2025",
+  "idea": "g3_baby_toy",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   4,
+   1
+  ],
+  [
+   0,
+   1
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A baby sitting on a rug next to a big stuffed toy, <r0>a baby in a blue suit</r0>, next to <r1>a stuffed elephant</r1>, in a cartoon style",
+   "A baby sitting on a rug next to a big stuffed toy, <r0>a baby in a striped onesie</r0>, next to <r1>a stuffed elephant</r1>, in a cartoon style"
+  ],
+  "he": [
+   "תינוק יושב על שטיח ליד בובת פרווה גדולה, <r0>תינוק בחליפה כחולה</r0>, ליד <r1>בובת פיל</r1>, בסגנון מצויר",
+   "תינוק יושב על שטיח ליד בובת פרווה גדולה, <r0>תינוק בבגד גוף מפוספס</r0>, ליד <r1>בובת פיל</r1>, בסגנון מצויר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "72c86cfe4dec8787",
+   "dfc2a9aba21e05da"
+  ],
+  "other": [
+   "977e5498934f7e77",
+   "8940f801747b3a18"
+  ]
+ }
+}

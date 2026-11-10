@@ -1,0 +1,45 @@
+{
+ "id": "Q040",
+ "source": {
+  "library": "g3_gnome_06_s7",
+  "idea": "g3_gnome",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 3,
+ "combinations": [
+  [
+   3,
+   1,
+   0
+  ],
+  [
+   0,
+   1,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A garden gnome with a long white beard standing on the lawn, wearing <r0>a black witch hat</r0>, wearing <r1>a blue tunic with brass buttons</r1>, next to <r2>a giant red toadstool</r2>, in a sketch style",
+   "A garden gnome with a long white beard standing on the lawn, wearing <r0>a pointy knitted hat with a pompom</r0>, wearing <r1>a blue tunic with brass buttons</r1>, next to <r2>a giant red toadstool</r2>, in a sketch style"
+  ],
+  "he": [
+   "גמד גינה עם זקן לבן ארוך עומד על הדשא, חובש <r0>כובע מכשפות שחור</r0>, לובש <r1>טוניקה כחולה עם כפתורי פליז</r1>, ליד <r2>פטרייה אדומה ענקית</r2>, בסגנון סקיצה",
+   "גמד גינה עם זקן לבן ארוך עומד על הדשא, חובש <r0>כובע סרוג מחודד עם פונפון</r0>, לובש <r1>טוניקה כחולה עם כפתורי פליז</r1>, ליד <r2>פטרייה אדומה ענקית</r2>, בסגנון סקיצה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "3ac1d919ceb8ffbc",
+   "6134920e824a09b6"
+  ],
+  "other": [
+   "1aedcdcb315fd510",
+   "91c9be1d291c37e6"
+  ]
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "Q034",
+ "source": {
+  "library": "g3_wedding_06_s7",
+  "idea": "g3_wedding",
+  "seed": 7
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   1,
+   2,
+   2
+  ],
+  [
+   1,
+   2,
+   1
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A bride and groom standing together at their wedding, the bride with <r0>long auburn braids</r0>, the bride wearing <r1>a champagne silk gown</r1>, the groom wearing <r2>a black tuxedo</r2>, in a film noir style",
+   "A bride and groom standing together at their wedding, the bride with <r0>long auburn braids</r0>, the bride wearing <r1>a champagne silk gown</r1>, the groom wearing <r2>a burgundy velvet suit</r2>, in a film noir style"
+  ],
+  "he": [
+   "חתן וכלה עומדים יחד בחתונתם, לכלה <r0>צמות ארוכות בצבע ערמוני</r0>, הכלה לובשת <r1>שמלת משי בצבע שמפניה</r1>, החתן לובש <r2>טוקסידו שחור</r2>, בסגנון פילם נואר",
+   "חתן וכלה עומדים יחד בחתונתם, לכלה <r0>צמות ארוכות בצבע ערמוני</r0>, הכלה לובשת <r1>שמלת משי בצבע שמפניה</r1>, החתן לובש <r2>חליפת קטיפה בצבע בורדו</r2>, בסגנון פילם נואר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "ea668e3608197efe",
+   "a5934e1d7e73f8dd"
+  ],
+  "other": [
+   "964ec707276a2543",
+   "f55c1cf7edc7e7e0"
+  ]
+ }
+}

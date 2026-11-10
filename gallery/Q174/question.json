@@ -1,0 +1,43 @@
+{
+ "id": "Q174",
+ "source": {
+  "library": "g3_dog_simple02_s7",
+  "idea": "g3_dog",
+  "seed": 7
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   3,
+   3
+  ],
+  [
+   2,
+   3
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A close-up portrait of a dog facing the camera, plain background, wearing <r0>a yellow bucket hat</r0>, wearing <r1>a blue bandana</r1>, in a watercolor painting style",
+   "A close-up portrait of a dog facing the camera, plain background, wearing <r0>a blue sailor cap</r0>, wearing <r1>a blue bandana</r1>, in a watercolor painting style"
+  ],
+  "he": [
+   "דיוקן תקריב של כלב שפניו למצלמה, רקע חלק, חובש <r0>כובע דייגים צהוב</r0>, עונד <r1>בנדנה כחולה</r1>, בסגנון ציור בצבעי מים",
+   "דיוקן תקריב של כלב שפניו למצלמה, רקע חלק, חובש <r0>כובע מלחים כחול</r0>, עונד <r1>בנדנה כחולה</r1>, בסגנון ציור בצבעי מים"
+  ]
+ },
+ "images": {
+  "ours": [
+   "f587f580f27fc228",
+   "65960706284e943c"
+  ],
+  "other": [
+   "0a0330261e42e76f",
+   "5f92bb6f20983884"
+  ]
+ }
+}

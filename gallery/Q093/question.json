@@ -1,0 +1,47 @@
+{
+ "id": "Q093",
+ "source": {
+  "library": "g3_face_07_s2025",
+  "idea": "g3_face",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 4,
+ "combinations": [
+  [
+   0,
+   2,
+   3,
+   1
+  ],
+  [
+   0,
+   2,
+   0,
+   1
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A head-and-shoulders portrait of a person, wearing <r0>a black beret</r0>, wearing <r1>dark aviator sunglasses</r1>, with <r2>a thick red beard</r2>, wearing <r3>a black leather jacket</r3>, in a digital painting style",
+   "A head-and-shoulders portrait of a person, wearing <r0>a black beret</r0>, wearing <r1>dark aviator sunglasses</r1>, with <r2>a thick black beard</r2>, wearing <r3>a black leather jacket</r3>, in a digital painting style"
+  ],
+  "he": [
+   "דיוקן ראש וכתפיים של אדם, חובש <r0>כומתה שחורה</r0>, מרכיב <r1>משקפי טייסים כהים</r1>, עם <r2>זקן אדום עבות</r2>, לובש <r3>מעיל עור שחור</r3>, בסגנון ציור דיגיטלי",
+   "דיוקן ראש וכתפיים של אדם, חובש <r0>כומתה שחורה</r0>, מרכיב <r1>משקפי טייסים כהים</r1>, עם <r2>זקן שחור עבה</r2>, לובש <r3>מעיל עור שחור</r3>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "ddd6f5225c34fe6d",
+   "b4e9eaeaf8b1ddee"
+  ],
+  "other": [
+   "0e900de868a8d85b",
+   "6173e7a17ccda231"
+  ]
+ }
+}

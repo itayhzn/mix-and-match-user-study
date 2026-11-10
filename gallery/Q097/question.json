@@ -1,0 +1,45 @@
+{
+ "id": "Q097",
+ "source": {
+  "library": "g3_pirate_09_s7",
+  "idea": "g3_pirate",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 3,
+ "combinations": [
+  [
+   2,
+   2,
+   2
+  ],
+  [
+   2,
+   2,
+   0
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A half-body portrait of a pirate on a sandy beach, wearing <r0>a green tricorn hat with a feather</r0>, wearing <r1>a long red captain's coat</r1>, next to <r2>a blue-and-yellow macaw</r2>, in a film noir style",
+   "A half-body portrait of a pirate on a sandy beach, wearing <r0>a green tricorn hat with a feather</r0>, wearing <r1>a long red captain's coat</r1>, next to <r2>a black raven</r2>, in a film noir style"
+  ],
+  "he": [
+   "דיוקן חצי גוף של פיראט על חוף חולי, חובש <r0>כובע משולש ירוק עם נוצה</r0>, לובש <r1>מעיל קפטן אדום וארוך</r1>, ליד <r2>תוכי מקאו כחול-צהוב</r2>, בסגנון פילם נואר",
+   "דיוקן חצי גוף של פיראט על חוף חולי, חובש <r0>כובע משולש ירוק עם נוצה</r0>, לובש <r1>מעיל קפטן אדום וארוך</r1>, ליד <r2>עורב שחור</r2>, בסגנון פילם נואר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "082cd987c700e612",
+   "0e9c5a7c50278feb"
+  ],
+  "other": [
+   "69d62041431309f9",
+   "d427fb41a54336a0"
+  ]
+ }
+}

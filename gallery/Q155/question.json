@@ -1,0 +1,43 @@
+{
+ "id": "Q155",
+ "source": {
+  "library": "g3_branch_scene_simple01_s7",
+  "idea": "g3_branch_scene",
+  "seed": 7
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   1
+  ],
+  [
+   0,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A close-up of a thick tree branch with a large bird and a large mushroom on it, with <r0>a blue jay</r0>, with <r1>a purple mushroom</r1>, in a watercolor painting style",
+   "A close-up of a thick tree branch with a large bird and a large mushroom on it, with <r0>a blue jay</r0>, with <r1>a yellow mushroom</r1>, in a watercolor painting style"
+  ],
+  "he": [
+   "תקריב של ענף עץ עבה ועליו ציפור גדולה ופטרייה גדולה, עם <r0>עורבני כחול</r0>, עם <r1>פטרייה סגולה</r1>, בסגנון ציור בצבעי מים",
+   "תקריב של ענף עץ עבה ועליו ציפור גדולה ופטרייה גדולה, עם <r0>עורבני כחול</r0>, עם <r1>פטרייה צהובה</r1>, בסגנון ציור בצבעי מים"
+  ]
+ },
+ "images": {
+  "ours": [
+   "3ddf6526bb6bfdef",
+   "b0f372898e6ed48f"
+  ],
+  "other": [
+   "008f2173690c7c3a",
+   "b2199dbb389fbf0c"
+  ]
+ }
+}

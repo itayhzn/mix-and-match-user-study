@@ -1,0 +1,43 @@
+{
+ "id": "Q025",
+ "source": {
+  "library": "g3_wedding_simple01_s7",
+  "idea": "g3_wedding",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   3,
+   1
+  ],
+  [
+   3,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A bride and groom standing side by side, front view, plain background, the bride wearing <r0>a pale blue gown</r0>, the groom wearing <r1>a black tuxedo</r1>, in a digital painting style",
+   "A bride and groom standing side by side, front view, plain background, the bride wearing <r0>a pale blue gown</r0>, the groom wearing <r1>a navy suit</r1>, in a digital painting style"
+  ],
+  "he": [
+   "חתן וכלה עומדים זה לצד זה, מבט מלפנים, רקע חלק, הכלה לובשת <r0>שמלה בצבע תכלת</r0>, החתן לובש <r1>טוקסידו שחור</r1>, בסגנון ציור דיגיטלי",
+   "חתן וכלה עומדים זה לצד זה, מבט מלפנים, רקע חלק, הכלה לובשת <r0>שמלה בצבע תכלת</r0>, החתן לובש <r1>חליפה בכחול נייבי</r1>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "cae5786849485400",
+   "03b9964c6b8881e8"
+  ],
+  "other": [
+   "c609c98843e05097",
+   "37ad427695f12ae1"
+  ]
+ }
+}

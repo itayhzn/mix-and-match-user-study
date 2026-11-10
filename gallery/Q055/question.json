@@ -1,0 +1,43 @@
+{
+ "id": "Q055",
+ "source": {
+  "library": "g3_branch_scene_simple02_s7",
+  "idea": "g3_branch_scene",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   2
+  ],
+  [
+   1,
+   2
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A close-up of a thick tree branch with a large bird and a large mushroom on it, with <r0>a red cardinal</r0>, with <r1>a blue mushroom</r1>, in a digital painting style",
+   "A close-up of a thick tree branch with a large bird and a large mushroom on it, with <r0>a gray pigeon</r0>, with <r1>a blue mushroom</r1>, in a digital painting style"
+  ],
+  "he": [
+   "תקריב של ענף עץ עבה ועליו ציפור גדולה ופטרייה גדולה, עם <r0>קרדינל אדום</r0>, עם <r1>פטרייה כחולה</r1>, בסגנון ציור דיגיטלי",
+   "תקריב של ענף עץ עבה ועליו ציפור גדולה ופטרייה גדולה, עם <r0>יונה אפורה</r0>, עם <r1>פטרייה כחולה</r1>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "b580f891c8cab225",
+   "edbfa3e2a685c430"
+  ],
+  "other": [
+   "1072d64ffa2fc12a",
+   "4cd36b22f69c1bfd"
+  ]
+ }
+}

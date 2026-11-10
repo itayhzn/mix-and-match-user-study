@@ -1,0 +1,43 @@
+{
+ "id": "Q194",
+ "source": {
+  "library": "g3_plant_simple02_s2025",
+  "idea": "g3_plant",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   2,
+   2
+  ],
+  [
+   1,
+   2
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A single potted flowering plant on a plain table, front view, in <r0>a blue glazed ceramic pot</r0>, with <r1>purple tulips</r1>, in a cartoon style",
+   "A single potted flowering plant on a plain table, front view, in <r0>a woven wicker pot</r0>, with <r1>purple tulips</r1>, in a cartoon style"
+  ],
+  "he": [
+   "צמח פורח בודד בעציץ על שולחן פשוט, מבט מלפנים, בתוך <r0>עציץ קרמיקה כחול מזוגג</r0>, עם <r1>צבעונים סגולים</r1>, בסגנון מצויר",
+   "צמח פורח בודד בעציץ על שולחן פשוט, מבט מלפנים, בתוך <r0>עציץ נצרים קלוע</r0>, עם <r1>צבעונים סגולים</r1>, בסגנון מצויר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "75143e40fba75f38",
+   "fd35d430b906119f"
+  ],
+  "other": [
+   "9606c2d24652885f",
+   "c592fc87f047da01"
+  ]
+ }
+}

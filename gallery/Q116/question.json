@@ -1,0 +1,47 @@
+{
+ "id": "Q116",
+ "source": {
+  "library": "g3_baby_toy_08_s7",
+  "idea": "g3_baby_toy",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 4,
+ "combinations": [
+  [
+   0,
+   2,
+   0,
+   3
+  ],
+  [
+   0,
+   2,
+   3,
+   3
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A baby sitting on a rug next to a big stuffed toy, wearing <r0>a blue cotton cap</r0>, <r1>a baby in a bear costume</r1>, next to <r2>a plush dinosaur</r2>, on <r3>a blanket with stars</r3>, in a film noir style",
+   "A baby sitting on a rug next to a big stuffed toy, wearing <r0>a blue cotton cap</r0>, <r1>a baby in a bear costume</r1>, next to <r2>a big teddy bear</r2>, on <r3>a blanket with stars</r3>, in a film noir style"
+  ],
+  "he": [
+   "תינוק יושב על שטיח ליד בובת פרווה גדולה, חובש <r0>כובע כותנה כחול</r0>, <r1>תינוק בתחפושת דוב</r1>, ליד <r2>דינוזאור פרווה</r2>, על <r3>שמיכה עם כוכבים</r3>, בסגנון פילם נואר",
+   "תינוק יושב על שטיח ליד בובת פרווה גדולה, חובש <r0>כובע כותנה כחול</r0>, <r1>תינוק בתחפושת דוב</r1>, ליד <r2>דובי גדול</r2>, על <r3>שמיכה עם כוכבים</r3>, בסגנון פילם נואר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "14c0ab13ee66f656",
+   "6e485b5b6f341156"
+  ],
+  "other": [
+   "856fb1cc3e384b17",
+   "9c485997cd5aeda8"
+  ]
+ }
+}

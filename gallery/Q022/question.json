@@ -1,0 +1,43 @@
+{
+ "id": "Q022",
+ "source": {
+  "library": "g3_fish_chimera_simple01_s7",
+  "idea": "g3_fish_chimera",
+  "seed": 7
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   3,
+   3
+  ],
+  [
+   3,
+   0
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A big fish swimming in clear blue water, side view, plain background, with <r0>the head of a lionfish</r0>, with <r1>a blue marlin tail</r1>, in a cartoon style",
+   "A big fish swimming in clear blue water, side view, plain background, with <r0>the head of a lionfish</r0>, with <r1>a shark tail</r1>, in a cartoon style"
+  ],
+  "he": [
+   "דג גדול שוחה במים כחולים צלולים, מבט מהצד, רקע חלק, עם <r0>ראש של דג אריה</r0>, עם <r1>זנב של מרלין כחול</r1>, בסגנון מצויר",
+   "דג גדול שוחה במים כחולים צלולים, מבט מהצד, רקע חלק, עם <r0>ראש של דג אריה</r0>, עם <r1>זנב של כריש</r1>, בסגנון מצויר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "0f5028eaf9bbbcca",
+   "d8a4c8f4f4d5be2b"
+  ],
+  "other": [
+   "73fe536c39445fb5",
+   "9e6c733e29c4b24d"
+  ]
+ }
+}

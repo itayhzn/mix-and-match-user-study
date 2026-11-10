@@ -1,0 +1,47 @@
+{
+ "id": "Q106",
+ "source": {
+  "library": "g3_rocket_01_s2025",
+  "idea": "g3_rocket",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 4,
+ "combinations": [
+  [
+   1,
+   2,
+   2,
+   0
+  ],
+  [
+   1,
+   2,
+   2,
+   2
+  ]
+ ],
+ "changed": [
+  3
+ ],
+ "prompts": {
+  "en": [
+   "A rocket flying up into the sky, with <r0>a golden nose cone</r0>, with <r1>a blue body with portholes</r1>, with <r2>large swept-back fins</r2>, with <r3>red flames with black smoke</r3>, in a sketch style",
+   "A rocket flying up into the sky, with <r0>a golden nose cone</r0>, with <r1>a blue body with portholes</r1>, with <r2>large swept-back fins</r2>, with <r3>a short burst of yellow fire</r3>, in a sketch style"
+  ],
+  "he": [
+   "טיל ממריא אל השמיים, עם <r0>חרטום זהוב</r0>, עם <r1>גוף כחול עם צוהרים</r1>, עם <r2>סנפירים גדולים נטויים לאחור</r2>, עם <r3>להבות אדומות ועשן שחור</r3>, בסגנון סקיצה",
+   "טיל ממריא אל השמיים, עם <r0>חרטום זהוב</r0>, עם <r1>גוף כחול עם צוהרים</r1>, עם <r2>סנפירים גדולים נטויים לאחור</r2>, עם <r3>פרץ קצר של אש צהובה</r3>, בסגנון סקיצה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "f4aca14e58fd166d",
+   "43fc3a1f89ad18b6"
+  ],
+  "other": [
+   "de891b3fbf0f27a3",
+   "81f88473e62d161d"
+  ]
+ }
+}

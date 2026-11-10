@@ -1,0 +1,43 @@
+{
+ "id": "Q170",
+ "source": {
+  "library": "g3_bottle_02_s7",
+  "idea": "g3_bottle",
+  "seed": 7
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   2
+  ],
+  [
+   1,
+   2
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A close-up of a bottle standing on a table, with <r0>a wooden stopper</r0>, with <r1>a red label with a star</r1>, in an anime drawing style",
+   "A close-up of a bottle standing on a table, with <r0>a red metal cap</r0>, with <r1>a red label with a star</r1>, in an anime drawing style"
+  ],
+  "he": [
+   "תקריב של בקבוק עומד על שולחן, עם <r0>פקק עץ</r0>, עם <r1>תווית אדומה עם כוכב</r1>, בסגנון ציור אנימה",
+   "תקריב של בקבוק עומד על שולחן, עם <r0>פקק מתכת אדום</r0>, עם <r1>תווית אדומה עם כוכב</r1>, בסגנון ציור אנימה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "b8bf026539369a34",
+   "51a1fed51fa7b71b"
+  ],
+  "other": [
+   "8bcb1a3af522c8c1",
+   "29418f3c05861275"
+  ]
+ }
+}

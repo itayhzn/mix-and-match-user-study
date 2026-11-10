@@ -1,0 +1,1018 @@
+{
+ "version": "g1-8755a343",
+ "created": "2026-11-10",
+ "baselines": [
+  "per_combination_equal",
+  "multidiffusion_equal",
+  "shared_attention_equal",
+  "per_combination_combination"
+ ],
+ "questions": [
+  {
+   "id": "Q000",
+   "baseline": "per_combination_combination",
+   "library": "g3_face_front_02_s7"
+  },
+  {
+   "id": "Q001",
+   "baseline": "per_combination_combination",
+   "library": "g3_fish_chimera_simple03_s2025"
+  },
+  {
+   "id": "Q002",
+   "baseline": "per_combination_combination",
+   "library": "g3_wedding_01_s7"
+  },
+  {
+   "id": "Q003",
+   "baseline": "per_combination_combination",
+   "library": "g3_classical_chimera_simple03_s7"
+  },
+  {
+   "id": "Q004",
+   "baseline": "per_combination_combination",
+   "library": "g3_dog_simple00_s2025"
+  },
+  {
+   "id": "Q005",
+   "baseline": "shared_attention_equal",
+   "library": "g3_figure_front_simple00_s2025"
+  },
+  {
+   "id": "Q006",
+   "baseline": "per_combination_combination",
+   "library": "g3_dog_07_s2025"
+  },
+  {
+   "id": "Q007",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_face_02_s2025"
+  },
+  {
+   "id": "Q008",
+   "baseline": "per_combination_equal",
+   "library": "g3_dog_06_s7"
+  },
+  {
+   "id": "Q009",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_wedding_simple04_s2025"
+  },
+  {
+   "id": "Q010",
+   "baseline": "shared_attention_equal",
+   "library": "g3_animal_chimera_01_s2025"
+  },
+  {
+   "id": "Q011",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_person_pet_00_s2025"
+  },
+  {
+   "id": "Q012",
+   "baseline": "per_combination_combination",
+   "library": "g3_scarecrow_00_s7"
+  },
+  {
+   "id": "Q013",
+   "baseline": "per_combination_equal",
+   "library": "g3_wedding_03_s7"
+  },
+  {
+   "id": "Q014",
+   "baseline": "per_combination_equal",
+   "library": "g3_superhero_07_s2025"
+  },
+  {
+   "id": "Q015",
+   "baseline": "per_combination_equal",
+   "library": "g3_face_front_07_s7"
+  },
+  {
+   "id": "Q016",
+   "baseline": "per_combination_equal",
+   "library": "g3_baby_toy_00_s2025"
+  },
+  {
+   "id": "Q017",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_classical_chimera_02_s7"
+  },
+  {
+   "id": "Q018",
+   "baseline": "shared_attention_equal",
+   "library": "g3_wedding_00_s7"
+  },
+  {
+   "id": "Q019",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_wedding_simple02_s7"
+  },
+  {
+   "id": "Q020",
+   "baseline": "per_combination_equal",
+   "library": "g3_bottle_05_s7"
+  },
+  {
+   "id": "Q021",
+   "baseline": "per_combination_equal",
+   "library": "g3_rocket_08_s7"
+  },
+  {
+   "id": "Q022",
+   "baseline": "per_combination_combination",
+   "library": "g3_fish_chimera_simple01_s7"
+  },
+  {
+   "id": "Q023",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_baby_toy_simple04_s2025"
+  },
+  {
+   "id": "Q024",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_bottle_01_s2025"
+  },
+  {
+   "id": "Q025",
+   "baseline": "per_combination_combination",
+   "library": "g3_wedding_simple01_s7"
+  },
+  {
+   "id": "Q026",
+   "baseline": "per_combination_equal",
+   "library": "g3_person_pet_simple01_s7"
+  },
+  {
+   "id": "Q027",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_mermaid_simple02_s2025"
+  },
+  {
+   "id": "Q028",
+   "baseline": "shared_attention_equal",
+   "library": "g3_gnome_00_s7"
+  },
+  {
+   "id": "Q029",
+   "baseline": "per_combination_combination",
+   "library": "g3_person_pet_09_s7"
+  },
+  {
+   "id": "Q030",
+   "baseline": "shared_attention_equal",
+   "library": "g3_baby_toy_simple03_s2025"
+  },
+  {
+   "id": "Q031",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_baby_toy_04_s2025"
+  },
+  {
+   "id": "Q032",
+   "baseline": "shared_attention_equal",
+   "library": "g3_branch_scene_simple04_s7"
+  },
+  {
+   "id": "Q033",
+   "baseline": "per_combination_equal",
+   "library": "g3_robot_02_s7"
+  },
+  {
+   "id": "Q034",
+   "baseline": "shared_attention_equal",
+   "library": "g3_wedding_06_s7"
+  },
+  {
+   "id": "Q035",
+   "baseline": "per_combination_equal",
+   "library": "g3_fish_chimera_05_s7"
+  },
+  {
+   "id": "Q036",
+   "baseline": "per_combination_combination",
+   "library": "g3_branch_scene_simple00_s7"
+  },
+  {
+   "id": "Q037",
+   "baseline": "shared_attention_equal",
+   "library": "g3_dog_01_s7"
+  },
+  {
+   "id": "Q038",
+   "baseline": "per_combination_equal",
+   "library": "g3_superhero_03_s7"
+  },
+  {
+   "id": "Q039",
+   "baseline": "per_combination_combination",
+   "library": "g3_bottle_00_s7"
+  },
+  {
+   "id": "Q040",
+   "baseline": "per_combination_combination",
+   "library": "g3_gnome_06_s7"
+  },
+  {
+   "id": "Q041",
+   "baseline": "per_combination_equal",
+   "library": "g3_face_simple00_s7"
+  },
+  {
+   "id": "Q042",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_snowman_simple04_s2025"
+  },
+  {
+   "id": "Q043",
+   "baseline": "shared_attention_equal",
+   "library": "g3_tree_animal_01_s2025"
+  },
+  {
+   "id": "Q044",
+   "baseline": "shared_attention_equal",
+   "library": "g3_face_front_06_s7"
+  },
+  {
+   "id": "Q045",
+   "baseline": "per_combination_combination",
+   "library": "g3_snowman_06_s7"
+  },
+  {
+   "id": "Q046",
+   "baseline": "shared_attention_equal",
+   "library": "g3_dog_simple04_s7"
+  },
+  {
+   "id": "Q047",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_tree_animal_03_s7"
+  },
+  {
+   "id": "Q048",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_robot_01_s2025"
+  },
+  {
+   "id": "Q049",
+   "baseline": "per_combination_equal",
+   "library": "g3_knight_02_s2025"
+  },
+  {
+   "id": "Q050",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_fish_chimera_02_s7"
+  },
+  {
+   "id": "Q051",
+   "baseline": "per_combination_combination",
+   "library": "g3_superhero_simple01_s7"
+  },
+  {
+   "id": "Q052",
+   "baseline": "per_combination_equal",
+   "library": "g3_branch_scene_08_s2025"
+  },
+  {
+   "id": "Q053",
+   "baseline": "shared_attention_equal",
+   "library": "g3_face_front_03_s2025"
+  },
+  {
+   "id": "Q054",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_face_front_simple02_s7"
+  },
+  {
+   "id": "Q055",
+   "baseline": "per_combination_combination",
+   "library": "g3_branch_scene_simple02_s7"
+  },
+  {
+   "id": "Q056",
+   "baseline": "shared_attention_equal",
+   "library": "g3_mermaid_simple03_s2025"
+  },
+  {
+   "id": "Q057",
+   "baseline": "shared_attention_equal",
+   "library": "g3_gnome_08_s2025"
+  },
+  {
+   "id": "Q058",
+   "baseline": "per_combination_combination",
+   "library": "g3_animal_chimera_00_s2025"
+  },
+  {
+   "id": "Q059",
+   "baseline": "shared_attention_equal",
+   "library": "g3_robot_simple01_s7"
+  },
+  {
+   "id": "Q060",
+   "baseline": "shared_attention_equal",
+   "library": "g3_knight_06_s2025"
+  },
+  {
+   "id": "Q061",
+   "baseline": "per_combination_equal",
+   "library": "g3_classical_chimera_simple04_s2025"
+  },
+  {
+   "id": "Q062",
+   "baseline": "shared_attention_equal",
+   "library": "g3_scarecrow_01_s7"
+  },
+  {
+   "id": "Q063",
+   "baseline": "per_combination_combination",
+   "library": "g3_fish_chimera_simple00_s2025"
+  },
+  {
+   "id": "Q064",
+   "baseline": "per_combination_combination",
+   "library": "g3_person_pet_simple04_s2025"
+  },
+  {
+   "id": "Q065",
+   "baseline": "per_combination_equal",
+   "library": "g3_mermaid_05_s2025"
+  },
+  {
+   "id": "Q066",
+   "baseline": "shared_attention_equal",
+   "library": "g3_person_pet_simple00_s2025"
+  },
+  {
+   "id": "Q067",
+   "baseline": "shared_attention_equal",
+   "library": "g3_superhero_simple03_s2025"
+  },
+  {
+   "id": "Q068",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_pirate_00_s2025"
+  },
+  {
+   "id": "Q069",
+   "baseline": "shared_attention_equal",
+   "library": "g3_pirate_simple04_s2025"
+  },
+  {
+   "id": "Q070",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_pirate_06_s7"
+  },
+  {
+   "id": "Q071",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_figure_front_simple02_s7"
+  },
+  {
+   "id": "Q072",
+   "baseline": "per_combination_combination",
+   "library": "g3_mermaid_02_s2025"
+  },
+  {
+   "id": "Q073",
+   "baseline": "shared_attention_equal",
+   "library": "g3_plant_03_s2025"
+  },
+  {
+   "id": "Q074",
+   "baseline": "per_combination_equal",
+   "library": "g3_snowman_simple03_s2025"
+  },
+  {
+   "id": "Q075",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_gnome_simple04_s7"
+  },
+  {
+   "id": "Q076",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_knight_simple03_s2025"
+  },
+  {
+   "id": "Q077",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_scarecrow_05_s7"
+  },
+  {
+   "id": "Q078",
+   "baseline": "per_combination_equal",
+   "library": "g3_gnome_02_s2025"
+  },
+  {
+   "id": "Q079",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_rocket_05_s7"
+  },
+  {
+   "id": "Q080",
+   "baseline": "per_combination_combination",
+   "library": "g3_baby_toy_07_s7"
+  },
+  {
+   "id": "Q081",
+   "baseline": "per_combination_combination",
+   "library": "g3_figure_front_simple04_s2025"
+  },
+  {
+   "id": "Q082",
+   "baseline": "per_combination_equal",
+   "library": "g3_gnome_05_s7"
+  },
+  {
+   "id": "Q083",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_animal_chimera_simple04_s2025"
+  },
+  {
+   "id": "Q084",
+   "baseline": "per_combination_equal",
+   "library": "g3_robot_simple02_s2025"
+  },
+  {
+   "id": "Q085",
+   "baseline": "per_combination_combination",
+   "library": "g3_plant_00_s7"
+  },
+  {
+   "id": "Q086",
+   "baseline": "per_combination_equal",
+   "library": "g3_pirate_simple02_s7"
+  },
+  {
+   "id": "Q087",
+   "baseline": "shared_attention_equal",
+   "library": "g3_face_01_s7"
+  },
+  {
+   "id": "Q088",
+   "baseline": "per_combination_combination",
+   "library": "g3_pirate_07_s7"
+  },
+  {
+   "id": "Q089",
+   "baseline": "per_combination_combination",
+   "library": "g3_knight_simple00_s7"
+  },
+  {
+   "id": "Q090",
+   "baseline": "per_combination_equal",
+   "library": "g3_dog_09_s2025"
+  },
+  {
+   "id": "Q091",
+   "baseline": "shared_attention_equal",
+   "library": "g3_animal_chimera_simple01_s7"
+  },
+  {
+   "id": "Q092",
+   "baseline": "per_combination_combination",
+   "library": "g3_scarecrow_04_s7"
+  },
+  {
+   "id": "Q093",
+   "baseline": "shared_attention_equal",
+   "library": "g3_face_07_s2025"
+  },
+  {
+   "id": "Q094",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_person_pet_08_s7"
+  },
+  {
+   "id": "Q095",
+   "baseline": "shared_attention_equal",
+   "library": "g3_classical_chimera_00_s2025"
+  },
+  {
+   "id": "Q096",
+   "baseline": "shared_attention_equal",
+   "library": "g3_branch_scene_09_s2025"
+  },
+  {
+   "id": "Q097",
+   "baseline": "per_combination_combination",
+   "library": "g3_pirate_09_s7"
+  },
+  {
+   "id": "Q098",
+   "baseline": "shared_attention_equal",
+   "library": "g3_plant_simple03_s2025"
+  },
+  {
+   "id": "Q099",
+   "baseline": "per_combination_combination",
+   "library": "g3_knight_simple01_s2025"
+  },
+  {
+   "id": "Q100",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_snowman_simple00_s7"
+  },
+  {
+   "id": "Q101",
+   "baseline": "per_combination_equal",
+   "library": "g3_tree_animal_simple00_s7"
+  },
+  {
+   "id": "Q102",
+   "baseline": "per_combination_equal",
+   "library": "g3_figure_front_07_s2025"
+  },
+  {
+   "id": "Q103",
+   "baseline": "per_combination_equal",
+   "library": "g3_branch_scene_02_s7"
+  },
+  {
+   "id": "Q104",
+   "baseline": "per_combination_equal",
+   "library": "g3_figure_front_simple01_s2025"
+  },
+  {
+   "id": "Q105",
+   "baseline": "per_combination_combination",
+   "library": "g3_tree_animal_07_s2025"
+  },
+  {
+   "id": "Q106",
+   "baseline": "per_combination_equal",
+   "library": "g3_rocket_01_s2025"
+  },
+  {
+   "id": "Q107",
+   "baseline": "per_combination_combination",
+   "library": "g3_rocket_simple01_s2025"
+  },
+  {
+   "id": "Q108",
+   "baseline": "shared_attention_equal",
+   "library": "g3_rocket_simple04_s7"
+  },
+  {
+   "id": "Q109",
+   "baseline": "per_combination_equal",
+   "library": "g3_animal_chimera_09_s2025"
+  },
+  {
+   "id": "Q110",
+   "baseline": "per_combination_combination",
+   "library": "g3_branch_scene_06_s2025"
+  },
+  {
+   "id": "Q111",
+   "baseline": "shared_attention_equal",
+   "library": "g3_superhero_05_s2025"
+  },
+  {
+   "id": "Q112",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_plant_simple04_s2025"
+  },
+  {
+   "id": "Q113",
+   "baseline": "per_combination_equal",
+   "library": "g3_snowman_simple02_s7"
+  },
+  {
+   "id": "Q114",
+   "baseline": "per_combination_combination",
+   "library": "g3_scarecrow_simple02_s7"
+  },
+  {
+   "id": "Q115",
+   "baseline": "shared_attention_equal",
+   "library": "g3_face_09_s7"
+  },
+  {
+   "id": "Q116",
+   "baseline": "per_combination_combination",
+   "library": "g3_baby_toy_08_s7"
+  },
+  {
+   "id": "Q117",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_tree_animal_09_s2025"
+  },
+  {
+   "id": "Q118",
+   "baseline": "shared_attention_equal",
+   "library": "g3_scarecrow_simple03_s2025"
+  },
+  {
+   "id": "Q119",
+   "baseline": "per_combination_combination",
+   "library": "g3_gnome_simple03_s7"
+  },
+  {
+   "id": "Q120",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_superhero_04_s2025"
+  },
+  {
+   "id": "Q121",
+   "baseline": "shared_attention_equal",
+   "library": "g3_pirate_simple00_s2025"
+  },
+  {
+   "id": "Q122",
+   "baseline": "per_combination_combination",
+   "library": "g3_snowman_08_s7"
+  },
+  {
+   "id": "Q123",
+   "baseline": "per_combination_combination",
+   "library": "g3_rocket_02_s2025"
+  },
+  {
+   "id": "Q124",
+   "baseline": "per_combination_equal",
+   "library": "g3_mermaid_simple00_s2025"
+  },
+  {
+   "id": "Q125",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_face_simple03_s2025"
+  },
+  {
+   "id": "Q126",
+   "baseline": "per_combination_equal",
+   "library": "g3_pirate_03_s2025"
+  },
+  {
+   "id": "Q127",
+   "baseline": "shared_attention_equal",
+   "library": "g3_snowman_02_s2025"
+  },
+  {
+   "id": "Q128",
+   "baseline": "per_combination_combination",
+   "library": "g3_classical_chimera_01_s2025"
+  },
+  {
+   "id": "Q129",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_classical_chimera_simple02_s7"
+  },
+  {
+   "id": "Q130",
+   "baseline": "per_combination_equal",
+   "library": "g3_scarecrow_simple04_s2025"
+  },
+  {
+   "id": "Q131",
+   "baseline": "per_combination_combination",
+   "library": "g3_animal_chimera_08_s2025"
+  },
+  {
+   "id": "Q132",
+   "baseline": "shared_attention_equal",
+   "library": "g3_fish_chimera_08_s2025"
+  },
+  {
+   "id": "Q133",
+   "baseline": "per_combination_equal",
+   "library": "g3_bottle_06_s7"
+  },
+  {
+   "id": "Q134",
+   "baseline": "shared_attention_equal",
+   "library": "g3_face_front_08_s7"
+  },
+  {
+   "id": "Q135",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_animal_chimera_simple00_s2025"
+  },
+  {
+   "id": "Q136",
+   "baseline": "per_combination_equal",
+   "library": "g3_knight_simple02_s7"
+  },
+  {
+   "id": "Q137",
+   "baseline": "shared_attention_equal",
+   "library": "g3_snowman_05_s2025"
+  },
+  {
+   "id": "Q138",
+   "baseline": "per_combination_equal",
+   "library": "g3_animal_chimera_simple02_s7"
+  },
+  {
+   "id": "Q139",
+   "baseline": "per_combination_combination",
+   "library": "g3_robot_09_s2025"
+  },
+  {
+   "id": "Q140",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_face_front_05_s2025"
+  },
+  {
+   "id": "Q141",
+   "baseline": "per_combination_combination",
+   "library": "g3_superhero_simple02_s2025"
+  },
+  {
+   "id": "Q142",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_mermaid_03_s7"
+  },
+  {
+   "id": "Q143",
+   "baseline": "per_combination_combination",
+   "library": "g3_bottle_simple03_s7"
+  },
+  {
+   "id": "Q144",
+   "baseline": "per_combination_equal",
+   "library": "g3_plant_05_s7"
+  },
+  {
+   "id": "Q145",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_fish_chimera_04_s2025"
+  },
+  {
+   "id": "Q146",
+   "baseline": "shared_attention_equal",
+   "library": "g3_bottle_simple00_s7"
+  },
+  {
+   "id": "Q147",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_bottle_simple02_s7"
+  },
+  {
+   "id": "Q148",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_knight_08_s2025"
+  },
+  {
+   "id": "Q149",
+   "baseline": "shared_attention_equal",
+   "library": "g3_knight_01_s7"
+  },
+  {
+   "id": "Q150",
+   "baseline": "per_combination_combination",
+   "library": "g3_mermaid_simple04_s2025"
+  },
+  {
+   "id": "Q151",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_animal_chimera_06_s7"
+  },
+  {
+   "id": "Q152",
+   "baseline": "per_combination_combination",
+   "library": "g3_figure_front_00_s7"
+  },
+  {
+   "id": "Q153",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_plant_08_s2025"
+  },
+  {
+   "id": "Q154",
+   "baseline": "shared_attention_equal",
+   "library": "g3_fish_chimera_00_s2025"
+  },
+  {
+   "id": "Q155",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_branch_scene_simple01_s7"
+  },
+  {
+   "id": "Q156",
+   "baseline": "per_combination_combination",
+   "library": "g3_plant_simple01_s7"
+  },
+  {
+   "id": "Q157",
+   "baseline": "per_combination_equal",
+   "library": "g3_face_05_s2025"
+  },
+  {
+   "id": "Q158",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_rocket_simple02_s2025"
+  },
+  {
+   "id": "Q159",
+   "baseline": "per_combination_equal",
+   "library": "g3_tree_animal_simple02_s2025"
+  },
+  {
+   "id": "Q160",
+   "baseline": "per_combination_combination",
+   "library": "g3_pirate_04_s7"
+  },
+  {
+   "id": "Q161",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_superhero_06_s7"
+  },
+  {
+   "id": "Q162",
+   "baseline": "shared_attention_equal",
+   "library": "g3_classical_chimera_simple00_s7"
+  },
+  {
+   "id": "Q163",
+   "baseline": "per_combination_equal",
+   "library": "g3_superhero_09_s2025"
+  },
+  {
+   "id": "Q164",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_bottle_03_s2025"
+  },
+  {
+   "id": "Q165",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_gnome_03_s7"
+  },
+  {
+   "id": "Q166",
+   "baseline": "per_combination_equal",
+   "library": "g3_person_pet_07_s2025"
+  },
+  {
+   "id": "Q167",
+   "baseline": "per_combination_combination",
+   "library": "g3_tree_animal_simple04_s2025"
+  },
+  {
+   "id": "Q168",
+   "baseline": "shared_attention_equal",
+   "library": "g3_tree_animal_simple03_s7"
+  },
+  {
+   "id": "Q169",
+   "baseline": "per_combination_equal",
+   "library": "g3_scarecrow_simple00_s2025"
+  },
+  {
+   "id": "Q170",
+   "baseline": "shared_attention_equal",
+   "library": "g3_bottle_02_s7"
+  },
+  {
+   "id": "Q171",
+   "baseline": "per_combination_combination",
+   "library": "g3_face_06_s7"
+  },
+  {
+   "id": "Q172",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_dog_05_s2025"
+  },
+  {
+   "id": "Q173",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_scarecrow_08_s7"
+  },
+  {
+   "id": "Q174",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_dog_simple02_s7"
+  },
+  {
+   "id": "Q175",
+   "baseline": "per_combination_equal",
+   "library": "g3_rocket_09_s7"
+  },
+  {
+   "id": "Q176",
+   "baseline": "per_combination_equal",
+   "library": "g3_wedding_09_s2025"
+  },
+  {
+   "id": "Q177",
+   "baseline": "shared_attention_equal",
+   "library": "g3_rocket_03_s2025"
+  },
+  {
+   "id": "Q178",
+   "baseline": "per_combination_equal",
+   "library": "g3_fish_chimera_07_s2025"
+  },
+  {
+   "id": "Q179",
+   "baseline": "shared_attention_equal",
+   "library": "g3_robot_simple00_s2025"
+  },
+  {
+   "id": "Q180",
+   "baseline": "shared_attention_equal",
+   "library": "g3_figure_front_08_s2025"
+  },
+  {
+   "id": "Q181",
+   "baseline": "per_combination_equal",
+   "library": "g3_face_front_simple00_s2025"
+  },
+  {
+   "id": "Q182",
+   "baseline": "shared_attention_equal",
+   "library": "g3_baby_toy_simple01_s7"
+  },
+  {
+   "id": "Q183",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_robot_06_s2025"
+  },
+  {
+   "id": "Q184",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_tree_animal_00_s2025"
+  },
+  {
+   "id": "Q185",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_dog_03_s2025"
+  },
+  {
+   "id": "Q186",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_branch_scene_simple03_s2025"
+  },
+  {
+   "id": "Q187",
+   "baseline": "shared_attention_equal",
+   "library": "g3_snowman_00_s7"
+  },
+  {
+   "id": "Q188",
+   "baseline": "per_combination_equal",
+   "library": "g3_classical_chimera_simple01_s2025"
+  },
+  {
+   "id": "Q189",
+   "baseline": "per_combination_combination",
+   "library": "g3_face_front_09_s2025"
+  },
+  {
+   "id": "Q190",
+   "baseline": "per_combination_equal",
+   "library": "g3_baby_toy_01_s2025"
+  },
+  {
+   "id": "Q191",
+   "baseline": "shared_attention_equal",
+   "library": "g3_knight_07_s2025"
+  },
+  {
+   "id": "Q192",
+   "baseline": "shared_attention_equal",
+   "library": "g3_mermaid_simple01_s2025"
+  },
+  {
+   "id": "Q193",
+   "baseline": "per_combination_equal",
+   "library": "g3_classical_chimera_05_s2025"
+  },
+  {
+   "id": "Q194",
+   "baseline": "per_combination_equal",
+   "library": "g3_plant_simple02_s2025"
+  },
+  {
+   "id": "Q195",
+   "baseline": "per_combination_combination",
+   "library": "g3_face_04_s2025"
+  },
+  {
+   "id": "Q196",
+   "baseline": "per_combination_equal",
+   "library": "g3_gnome_simple02_s2025"
+  },
+  {
+   "id": "Q197",
+   "baseline": "multidiffusion_equal",
+   "library": "g3_figure_front_04_s7"
+  },
+  {
+   "id": "Q198",
+   "baseline": "per_combination_combination",
+   "library": "g3_robot_07_s7"
+  },
+  {
+   "id": "Q199",
+   "baseline": "shared_attention_equal",
+   "library": "g3_person_pet_01_s2025"
+  }
+ ],
+ "catch": [
+  "C00",
+  "C01",
+  "C02",
+  "C03"
+ ]
+}

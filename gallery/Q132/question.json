@@ -1,0 +1,43 @@
+{
+ "id": "Q132",
+ "source": {
+  "library": "g3_fish_chimera_08_s2025",
+  "idea": "g3_fish_chimera",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   1
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A big fish with one head swimming in the ocean, side view, with <r0>a blue tuna fin</r0>, with <r1>a long flowing red betta fish tail</r1>, in a realistic picture style",
+   "A big fish with one head swimming in the ocean, side view, with <r0>a blue tuna fin</r0>, with <r1>a shark tail</r1>, in a realistic picture style"
+  ],
+  "he": [
+   "דג גדול עם ראש אחד שוחה באוקיינוס, מבט מהצד, עם <r0>סנפיר כחול של טונה</r0>, עם <r1>זנב אדום ארוך ומתנפנף של דג בטה</r1>, בסגנון תמונה ריאליסטית",
+   "דג גדול עם ראש אחד שוחה באוקיינוס, מבט מהצד, עם <r0>סנפיר כחול של טונה</r0>, עם <r1>זנב של כריש</r1>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "c6a3d31daf4aec5d",
+   "bf9c23b2017a2688"
+  ],
+  "other": [
+   "3073eabf83be281b",
+   "8f342789dd9cc28c"
+  ]
+ }
+}

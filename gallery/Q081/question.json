@@ -1,0 +1,43 @@
+{
+ "id": "Q081",
+ "source": {
+  "library": "g3_figure_front_simple04_s2025",
+  "idea": "g3_figure_front",
+  "seed": 2025
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   2
+  ],
+  [
+   1,
+   2
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A full-body front view of a person standing straight with arms at their sides, on a plain white background, wearing <r0>a green army jacket</r0>, wearing <r1>black leather pants</r1>, in an oil painting style",
+   "A full-body front view of a person standing straight with arms at their sides, on a plain white background, wearing <r0>the top of a Spider-Man suit</r0>, wearing <r1>black leather pants</r1>, in an oil painting style"
+  ],
+  "he": [
+   "תמונת גוף מלא מלפנים של אדם שעומד זקוף, ידיו לצדי גופו, על רקע לבן חלק, לובש <r0>ז׳קט צבאי ירוק</r0> ו<r1>מכנסי עור שחורים</r1>, בסגנון ציור שמן",
+   "תמונת גוף מלא מלפנים של אדם שעומד זקוף, ידיו לצדי גופו, על רקע לבן חלק, לובש <r0>את החלק העליון של חליפת ספיידרמן</r0> ו<r1>מכנסי עור שחורים</r1>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "1b0842be0b3280e1",
+   "b4148dfab0c19ddc"
+  ],
+  "other": [
+   "2afd4bdf0d6e128d",
+   "4e93d96dd836b79a"
+  ]
+ }
+}

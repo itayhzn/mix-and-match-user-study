@@ -1,0 +1,52 @@
+{
+ "id": "Q180",
+ "source": {
+  "library": "g3_figure_front_08_s2025",
+  "idea": "g3_figure_front",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 6,
+ "combinations": [
+  [
+   3,
+   2,
+   1,
+   3,
+   0,
+   1
+  ],
+  [
+   1,
+   2,
+   2,
+   3,
+   0,
+   1
+  ]
+ ],
+ "changed": [
+  0,
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A full-body front view of a person standing straight with arms at their sides, on a plain white background, wearing <r0>a red baseball cap</r0>, with <r1>a tiger face</r1>, with <r2>steel knight gauntlets</r2>, wearing <r3>a steel knight breastplate</r3>, wearing <r4>orange sweatpants</r4>, wearing <r5>navy canvas sneakers</r5>, in a film noir style",
+   "A full-body front view of a person standing straight with arms at their sides, on a plain white background, wearing <r0>a green beret</r0>, with <r1>a tiger face</r1>, with <r2>green rubber gloves</r2>, wearing <r3>a steel knight breastplate</r3>, wearing <r4>orange sweatpants</r4>, wearing <r5>navy canvas sneakers</r5>, in a film noir style"
+  ],
+  "he": [
+   "אדם בגוף מלא במבט מלפנים, עומד זקוף וידיו לצדי גופו, על רקע לבן חלק, חובש <r0>כובע בייסבול אדום</r0>, עם <r1>פני טיגריס</r1>, עם <r2>כפפות שריון של אביר מפלדה</r2>, לובש <r3>שריון חזה של אביר מפלדה</r3>, <r4>מכנסי טרנינג כתומים</r4> ו<r5>נעלי בד בכחול נייבי</r5>, בסגנון פילם נואר",
+   "אדם בגוף מלא במבט מלפנים, עומד זקוף וידיו לצדי גופו, על רקע לבן חלק, חובש <r0>כומתה ירוקה</r0>, עם <r1>פני טיגריס</r1>, עם <r2>כפפות גומי ירוקות</r2>, לובש <r3>שריון חזה של אביר מפלדה</r3>, <r4>מכנסי טרנינג כתומים</r4> ו<r5>נעלי בד בכחול נייבי</r5>, בסגנון פילם נואר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "741a556de117cc0a",
+   "21550676ffe941ce"
+  ],
+  "other": [
+   "307ebe87ad2e7347",
+   "b3247ab586702f93"
+  ]
+ }
+}

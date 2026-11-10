@@ -1,0 +1,45 @@
+{
+ "id": "Q047",
+ "source": {
+  "library": "g3_tree_animal_03_s7",
+  "idea": "g3_tree_animal",
+  "seed": 7
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   1,
+   0,
+   2
+  ],
+  [
+   1,
+   0,
+   0
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A lone tree on a hill with an animal beside it, with <r0>purple jacaranda flowers</r0>, with <r1>a trunk with a carved heart</r1>, next to <r2>a dog</r2>, in a film noir style",
+   "A lone tree on a hill with an animal beside it, with <r0>purple jacaranda flowers</r0>, with <r1>a trunk with a carved heart</r1>, next to <r2>a hare</r2>, in a film noir style"
+  ],
+  "he": [
+   "עץ בודד על גבעה ולצדו חיה, עם <r0>פרחי סיגלון סגולים</r0>, עם <r1>גזע עם לב חרוט</r1>, ליד <r2>כלב</r2>, בסגנון פילם נואר",
+   "עץ בודד על גבעה ולצדו חיה, עם <r0>פרחי סיגלון סגולים</r0>, עם <r1>גזע עם לב חרוט</r1>, ליד <r2>ארנבת</r2>, בסגנון פילם נואר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "1baf15d951c8e328",
+   "cc10d9723fd0a3a5"
+  ],
+  "other": [
+   "fd2dc905af705b2c",
+   "f6110b8a6ce9a3c1"
+  ]
+ }
+}

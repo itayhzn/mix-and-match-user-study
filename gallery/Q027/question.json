@@ -1,0 +1,43 @@
+{
+ "id": "Q027",
+ "source": {
+  "library": "g3_mermaid_simple02_s2025",
+  "idea": "g3_mermaid",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   2
+  ],
+  [
+   0,
+   1
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A full-body mermaid with a long fish tail instead of legs, sitting on a rock, front view, plain background, with <r0>the upper body of a woman in a seashell top</r0>, with <r1>a purple fish tail</r1>, in a realistic picture style",
+   "A full-body mermaid with a long fish tail instead of legs, sitting on a rock, front view, plain background, with <r0>the upper body of a woman in a seashell top</r0>, with <r1>a red fish tail</r1>, in a realistic picture style"
+  ],
+  "he": [
+   "בת ים בגוף מלא עם זנב דג ארוך במקום רגליים, יושבת על סלע, מבט מלפנים, רקע חלק, עם <r0>פלג גוף עליון של אישה בטופ מצדפים</r0>, עם <r1>זנב דג סגול</r1>, בסגנון תמונה ריאליסטית",
+   "בת ים בגוף מלא עם זנב דג ארוך במקום רגליים, יושבת על סלע, מבט מלפנים, רקע חלק, עם <r0>פלג גוף עליון של אישה בטופ מצדפים</r0>, עם <r1>זנב דג אדום</r1>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "65c4bef149fa3bdb",
+   "a745ed76a67e58b9"
+  ],
+  "other": [
+   "8b2093a35254e1dc",
+   "daf417a605d9b376"
+  ]
+ }
+}

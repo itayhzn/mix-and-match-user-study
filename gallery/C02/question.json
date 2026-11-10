@@ -1,0 +1,46 @@
+{
+ "id": "C02",
+ "source": {
+  "library": "g3_wedding_07_s2025",
+  "idea": "g3_wedding",
+  "seed": 2025,
+  "wrong": "g3_plant_simple00_s7"
+ },
+ "baseline": "catch",
+ "num_regions": 3,
+ "combinations": [
+  [
+   2,
+   0,
+   3
+  ],
+  [
+   2,
+   0,
+   1
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A bride and groom posing in a garden, the bride wearing <r0>an ivory satin gown</r0>, under <r1>a stone archway</r1>, the groom wearing <r2>a black tuxedo</r2>, in a digital painting style",
+   "A bride and groom posing in a garden, the bride wearing <r0>an ivory satin gown</r0>, under <r1>a stone archway</r1>, the groom wearing <r2>a charcoal gray suit</r2>, in a digital painting style"
+  ],
+  "he": [
+   "כלה וחתן מצטלמים בגינה, הכלה לובשת <r0>שמלת סאטן בצבע שנהב</r0>, תחת <r1>קשת אבן</r1>, החתן לובש <r2>טוקסידו שחור</r2>, בסגנון ציור דיגיטלי",
+   "כלה וחתן מצטלמים בגינה, הכלה לובשת <r0>שמלת סאטן בצבע שנהב</r0>, תחת <r1>קשת אבן</r1>, החתן לובש <r2>חליפה בצבע אפור פחם</r2>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "1da6b7682f92ca68",
+   "f67848ad3900a113"
+  ],
+  "other": [
+   "cd47fe1cdd89d6a7",
+   "22b2f19766cbf8ba"
+  ]
+ }
+}

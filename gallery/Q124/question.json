@@ -1,0 +1,43 @@
+{
+ "id": "Q124",
+ "source": {
+  "library": "g3_mermaid_simple00_s2025",
+  "idea": "g3_mermaid",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   0
+  ],
+  [
+   0,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A full-body mermaid with a long fish tail instead of legs, sitting on a rock, front view, plain background, with <r0>the upper body of a muscular man</r0>, with <r1>a green scaly fish tail</r1>, in a digital painting style",
+   "A full-body mermaid with a long fish tail instead of legs, sitting on a rock, front view, plain background, with <r0>the upper body of a muscular man</r0>, with <r1>a red fish tail</r1>, in a digital painting style"
+  ],
+  "he": [
+   "בת ים בגוף מלא עם זנב דג ארוך במקום רגליים, יושבת על סלע, מבט מלפנים, רקע חלק, עם <r0>פלג גוף עליון של גבר שרירי</r0>, עם <r1>זנב דג ירוק מכוסה קשקשים</r1>, בסגנון ציור דיגיטלי",
+   "בת ים בגוף מלא עם זנב דג ארוך במקום רגליים, יושבת על סלע, מבט מלפנים, רקע חלק, עם <r0>פלג גוף עליון של גבר שרירי</r0>, עם <r1>זנב דג אדום</r1>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "353c4329c58c4213",
+   "fda8edf4dabd3ad5"
+  ],
+  "other": [
+   "c3f10a3d0d17855f",
+   "c7e55619203de7f3"
+  ]
+ }
+}

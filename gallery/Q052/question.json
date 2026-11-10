@@ -1,0 +1,43 @@
+{
+ "id": "Q052",
+ "source": {
+  "library": "g3_branch_scene_08_s2025",
+  "idea": "g3_branch_scene",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   1
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A close-up of a mossy tree branch with a bird and a mushroom on it, with <r0>a gray pigeon</r0>, with <r1>a yellow mushroom</r1>, in an anime drawing style",
+   "A close-up of a mossy tree branch with a bird and a mushroom on it, with <r0>a gray pigeon</r0>, with <r1>a brown mushroom with a wide cap</r1>, in an anime drawing style"
+  ],
+  "he": [
+   "תקריב של ענף עץ מכוסה טחב ועליו ציפור ופטרייה, עם <r0>יונה אפורה</r0>, עם <r1>פטרייה צהובה</r1>, בסגנון ציור אנימה",
+   "תקריב של ענף עץ מכוסה טחב ועליו ציפור ופטרייה, עם <r0>יונה אפורה</r0>, עם <r1>פטרייה חומה עם כובע רחב</r1>, בסגנון ציור אנימה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "fa760dff5e7fa70d",
+   "fca3f0ce10fd942f"
+  ],
+  "other": [
+   "8e3a7c8229094e28",
+   "26adbc7262657704"
+  ]
+ }
+}

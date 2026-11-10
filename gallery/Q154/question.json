@@ -1,0 +1,45 @@
+{
+ "id": "Q154",
+ "source": {
+  "library": "g3_fish_chimera_00_s2025",
+  "idea": "g3_fish_chimera",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   4,
+   2,
+   1
+  ],
+  [
+   4,
+   2,
+   3
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A big fish with one head swimming in the ocean, side view, with <r0>the head of a clownfish</r0>, with <r1>a shark dorsal fin</r1>, with <r2>a striped clownfish tail</r2>, in an anime drawing style",
+   "A big fish with one head swimming in the ocean, side view, with <r0>the head of a clownfish</r0>, with <r1>a shark dorsal fin</r1>, with <r2>a long flowing red betta fish tail</r2>, in an anime drawing style"
+  ],
+  "he": [
+   "דג גדול עם ראש אחד שוחה באוקיינוס, מבט מהצד, עם <r0>ראש של דג ליצן</r0>, עם <r1>סנפיר גב של כריש</r1>, עם <r2>זנב מפוספס של דג ליצן</r2>, בסגנון ציור אנימה",
+   "דג גדול עם ראש אחד שוחה באוקיינוס, מבט מהצד, עם <r0>ראש של דג ליצן</r0>, עם <r1>סנפיר גב של כריש</r1>, עם <r2>זנב אדום ארוך ומתנפנף של דג בטה</r2>, בסגנון ציור אנימה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "28e8630df66af3bd",
+   "012ac1b039a3d867"
+  ],
+  "other": [
+   "d0417b652b8c57be",
+   "65c650a0e013633b"
+  ]
+ }
+}

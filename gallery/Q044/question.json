@@ -1,0 +1,48 @@
+{
+ "id": "Q044",
+ "source": {
+  "library": "g3_face_front_06_s7",
+  "idea": "g3_face_front",
+  "seed": 7
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 4,
+ "combinations": [
+  [
+   3,
+   1,
+   3,
+   2
+  ],
+  [
+   2,
+   0,
+   3,
+   2
+  ]
+ ],
+ "changed": [
+  0,
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A front-facing portrait of a person from the shoulders up, looking straight at the camera, with a neutral background, wearing <r0>a brown fedora</r0>, with <r1>bright green eyes</r1>, with <r2>a thick red handlebar mustache</r2>, wearing <r3>a black leather jacket</r3>, in a watercolor painting style",
+   "A front-facing portrait of a person from the shoulders up, looking straight at the camera, with a neutral background, wearing <r0>a red baseball cap</r0>, with <r1>icy blue eyes</r1>, with <r2>a thick red handlebar mustache</r2>, wearing <r3>a black leather jacket</r3>, in a watercolor painting style"
+  ],
+  "he": [
+   "דיוקן חזיתי של אדם מהכתפיים ומעלה, מביט ישר למצלמה, על רקע ניטרלי, חובש <r0>כובע פדורה חום</r0>, עם <r1>עיניים ירוקות בוהקות</r1>, עם <r2>שפם אדום עבה ומסולסל</r2>, לובש <r3>מעיל עור שחור</r3>, בסגנון ציור בצבעי מים",
+   "דיוקן חזיתי של אדם מהכתפיים ומעלה, מביט ישר למצלמה, על רקע ניטרלי, חובש <r0>כובע בייסבול אדום</r0>, עם <r1>עיניים כחולות כקרח</r1>, עם <r2>שפם אדום עבה ומסולסל</r2>, לובש <r3>מעיל עור שחור</r3>, בסגנון ציור בצבעי מים"
+  ]
+ },
+ "images": {
+  "ours": [
+   "5d8560ad0acc10e0",
+   "a538fea60c0fb353"
+  ],
+  "other": [
+   "9882887787d8f6e8",
+   "7b282cc4efc4381f"
+  ]
+ }
+}

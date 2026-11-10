@@ -1,0 +1,45 @@
+{
+ "id": "Q060",
+ "source": {
+  "library": "g3_knight_06_s2025",
+  "idea": "g3_knight",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 3,
+ "combinations": [
+  [
+   2,
+   2,
+   2
+  ],
+  [
+   1,
+   2,
+   2
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A knight standing in a castle courtyard, wearing <r0>a dark visored great helm</r0>, wearing <r1>leather scale armor</r1>, next to <r2>a brown horse with red armor</r2>, in a realistic picture style",
+   "A knight standing in a castle courtyard, wearing <r0>a bronze roman helmet</r0>, wearing <r1>leather scale armor</r1>, next to <r2>a brown horse with red armor</r2>, in a realistic picture style"
+  ],
+  "he": [
+   "אביר עומד בחצר טירה, חובש <r0>קסדת אביר סגורה וכהה עם מגן פנים</r0>, לובש <r1>שריון קשקשים מעור</r1>, ליד <r2>סוס חום עם שריון אדום</r2>, בסגנון תמונה ריאליסטית",
+   "אביר עומד בחצר טירה, חובש <r0>קסדה רומית מברונזה</r0>, לובש <r1>שריון קשקשים מעור</r1>, ליד <r2>סוס חום עם שריון אדום</r2>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "a90bcffcfdb6a826",
+   "c666c98dfd0b7f58"
+  ],
+  "other": [
+   "edc3e70cd7f56bdf",
+   "7be8b49e14bc9118"
+  ]
+ }
+}

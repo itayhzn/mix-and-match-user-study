@@ -1,0 +1,43 @@
+{
+ "id": "Q192",
+ "source": {
+  "library": "g3_mermaid_simple01_s2025",
+  "idea": "g3_mermaid",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   0
+  ],
+  [
+   0,
+   0
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A full-body mermaid with a long fish tail instead of legs, sitting on a rock, front view, plain background, with <r0>the upper body of a woman in a kelp top</r0>, with <r1>a blue scaly fish tail</r1>, in a cartoon style",
+   "A full-body mermaid with a long fish tail instead of legs, sitting on a rock, front view, plain background, with <r0>the upper body of a tattooed man</r0>, with <r1>a blue scaly fish tail</r1>, in a cartoon style"
+  ],
+  "he": [
+   "בת ים בדמות מלאה, עם זנב דג ארוך במקום רגליים, יושבת על סלע, מבט מלפנים, רקע חלק, עם <r0>פלג גוף עליון של אישה בטופ מאצות</r0>, עם <r1>זנב דג כחול עם קשקשים</r1>, בסגנון מצויר",
+   "בת ים בדמות מלאה, עם זנב דג ארוך במקום רגליים, יושבת על סלע, מבט מלפנים, רקע חלק, עם <r0>פלג גוף עליון של גבר מקועקע</r0>, עם <r1>זנב דג כחול עם קשקשים</r1>, בסגנון מצויר"
+  ]
+ },
+ "images": {
+  "ours": [
+   "d4589c236998bfec",
+   "62af81df63fa4265"
+  ],
+  "other": [
+   "f6e6a304b7085f7c",
+   "ca9f75269fe488dd"
+  ]
+ }
+}

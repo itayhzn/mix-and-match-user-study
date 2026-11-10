@@ -1,0 +1,43 @@
+{
+ "id": "Q111",
+ "source": {
+  "library": "g3_superhero_05_s2025",
+  "idea": "g3_superhero",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   2,
+   3
+  ],
+  [
+   2,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A half-body portrait of a superhero in a city street, wearing <r0>a black tattered cape</r0>, with <r1>a spider emblem</r1>, in a sketch style",
+   "A half-body portrait of a superhero in a city street, wearing <r0>a black tattered cape</r0>, with <r1>a lightning bolt emblem</r1>, in a sketch style"
+  ],
+  "he": [
+   "דיוקן חצי גוף של גיבור על ברחוב עירוני, לובש <r0>גלימה שחורה קרועה</r0>, עם <r1>סמל עכביש</r1>, בסגנון סקיצה",
+   "דיוקן חצי גוף של גיבור על ברחוב עירוני, לובש <r0>גלימה שחורה קרועה</r0>, עם <r1>סמל של ברק</r1>, בסגנון סקיצה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "c642199d40ce4eff",
+   "f8a93b450a6e09a6"
+  ],
+  "other": [
+   "66425f96fa13a089",
+   "25810b1c391d84e2"
+  ]
+ }
+}

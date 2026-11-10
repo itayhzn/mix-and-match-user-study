@@ -1,0 +1,43 @@
+{
+ "id": "Q138",
+ "source": {
+  "library": "g3_animal_chimera_simple02_s7",
+  "idea": "g3_animal_chimera",
+  "seed": 7
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   1,
+   1
+  ],
+  [
+   0,
+   1
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A large animal with a single head standing on grass, side view, plain background, with <r0>the head of a zebra</r0>, with <r1>the body of a zebra</r1>, in a digital painting style",
+   "A large animal with a single head standing on grass, side view, plain background, with <r0>the head of a tiger</r0>, with <r1>the body of a zebra</r1>, in a digital painting style"
+  ],
+  "he": [
+   "חיה גדולה עם ראש אחד עומדת על דשא, מבט מהצד, רקע חלק, עם <r0>ראש של זברה</r0>, עם <r1>גוף של זברה</r1>, בסגנון ציור דיגיטלי",
+   "חיה גדולה עם ראש אחד עומדת על דשא, מבט מהצד, רקע חלק, עם <r0>ראש של נמר</r0>, עם <r1>גוף של זברה</r1>, בסגנון ציור דיגיטלי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "24086b8dc87b07f6",
+   "b2e5d76bca4dd8e6"
+  ],
+  "other": [
+   "e7ad88c20b2ade23",
+   "ff82c2d63d4255a7"
+  ]
+ }
+}

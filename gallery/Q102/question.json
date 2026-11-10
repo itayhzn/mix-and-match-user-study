@@ -1,0 +1,49 @@
+{
+ "id": "Q102",
+ "source": {
+  "library": "g3_figure_front_07_s2025",
+  "idea": "g3_figure_front",
+  "seed": 2025
+ },
+ "baseline": "per_combination_equal",
+ "num_regions": 5,
+ "combinations": [
+  [
+   2,
+   0,
+   2,
+   0,
+   2
+  ],
+  [
+   2,
+   0,
+   0,
+   0,
+   2
+  ]
+ ],
+ "changed": [
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A person standing straight and facing the camera, arms to the sides, full body, in an empty studio, with <r0>a green ogre face</r0>, with <r1>red Spider-Man gloves</r1>, wearing <r2>a black tuxedo jacket</r2>, wearing <r3>blue jeans</r3>, wearing <r4>black leather dress shoes</r4>, in a low poly style",
+   "A person standing straight and facing the camera, arms to the sides, full body, in an empty studio, with <r0>a green ogre face</r0>, with <r1>red Spider-Man gloves</r1>, wearing <r2>a steel knight breastplate</r2>, wearing <r3>blue jeans</r3>, wearing <r4>black leather dress shoes</r4>, in a low poly style"
+  ],
+  "he": [
+   "אדם עומד זקוף ופונה אל המצלמה, ידיו לצידי גופו, גוף מלא, בסטודיו ריק, עם <r0>פני עוג ירוקות</r0>, עם <r1>כפפות ספיידרמן אדומות</r1>, לובש <r2>ז'קט טוקסידו שחור</r2>, לובש <r3>ג'ינס כחול</r3>, נועל <r4>נעלי עור אלגנטיות שחורות</r4>, בסגנון low poly",
+   "אדם עומד זקוף ופונה אל המצלמה, ידיו לצידי גופו, גוף מלא, בסטודיו ריק, עם <r0>פני עוג ירוקות</r0>, עם <r1>כפפות ספיידרמן אדומות</r1>, לובש <r2>שריון חזה של אביר מפלדה</r2>, לובש <r3>ג'ינס כחול</r3>, נועל <r4>נעלי עור אלגנטיות שחורות</r4>, בסגנון low poly"
+  ]
+ },
+ "images": {
+  "ours": [
+   "cd2948faf2840ef9",
+   "14e7b98dc425f2f8"
+  ],
+  "other": [
+   "24d4af837127b0a5",
+   "2373cb226554605e"
+  ]
+ }
+}

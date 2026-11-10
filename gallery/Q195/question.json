@@ -1,0 +1,48 @@
+{
+ "id": "Q195",
+ "source": {
+  "library": "g3_face_04_s2025",
+  "idea": "g3_face",
+  "seed": 2025
+ },
+ "baseline": "per_combination_combination",
+ "num_regions": 4,
+ "combinations": [
+  [
+   0,
+   3,
+   3,
+   2
+  ],
+  [
+   2,
+   3,
+   0,
+   2
+  ]
+ ],
+ "changed": [
+  0,
+  2
+ ],
+ "prompts": {
+  "en": [
+   "A close-up portrait of a person's face, wearing <r0>a purple wizard hat</r0>, with <r1>bright green eyes</r1>, with <r2>a short dark brown goatee</r2>, wearing <r3>a burgundy sweater</r3>, in an anime drawing style",
+   "A close-up portrait of a person's face, wearing <r0>a wide brown cowboy hat</r0>, with <r1>bright green eyes</r1>, with <r2>a thin black pencil mustache</r2>, wearing <r3>a burgundy sweater</r3>, in an anime drawing style"
+  ],
+  "he": [
+   "דיוקן תקריב של פני אדם, חובש <r0>כובע קוסמים סגול</r0>, עם <r1>עיניים ירוקות בוהקות</r1>, עם <r2>זקן תיש קצר בצבע חום כהה</r2>, לובש <r3>סוודר בצבע בורדו</r3>, בסגנון ציור אנימה",
+   "דיוקן תקריב של פני אדם, חובש <r0>כובע בוקרים חום ורחב</r0>, עם <r1>עיניים ירוקות בוהקות</r1>, עם <r2>שפם עיפרון שחור ודק</r2>, לובש <r3>סוודר בצבע בורדו</r3>, בסגנון ציור אנימה"
+  ]
+ },
+ "images": {
+  "ours": [
+   "6d730a6459ebe398",
+   "bc56d6c911f96243"
+  ],
+  "other": [
+   "a38ab06dd0afe8dc",
+   "78b727635c12f3ff"
+  ]
+ }
+}

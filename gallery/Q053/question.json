@@ -1,0 +1,52 @@
+{
+ "id": "Q053",
+ "source": {
+  "library": "g3_face_front_03_s2025",
+  "idea": "g3_face_front",
+  "seed": 2025
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 6,
+ "combinations": [
+  [
+   3,
+   0,
+   3,
+   3,
+   2,
+   3
+  ],
+  [
+   3,
+   0,
+   3,
+   3,
+   3,
+   2
+  ]
+ ],
+ "changed": [
+  4,
+  5
+ ],
+ "prompts": {
+  "en": [
+   "A symmetrical front-facing head-and-shoulders portrait of a person, with a plain gray background, with <r0>short auburn hair</r0>, with <r1>gold chandelier earrings</r1>, with <r2>violet eyes</r2>, with <r3>a long pointed witch nose</r3>, with <r4>a wide toothy grin</r4>, wearing <r5>a dark green hoodie</r5>, in a line art style",
+   "A symmetrical front-facing head-and-shoulders portrait of a person, with a plain gray background, with <r0>short auburn hair</r0>, with <r1>gold chandelier earrings</r1>, with <r2>violet eyes</r2>, with <r3>a long pointed witch nose</r3>, with <r4>bright red lipstick</r4>, wearing <r5>a burgundy sweater</r5>, in a line art style"
+  ],
+  "he": [
+   "דיוקן סימטרי מלפנים של אדם, ראש וכתפיים, על רקע אפור חלק, עם <r0>שיער קצר בצבע ערמוני-אדמדם</r0>, עם <r1>עגילי נברשת זהובים</r1>, עם <r2>עיניים סגולות</r2>, עם <r3>אף מכשפה ארוך ומחודד</r3>, עם <r4>חיוך רחב שחושף שיניים</r4>, לובש <r5>קפוצ'ון ירוק כהה</r5>, בסגנון ציור קווי",
+   "דיוקן סימטרי מלפנים של אדם, ראש וכתפיים, על רקע אפור חלק, עם <r0>שיער קצר בצבע ערמוני-אדמדם</r0>, עם <r1>עגילי נברשת זהובים</r1>, עם <r2>עיניים סגולות</r2>, עם <r3>אף מכשפה ארוך ומחודד</r3>, עם <r4>שפתון אדום בוהק</r4>, לובש <r5>סוודר בצבע בורדו</r5>, בסגנון ציור קווי"
+  ]
+ },
+ "images": {
+  "ours": [
+   "7391da8034fa507e",
+   "0c4e6bafc773b623"
+  ],
+  "other": [
+   "db9055f0f62aff59",
+   "f14ed0c3910f0f55"
+  ]
+ }
+}

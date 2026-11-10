@@ -1,0 +1,48 @@
+{
+ "id": "C00",
+ "source": {
+  "library": "g3_face_03_s7",
+  "idea": "g3_face",
+  "seed": 7,
+  "wrong": "g3_branch_scene_04_s7"
+ },
+ "baseline": "catch",
+ "num_regions": 4,
+ "combinations": [
+  [
+   1,
+   2,
+   2,
+   2
+  ],
+  [
+   1,
+   1,
+   2,
+   2
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A head-and-shoulders portrait of a person, wearing <r0>a knitted green beanie</r0>, with <r1>thick black-rimmed glasses</r1>, with <r2>a wide toothy grin</r2>, wearing <r3>a brown leather jacket</r3>, in an oil painting style",
+   "A head-and-shoulders portrait of a person, wearing <r0>a knitted green beanie</r0>, with <r1>red cat-eye glasses</r1>, with <r2>a wide toothy grin</r2>, wearing <r3>a brown leather jacket</r3>, in an oil painting style"
+  ],
+  "he": [
+   "דיוקן ראש וכתפיים של אדם, חובש <r0>כובע גרב סרוג ירוק</r0>, עם <r1>משקפיים עם מסגרת שחורה עבה</r1>, עם <r2>חיוך רחב שחושף שיניים</r2>, לובש <r3>מעיל עור חום</r3>, בסגנון ציור שמן",
+   "דיוקן ראש וכתפיים של אדם, חובש <r0>כובע גרב סרוג ירוק</r0>, עם <r1>משקפי עין חתול אדומים</r1>, עם <r2>חיוך רחב שחושף שיניים</r2>, לובש <r3>מעיל עור חום</r3>, בסגנון ציור שמן"
+  ]
+ },
+ "images": {
+  "ours": [
+   "95e8687fc6d06109",
+   "d9adaf3c4b16afe5"
+  ],
+  "other": [
+   "046de83942cf01c1",
+   "8334076d7dcba44c"
+  ]
+ }
+}

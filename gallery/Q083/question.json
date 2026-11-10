@@ -1,0 +1,43 @@
+{
+ "id": "Q083",
+ "source": {
+  "library": "g3_animal_chimera_simple04_s2025",
+  "idea": "g3_animal_chimera",
+  "seed": 2025
+ },
+ "baseline": "multidiffusion_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   0,
+   1
+  ],
+  [
+   2,
+   1
+  ]
+ ],
+ "changed": [
+  0
+ ],
+ "prompts": {
+  "en": [
+   "A large animal with a single head standing on grass, side view, plain background, with <r0>the head of a lion</r0>, with <r1>the body of a leopard</r1>, in a realistic picture style",
+   "A large animal with a single head standing on grass, side view, plain background, with <r0>the head of a zebra</r0>, with <r1>the body of a leopard</r1>, in a realistic picture style"
+  ],
+  "he": [
+   "חיה גדולה עם ראש אחד עומדת על דשא, מבט מהצד, רקע חלק, עם <r0>ראש של אריה</r0>, עם <r1>גוף של נמר</r1>, בסגנון תמונה ריאליסטית",
+   "חיה גדולה עם ראש אחד עומדת על דשא, מבט מהצד, רקע חלק, עם <r0>ראש של זברה</r0>, עם <r1>גוף של נמר</r1>, בסגנון תמונה ריאליסטית"
+  ]
+ },
+ "images": {
+  "ours": [
+   "7d9c90b94c395a0b",
+   "6f8b13294df09a5c"
+  ],
+  "other": [
+   "9428e494d00177b0",
+   "6e50ebd8de346e3c"
+  ]
+ }
+}

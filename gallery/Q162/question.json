@@ -1,0 +1,43 @@
+{
+ "id": "Q162",
+ "source": {
+  "library": "g3_classical_chimera_simple00_s7",
+  "idea": "g3_classical_chimera",
+  "seed": 7
+ },
+ "baseline": "shared_attention_equal",
+ "num_regions": 2,
+ "combinations": [
+  [
+   3,
+   3
+  ],
+  [
+   3,
+   0
+  ]
+ ],
+ "changed": [
+  1
+ ],
+ "prompts": {
+  "en": [
+   "A mythical winged beast with a single head, side view, plain background, with <r0>a ram's head</r0>, with <r1>bat wings</r1>, in a watercolor painting style",
+   "A mythical winged beast with a single head, side view, plain background, with <r0>a ram's head</r0>, with <r1>scaly dragon wings</r1>, in a watercolor painting style"
+  ],
+  "he": [
+   "יצור מיתולוגי מכונף עם ראש אחד, מבט מהצד, רקע חלק, עם <r0>ראש של איל</r0>, עם <r1>כנפי עטלף</r1>, בסגנון ציור בצבעי מים",
+   "יצור מיתולוגי מכונף עם ראש אחד, מבט מהצד, רקע חלק, עם <r0>ראש של איל</r0>, עם <r1>כנפי דרקון עם קשקשים</r1>, בסגנון ציור בצבעי מים"
+  ]
+ },
+ "images": {
+  "ours": [
+   "b9b65a01a1e8e470",
+   "f08ee4a5219fe072"
+  ],
+  "other": [
+   "6baf70a996a0df09",
+   "cb3ba3cfb262e267"
+  ]
+ }
+}
