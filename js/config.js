@@ -1,6 +1,6 @@
 // Settings of the study. SUBMIT_URL is the Google Apps Script web app that stores the answers (README, "Collecting
 // responses"); while it is empty, answers stay in the browser only. For local tests, ?submit=<url> overrides it.
-export const SUBMIT_URL = "";
+export const SUBMIT_URL = "https://script.google.com/macros/s/AKfycbwrUXn8OIFerPxEf0wB2MrjcD7yLcbK2hUZ72L7lDxsalbmfP91H9DAUjqFo7xuxuLqlw/exec";
 
 export const APP_VERSION = "1.2.0";
 
