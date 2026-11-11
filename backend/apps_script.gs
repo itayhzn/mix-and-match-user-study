@@ -39,8 +39,16 @@ function doPost(e) {
   return reply({ ok: true });
 }
 
+// Opening the URL shows the spreadsheet it writes to and the rows in each tab (row 1 is the header), for checking.
 function doGet() {
-  return reply({ ok: true, service: "study responses" });
+  const book = SpreadsheetApp.getActiveSpreadsheet();
+  if (!book) return reply({ ok: false, error: "not bound to a spreadsheet: open the script from the sheet's Extensions menu" });
+  const rows = {};
+  for (const type of TYPES) {
+    const sheet = book.getSheetByName(type);
+    rows[type] = sheet ? Math.max(sheet.getLastRow() - 1, 0) : null;
+  }
+  return reply({ ok: true, service: "study responses", spreadsheet: book.getName(), rows: rows });
 }
 
 function validate(record) {
