@@ -10,7 +10,7 @@ const app = document.getElementById("app");
 const rotate = document.getElementById("rotate");
 let index = null;
 let state = null;
-let screen = null; // "welcome" | "trial" | "done" | "exited"
+let screen = null; // "welcome" | "trial" | "done" | "exited" (left without saving) | "stopped" (left, answers saved)
 let restarting = false; // "Start over" after leaving: the onboarding, while the withdrawal may still be unsent
 let trial = null;
 let rotateDismissed = false;
@@ -62,6 +62,7 @@ function sync() {
   flush(state, persist).then(() => {
     persist();
     if (screen === "done") renderDone();
+    else if (screen === "stopped") renderStopped();
   });
 }
 
@@ -174,8 +175,8 @@ function renderWelcome() {
 function begin(name) {
   const participant = uuid();
   const plan = makePlan(index, rng(participant));
-  // A withdrawal not yet acknowledged is sent before the new session.
-  const leftover = state?.withdrawn ? state.pending : [];
+  // Records of a previous participant on this device not yet acknowledged are sent before the new session's.
+  const leftover = state?.withdrawn || state?.stopped ? state.pending : [];
   restarting = false;
   state = {
     participant_id: participant, name, lang, gallery_version: index.version, plan, answers: {}, drafts: {},
@@ -259,15 +260,53 @@ function showHelp() {
 // ---------- Leaving ----------
 
 function confirmExit() {
+  const answered = Object.keys(state.answers).length;
   const dialog = el("div", { class: "help", role: "alertdialog", "aria-modal": "true", "aria-label": t("exit_title") },
     el("div", { class: "help-box confirm", dir: lang === "he" ? "rtl" : "ltr" },
-      el("h2", { text: t("exit_title") }), el("p", { text: t("exit_body") }),
+      el("h2", { text: t("exit_title") }),
+      el("p", { text: t("exit_body", { n: answered, total: state.plan.length }) }),
       el("div", { class: "confirm-buttons" },
         el("button", { class: "chip", type: "button", onclick: () => dialog.remove(), text: t("exit_cancel") }),
+        el("button", { class: "primary", type: "button", onclick: () => { dialog.remove(); stop(); },
+          text: t("exit_save") }),
         el("button", { class: "danger", type: "button", onclick: () => { dialog.remove(); withdraw(); },
           text: t("exit_confirm") }))));
   document.body.append(dialog);
   dialog.querySelector(".chip").focus();
+}
+
+/** Leaves the study keeping the answers given so far: they are sent (they were being sent all along). */
+function stop() {
+  state.stopped = true;
+  persist();
+  sync();
+  render();
+}
+
+function renderStopped() {
+  const answered = Object.keys(state.answers).length;
+  const unsent = state.pending.length;
+  app.replaceChildren(el("div", { class: "page done" },
+    el("header", { class: "welcome-head" }, el("h1", { text: t("thanks") }), languageToggle()),
+    el("p", { class: "lead", text: t("answered", { n: answered }) }),
+    savedNote(unsent),
+    el("div", { class: "confirm-buttons start" },
+      el("button", { class: "primary", type: "button", text: t("continue_answering"),
+        onclick: () => { delete state.stopped; persist(); render(); } }),
+      el("button", { class: "chip", type: "button", text: t("start_over"), onclick: startOver }))));
+  if (unsent) setTimeout(sync, 4000);
+}
+
+function savedNote(unsent) {
+  if (!submitUrl) return el("p", { class: "warn", text: t("test_mode") });
+  return el("p", { class: unsent ? "warn" : "ok", text: unsent ? t("unsent") : t("saved") });
+}
+
+/** A new participant on this device; records still unsent are carried over to the new session (begin). */
+function startOver() {
+  restarting = true;
+  Object.assign(onboarding, { step: 0, name: "", consent: false });
+  render();
 }
 
 /**
@@ -290,27 +329,23 @@ function renderExited() {
   app.replaceChildren(el("div", { class: "page done" },
     el("header", { class: "welcome-head" }, el("h1", { text: t("exited_title") }), languageToggle()),
     el("p", { class: "lead", text: t("exited_body") }),
-    el("button", { class: "primary", type: "button", text: t("start_over"), onclick: () => {
-      restarting = true;
-      Object.assign(onboarding, { step: 0, name: "", consent: false });
-      render();
-    } })));
+    el("button", { class: "primary", type: "button", text: t("start_over"), onclick: startOver })));
 }
 
 // ---------- Done ----------
 
 function renderDone() {
   const answered = Object.keys(state.answers).length;
-  const unsent = submitUrl ? state.pending.length : 0;
+  const unsent = state.pending.length;
   const more = el("button", { class: "primary", type: "button", onclick: extend, text: t("more", { n: EXTRA_QUESTIONS }) });
   const left = index.questions.filter((q) => !state.plan.some((p) => p.id === q.id)).length;
   app.replaceChildren(el("div", { class: "page done" },
     el("header", { class: "welcome-head" }, el("h1", { text: t("thanks") }), languageToggle()),
     el("p", { class: "lead", text: t("answered", { n: answered }) }),
-    el("p", { class: unsent ? "warn" : "ok", text: unsent ? t("unsent") : t("saved") }),
+    savedNote(unsent),
     left >= EXTRA_QUESTIONS ? el("p", {}, t("more_lead")) : null,
     left >= EXTRA_QUESTIONS ? more : null));
-  if (unsent) setTimeout(sync, 4000);
+  if (unsent && submitUrl) setTimeout(sync, 4000);
 }
 
 function extend() {
@@ -327,13 +362,15 @@ function extend() {
 function render() {
   trial?.destroy();
   trial = null;
-  if (!state || (state.withdrawn && restarting)) screen = "welcome";
+  if (!state || ((state.withdrawn || state.stopped) && restarting)) screen = "welcome";
   else if (state.withdrawn) screen = "exited";
+  else if (state.stopped) screen = "stopped";
   else screen = currentPosition() < 0 ? "done" : "trial";
   updateRotate();
   if (screen === "welcome") renderWelcome();
   else if (screen === "trial") renderTrialScreen();
   else if (screen === "exited") renderExited();
+  else if (screen === "stopped") renderStopped();
   else renderDone();
 }
 

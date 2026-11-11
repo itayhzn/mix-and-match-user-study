@@ -13,7 +13,7 @@ quality, match to the text, and variety. The design is in `context/user-study-de
 | Path | What |
 |------|------|
 | `index.html`, `css/`, `js/` | The site (plain HTML, CSS and JavaScript modules). |
-| `js/config.js` | `SUBMIT_URL` (the Apps Script web app) and the session sizes: 23 questions + 2 attention checks. |
+| `js/config.js` | `SUBMIT_URL` (the Apps Script web app) and the session size: 25 questions, balanced across the baselines. The gallery's attention checks (`C00`–`C03`) are not used. |
 | `i18n/en.json`, `i18n/he.json` | Every UI string, in English and Hebrew. |
 | `gallery/` | The questions, made by `build_gallery.py` in the research repo: `index.json` and one folder per question with `question.json` and its images (`s/` 512 px, `l/` 1024 px). |
 | `assets/` | The example screenshots shown in the instructions. |

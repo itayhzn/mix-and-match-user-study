@@ -60,11 +60,13 @@
   "ready_lead": "25 questions, about 12 minutes. You can open these instructions again at any time with the ? button.",
   "diversity_note": "Only the highlighted parts count. Ignore differences anywhere else in the picture.",
   "exit": "Exit",
-  "exit_title": "Exit without saving?",
-  "exit_body": "Your answers will be deleted from this device and will not be used in the study.",
+  "exit_title": "Leave the study?",
+  "exit_body": "You answered {n} of {total} questions. You can keep the answers you gave so far, or leave without saving: then they are deleted and not used in the study.",
   "exit_confirm": "Exit without saving",
   "exit_cancel": "Keep going",
   "exited_title": "You left the study",
   "exited_body": "Nothing you answered will be used. Thank you for your time!",
-  "start_over": "Start over"
+  "start_over": "Start over (new participant)",
+  "exit_save": "Exit and save my answers",
+  "continue_answering": "Continue answering"
 }
