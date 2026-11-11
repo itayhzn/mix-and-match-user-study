@@ -11,7 +11,7 @@ const rotate = document.getElementById("rotate");
 let index = null;
 let state = null;
 let screen = null; // "welcome" | "trial" | "done" | "exited" (left without saving) | "stopped" (left, answers saved)
-let restarting = false; // "Start over" after leaving: the onboarding, while the withdrawal may still be unsent
+let restarting = false; // "Start over" (a new participant on this device): the onboarding, the old state kept until begin()
 let trial = null;
 let rotateDismissed = false;
 const cache = new Map();
@@ -176,7 +176,7 @@ function begin(name) {
   const participant = uuid();
   const plan = makePlan(index, rng(participant));
   // Records of a previous participant on this device not yet acknowledged are sent before the new session's.
-  const leftover = state?.withdrawn || state?.stopped ? state.pending : [];
+  const leftover = restarting && state ? state.pending : [];
   restarting = false;
   state = {
     participant_id: participant, name, lang, gallery_version: index.version, plan, answers: {}, drafts: {},
@@ -329,7 +329,8 @@ function renderExited() {
   app.replaceChildren(el("div", { class: "page done" },
     el("header", { class: "welcome-head" }, el("h1", { text: t("exited_title") }), languageToggle()),
     el("p", { class: "lead", text: t("exited_body") }),
-    el("button", { class: "primary", type: "button", text: t("start_over"), onclick: startOver })));
+    el("div", { class: "confirm-buttons start" },
+      el("button", { class: "primary", type: "button", text: t("start_over"), onclick: startOver }))));
 }
 
 // ---------- Done ----------
@@ -344,7 +345,8 @@ function renderDone() {
     el("p", { class: "lead", text: t("answered", { n: answered }) }),
     savedNote(unsent),
     left >= EXTRA_QUESTIONS ? el("p", {}, t("more_lead")) : null,
-    left >= EXTRA_QUESTIONS ? more : null));
+    el("div", { class: "confirm-buttons start" }, left >= EXTRA_QUESTIONS ? more : null,
+      el("button", { class: "chip", type: "button", text: t("start_over"), onclick: startOver }))));
   if (unsent && submitUrl) setTimeout(sync, 4000);
 }
 
@@ -362,7 +364,7 @@ function extend() {
 function render() {
   trial?.destroy();
   trial = null;
-  if (!state || ((state.withdrawn || state.stopped) && restarting)) screen = "welcome";
+  if (!state || restarting) screen = "welcome";
   else if (state.withdrawn) screen = "exited";
   else if (state.stopped) screen = "stopped";
   else screen = currentPosition() < 0 ? "done" : "trial";
