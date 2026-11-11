@@ -473,3 +473,20 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); ou
 .confirm-buttons .primary, .confirm-buttons .danger { min-height: 44px; }
 
 .confirm-buttons.start { justify-content: flex-start; }
+
+.debug {
+  position: fixed;
+  z-index: 50;
+  bottom: 6px;
+  left: 6px;
+  max-width: 60vw;
+  padding: 6px 8px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font: 11px/1.4 ui-monospace, monospace;
+  pointer-events: none;
+  opacity: 0.85;
+}
+
+.debug .chip { margin-top: 4px; min-height: 26px; font-size: 11px; color: #000; pointer-events: auto; }

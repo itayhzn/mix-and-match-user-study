@@ -3,7 +3,7 @@
 import { APP_VERSION, EXTRA_QUESTIONS, GALLERY } from "./config.js";
 import { lang, loadStrings, setLang, t } from "./i18n.js";
 import { clear, load, makePlan, rng, save, uuid } from "./state.js";
-import { enqueue, flush, submitUrl } from "./submit.js";
+import { enqueue, flush, status, submitUrl } from "./submit.js";
 import { QUESTIONS, preload, renderTrial } from "./trial.js";
 
 const app = document.getElementById("app");
@@ -387,6 +387,21 @@ window.visualViewport?.addEventListener("resize", () => {
 });
 window.addEventListener("online", sync);
 
+// ?debug: a small panel with what is waiting to be sent and the last problem, and a button that sends now.
+function debugPanel() {
+  const panel = el("div", { class: "debug", dir: "ltr" });
+  document.body.append(panel);
+  const update = () => {
+    panel.replaceChildren(
+      el("div", { text: `v${APP_VERSION} · ${submitUrl ? "endpoint set" : "no endpoint"}` }),
+      el("div", { text: `pending ${state?.pending?.length ?? 0} · sent ${status.sent} (blind ${status.blind}) · rejected ${status.rejected}` }),
+      el("div", { text: `last error: ${status.lastError ?? "none"}` }),
+      el("button", { type: "button", class: "chip", text: "Send now", onclick: () => { if (state) sync(); } }));
+  };
+  update();
+  setInterval(update, 1000);
+}
+
 async function main() {
   try {
     await loadStrings();
@@ -409,6 +424,7 @@ async function main() {
   setLang(state?.lang || ((navigator.language || "").toLowerCase().startsWith("he") ? "he" : "en"));
   render();
   if (state) sync();
+  if (new URLSearchParams(location.search).has("debug")) debugPanel();
 }
 
 main();

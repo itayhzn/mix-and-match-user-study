@@ -2,7 +2,7 @@
 // responses"); while it is empty, answers stay in the browser only. For local tests, ?submit=<url> overrides it.
 export const SUBMIT_URL = "https://script.google.com/macros/s/AKfycbwrUXn8OIFerPxEf0wB2MrjcD7yLcbK2hUZ72L7lDxsalbmfP91H9DAUjqFo7xuxuLqlw/exec";
 
-export const APP_VERSION = "1.4.0";
+export const APP_VERSION = "1.5.0";
 
 // Questions per session, balanced across the baselines. The gallery's attention checks are not used.
 export const MAIN_QUESTIONS = 25;
