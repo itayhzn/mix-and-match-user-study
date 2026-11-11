@@ -42,7 +42,9 @@ function doPost(e) {
 // Opening the URL shows the spreadsheet it writes to and the rows in each tab (row 1 is the header), for checking.
 function doGet() {
   const book = SpreadsheetApp.getActiveSpreadsheet();
-  if (!book) return reply({ ok: false, error: "not bound to a spreadsheet: open the script from the sheet's Extensions menu" });
+  if (!book) {
+    return reply({ ok: false, error: "not bound to a spreadsheet: open the script from the sheet's Extensions menu" });
+  }
   const rows = {};
   for (const type of TYPES) {
     const sheet = book.getSheetByName(type);
