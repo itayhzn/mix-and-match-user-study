@@ -17,23 +17,48 @@ function el(tag, attrs = {}, ...children) {
   return node;
 }
 
-/** A tagged prompt ("... <r1>red glasses</r1> ...") as text and spans; the changed regions' spans are highlighted. */
-export function promptNodes(text, changed) {
+const TAG = /<r(\d+)>([\s\S]*?)<\/r\1>/g;
+
+/** A tagged prompt ("... <r1>red glasses</r1> ...") as text and spans; the changed regions are highlighted in prompt
+ * `which`'s color (yellow for ①, blue for ②). */
+export function promptNodes(text, changed, which) {
   const nodes = [];
-  const pattern = /<r(\d+)>([\s\S]*?)<\/r\1>/g;
   let last = 0;
-  for (const match of text.matchAll(pattern)) {
+  for (const match of text.matchAll(TAG)) {
     if (match.index > last) nodes.push(document.createTextNode(text.slice(last, match.index)));
-    const region = Number(match[1]);
-    nodes.push(el("span", { class: changed.includes(region) ? `hl hl-${changed.indexOf(region)}` : "", text: match[2] }));
+    nodes.push(changed.includes(Number(match[1])) ? el("span", { class: `hl hl-${which}`, text: match[2] })
+      : document.createTextNode(match[2]));
     last = match.index + match[0].length;
   }
   if (last < text.length) nodes.push(document.createTextNode(text.slice(last)));
   return nodes;
 }
 
-function badge(i) {
-  return el("span", { class: "badge", "aria-hidden": "true", text: String(i + 1) });
+/**
+ * The two prompts as one line: they differ only in the changed regions, so the shared text is written once and each
+ * changed region shows both alternatives, "①a woman ②an old lady".
+ */
+export function mergedNodes(texts, changed) {
+  const second = new Map([...texts[1].matchAll(TAG)].map((m) => [Number(m[1]), m[2]]));
+  const nodes = [];
+  let last = 0;
+  for (const match of texts[0].matchAll(TAG)) {
+    if (match.index > last) nodes.push(document.createTextNode(texts[0].slice(last, match.index)));
+    const region = Number(match[1]);
+    if (changed.includes(region)) {
+      nodes.push(el("span", { class: "alt" }, badge(0), el("span", { class: "hl hl-0", text: match[2] }), " ",
+        badge(1), el("span", { class: "hl hl-1", text: second.get(region) ?? "" })));
+    } else {
+      nodes.push(document.createTextNode(match[2]));
+    }
+    last = match.index + match[0].length;
+  }
+  if (last < texts[0].length) nodes.push(document.createTextNode(texts[0].slice(last)));
+  return nodes;
+}
+
+export function badge(i) {
+  return el("span", { class: `badge b${i + 1}`, "aria-hidden": "true", text: String(i + 1) });
 }
 
 function imageUrl(question, imageId, size) {
@@ -85,8 +110,7 @@ export function renderTrial(root, ctx) {
 
   const texts = prompts(question);
   const strip = el("section", { class: "prompts", "aria-label": t("prompts") },
-    texts.map((text, i) => el("p", { class: "prompt", dir: lang === "he" ? "rtl" : "ltr" }, badge(i),
-      el("span", {}, promptNodes(text, question.changed)))));
+    el("p", { class: "prompt", dir: lang === "he" ? "rtl" : "ltr" }, el("span", {}, mergedNodes(texts, question.changed))));
 
   const pending = [];
   const side = (name) => el("div", { class: `side ${name}` }, images[name].map((id, i) => {
@@ -153,14 +177,16 @@ export function renderTrial(root, ctx) {
 
   let arrangement = "row";
   function relayout() {
-    // The width inside a scrollbar, so the layout never scrolls sideways.
-    const W = document.documentElement.clientWidth - 4, H = window.innerHeight;
-    const phone = W < 900;
-    const C = phone ? 168 : 248, g = phone ? 6 : 12;
+    // The space the comparison really has: inside the scrollbar and the notch's safe-area padding, below the bars.
+    const box = getComputedStyle(compare);
+    const W = compare.clientWidth - parseFloat(box.paddingLeft) - parseFloat(box.paddingRight) - 2;
+    const H = window.visualViewport?.height ?? window.innerHeight;
+    const phone = window.innerWidth < 900;
+    const C = phone ? 160 : 248, g = phone ? 6 : 12;
     const T = top.offsetHeight, P = strip.offsetHeight;
-    const free = H - T - P - (phone ? 10 : 24);
-    const stacked = Math.min((W - C) / 2 - 2 * g, free / 2 - 2 * g);
-    const row = Math.min(((W - C) / 2 - 3 * g) / 2, free - 2 * g);
+    const free = H - T - P - parseFloat(box.paddingTop) - parseFloat(box.paddingBottom) - 4;
+    const stacked = Math.min((W - C) / 2 - 2 * g, (free - g) / 2);
+    const row = Math.min(((W - C) / 2 - 3 * g) / 2, free);
     arrangement = stacked > row ? "stacked" : "row";
     const size = Math.max(64, Math.floor(Math.max(stacked, row)));
     compare.dataset.arrangement = arrangement;
@@ -193,7 +219,7 @@ export function renderTrial(root, ctx) {
       onclick: closeZoom, text: "✕" });
     const show = (i) => {
       current = i;
-      promptLine.replaceChildren(badge(i), el("span", {}, promptNodes(texts[i], question.changed)));
+      promptLine.replaceChildren(badge(i), el("span", {}, promptNodes(texts[i], question.changed, i)));
       pics[0].src = imageUrl(question, images.left[i], "l");
       pics[1].src = imageUrl(question, images.right[i], "l");
       pics[0].alt = t("zoom_left", { n: i + 1 });

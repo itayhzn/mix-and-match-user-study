@@ -84,23 +84,12 @@ document.getElementById("rotate-dismiss").addEventListener("click", () => {
   updateRotate();
 });
 
-// ---------- Welcome ----------
+// ---------- Onboarding ----------
 
-function instructions() {
-  return el("div", { class: "instructions" },
-    el("ol", {},
-      el("li", { text: t("inst_pairs") }),
-      el("li", {}, t("inst_highlight_a"), " ", el("span", { class: "hl hl-0", text: t("inst_highlight_word") }), " ",
-        t("inst_highlight_b")),
-      el("li", {}, t("inst_answer"),
-        el("ul", {}, QUESTIONS.map((q) => el("li", {}, el("b", { text: `${t(`${q}_short`)}: ` }), t(`${q}_full`))))),
-      el("li", { text: t("inst_zoom") }),
-      el("li", { text: t("inst_time") }),
-      el("li", { text: t("inst_landscape") })),
-    el("figure", { class: "example" },
-      el("img", { src: `assets/example-${lang}.webp`, alt: t("example_alt"), onerror: (e) => e.target.parentNode.remove() }),
-      el("figcaption", { text: t("example_caption") })));
-}
+// The onboarding's steps; `onboarding` keeps the step and the form while it lasts (not stored).
+const STEPS = ["start", "layout", "questions", "tips", "ready"];
+const onboarding = { step: 0, name: "", consent: false };
+let examples = null; // assets/examples.json: per language, where each part of the example screenshot is
 
 function languageToggle() {
   return el("div", { class: "lang", role: "group", "aria-label": "Language / שפה" },
@@ -109,24 +98,75 @@ function languageToggle() {
       text: l === "en" ? "English" : "עברית" })));
 }
 
+/** The example screenshot with numbered outlines on its parts, and the legend. */
+function layoutStep() {
+  const parts = ["prompts", "left", "right", "questions"];
+  const boxes = examples?.[lang]?.boxes || {};
+  const figure = el("figure", { class: "example" },
+    el("div", { class: "example-frame", dir: "ltr" },
+      el("img", { src: `assets/example-${lang}.webp`, alt: t("example_alt") }),
+      parts.filter((part) => boxes[part]).map((part, i) => {
+        const [x, y, w, h] = boxes[part];
+        return el("div", { class: "callout", style: `left:${x}%;top:${y}%;width:${w}%;height:${h}%` },
+          el("span", { class: "callout-n", text: String(i + 1) }));
+      })));
+  return [el("h2", { text: t("layout_title") }), figure,
+    el("ol", { class: "legend" }, parts.map((part) => el("li", {}, t(`layout_${part}`))))];
+}
+
+function questionsStep() {
+  return [el("h2", { text: t("questions_title") }),
+    el("div", { class: "cards" }, QUESTIONS.map((q) => el("div", { class: "card" },
+      el("b", { text: t(`${q}_short`) }), el("p", { text: t(`${q}_full`) })))),
+    el("p", { class: "note" }, el("span", { class: "key", text: "◀" }), " ", t("questions_left"), " ",
+      el("span", { class: "key", text: "▶" }), " ", t("questions_right"), " ", t("questions_tie"))];
+}
+
+function tipsStep() {
+  return [el("h2", { text: t("tips_title") }),
+    el("ul", { class: "tips" }, ["tip_zoom", "tip_landscape", "tip_time", "tip_no_right"].map((k) => el("li", { text: t(k) })))];
+}
+
 function renderWelcome() {
-  const name = el("input", { id: "name", type: "text", autocomplete: "name", maxlength: "60", required: true,
-    placeholder: t("name_placeholder") });
-  const consent = el("input", { id: "consent", type: "checkbox" });
-  const start = el("button", { class: "primary", type: "submit", disabled: true, text: t("start") });
-  const check = () => { start.disabled = !(name.value.trim().length >= 2 && consent.checked); };
-  name.addEventListener("input", check);
-  consent.addEventListener("change", check);
-  const form = el("form", { class: "start-form", onsubmit: (e) => { e.preventDefault(); if (!start.disabled) begin(name.value.trim()); } },
-    el("label", { for: "name", text: t("name_label") }), name,
-    el("label", { class: "consent" }, consent, el("span", { text: t("consent") })),
-    start);
-  app.replaceChildren(el("div", { class: "page welcome" },
+  const step = STEPS[onboarding.step];
+  const go = (delta) => { onboarding.step = Math.max(0, Math.min(STEPS.length - 1, onboarding.step + delta)); render(); window.scrollTo(0, 0); };
+  let body, forward;
+  if (step === "start") {
+    const name = el("input", { id: "name", type: "text", autocomplete: "name", maxlength: "60", required: true,
+      placeholder: t("name_placeholder"), value: onboarding.name });
+    const consent = el("input", { id: "consent", type: "checkbox" });
+    consent.checked = onboarding.consent;
+    forward = el("button", { class: "primary", type: "submit", text: t("continue") });
+    const check = () => {
+      onboarding.name = name.value.trim();
+      onboarding.consent = consent.checked;
+      forward.disabled = !(onboarding.name.length >= 2 && onboarding.consent);
+    };
+    name.addEventListener("input", check);
+    consent.addEventListener("change", check);
+    check();
+    body = [el("h1", { text: t("title") }), el("p", { class: "lead", text: t("start_lead") }),
+      el("form", { class: "start-form", onsubmit: (e) => { e.preventDefault(); if (!forward.disabled) go(1); } },
+        el("label", { for: "name", text: t("name_label") }), name,
+        el("label", { class: "consent" }, consent, el("span", { text: t("consent") })), forward)];
+  } else if (step === "ready") {
+    body = [el("div", { class: "ready" }, el("h2", { text: t("ready_title") }), el("p", { class: "lead", text: t("ready_lead") }),
+      el("button", { class: "primary big", type: "button", onclick: () => begin(onboarding.name), text: t("start") }))];
+  } else {
+    body = { layout: layoutStep, questions: questionsStep, tips: tipsStep }[step]();
+    forward = el("button", { class: "primary", type: "button", onclick: () => go(1), text: t("continue") });
+  }
+  const nav = el("nav", { class: "steps-nav" },
+    onboarding.step > 0 ? el("button", { class: "chip", type: "button", onclick: () => go(-1), text: t("back") }) : el("span"),
+    el("div", { class: "dots", "aria-label": t("step_of", { n: onboarding.step + 1, total: STEPS.length }) },
+      STEPS.map((_, i) => el("i", { class: i === onboarding.step ? "on" : "" }))),
+    step !== "start" && step !== "ready" ? forward : el("span"));
+  app.replaceChildren(el("div", { class: `page onboard step-${step}` },
     submitUrl ? null : el("p", { class: "test-mode", text: t("test_mode") }),
-    el("header", { class: "welcome-head" }, el("h1", { text: t("title") }), languageToggle()),
-    el("p", { class: "lead", text: t("intro") }),
-    instructions(),
-    form));
+    el("header", { class: "onboard-head" }, el("span", { class: "lang-label", text: "Language · שפה" }), languageToggle()),
+    el("section", { class: "step-body" }, body),
+    nav));
+  if (step === "start") app.querySelector("#name").focus({ preventScroll: true });
 }
 
 function begin(name) {
@@ -205,7 +245,7 @@ function answer(item, data, position, answers, timing) {
 function showHelp() {
   const dialog = el("div", { class: "help", role: "dialog", "aria-modal": "true", "aria-label": t("help") },
     el("div", { class: "help-box", dir: lang === "he" ? "rtl" : "ltr" },
-      el("h2", { text: t("help") }), instructions(),
+      layoutStep(), questionsStep(), tipsStep(),
       el("button", { class: "primary", type: "button", onclick: () => dialog.remove(), text: t("close") })));
   document.body.append(dialog);
 }
@@ -253,12 +293,17 @@ window.addEventListener("resize", () => {
   cancelAnimationFrame(resizeFrame);
   resizeFrame = requestAnimationFrame(() => { updateRotate(); trial?.relayout(); });
 });
+window.visualViewport?.addEventListener("resize", () => {
+  cancelAnimationFrame(resizeFrame);
+  resizeFrame = requestAnimationFrame(() => { updateRotate(); trial?.relayout(); });
+});
 window.addEventListener("online", sync);
 
 async function main() {
   try {
     await loadStrings();
     index = await fetchJson(`${GALLERY}/index.json`);
+    examples = await fetchJson("assets/examples.json", 1).catch(() => null);
   } catch {
     app.replaceChildren(el("div", { class: "page loading", text: "Could not load the study. Please reload the page." }));
     return;

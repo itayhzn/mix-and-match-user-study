@@ -2,7 +2,7 @@
 // responses"); while it is empty, answers stay in the browser only. For local tests, ?submit=<url> overrides it.
 export const SUBMIT_URL = "";
 
-export const APP_VERSION = "1.0.0";
+export const APP_VERSION = "1.1.0";
 
 // Questions per session: main ones (balanced across the baselines) and attention checks.
 export const MAIN_QUESTIONS = 23;
