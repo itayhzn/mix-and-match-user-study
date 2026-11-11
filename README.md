@@ -35,8 +35,9 @@ quality, match to the text, and variety. The design is in `context/user-study-de
 To change the script later, use **Deploy → Manage deployments → Edit → Version: New version**. That keeps the same
 URL.
 
-The sheet gets two tabs:
+The sheet gets three tabs:
 - `session`: one row per participant, with the name, language, device and gallery version.
+- `withdraw`: one row per participant who chose "Exit without saving". The analysis drops all of their answers.
 - `response`: one row per answered question.
   - `answer_*` holds the side chosen: left, tie or right.
   - `pref_*` holds the same answer as ours, tie or other.

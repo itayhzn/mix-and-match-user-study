@@ -85,7 +85,7 @@ export function preload(question) {
 
 /**
  * Renders a question into `root`. `ctx`: {question, item, position, total, saved (answers to restore), onAnswer,
- * onNext(answers, timing), onLang, onHelp}. Returns {destroy, relayout}.
+ * onNext(answers, timing), onLang, onHelp, onExit}. Returns {destroy, relayout}.
  */
 export function renderTrial(root, ctx) {
   const { question, item } = ctx;
@@ -103,6 +103,7 @@ export function renderTrial(root, ctx) {
   const nextTop = el("button", { class: "next-top primary", type: "button", disabled: true, onclick: () => next() },
     t("next"));
   const top = el("header", { class: "topbar" },
+    el("button", { class: "chip", type: "button", onclick: ctx.onExit, text: t("exit") }),
     el("span", { class: "count", dir: "ltr", text: `${ctx.position} / ${ctx.total}` }),
     progress, nextTop,
     el("button", { class: "chip", type: "button", onclick: ctx.onLang, text: lang === "he" ? "English" : "עברית" }),
@@ -127,7 +128,8 @@ export function renderTrial(root, ctx) {
   const nextButton = el("button", { class: "next primary", type: "button", disabled: true, onclick: () => next() },
     t("next"));
   const groups = QUESTIONS.map((key, q) => {
-    const info = el("div", { class: "info-pop", hidden: true, dir: lang === "he" ? "rtl" : "ltr", text: t(`${key}_full`) });
+    const info = el("div", { class: "info-pop", hidden: true, dir: lang === "he" ? "rtl" : "ltr" }, t(`${key}_full`),
+      key === "diversity" ? el("b", { class: "block" }, t("diversity_note")) : null);
     const buttons = ANSWERS.map((value) => el("button", {
       class: "seg-btn", type: "button", "data-value": value, "aria-pressed": String(answers[key] === value),
       "aria-label": t(`answer_${value}`), onclick: () => choose(q, value),

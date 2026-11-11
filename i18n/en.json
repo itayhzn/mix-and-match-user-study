@@ -57,5 +57,14 @@
   "tip_time": "There are 25 questions, about 12 minutes in all. If you stop, you can continue later on the same device.",
   "tip_no_right": "There are no right or wrong answers; we want your impression.",
   "ready_title": "Ready? Let's start!",
-  "ready_lead": "25 questions, about 12 minutes. You can open these instructions again at any time with the ? button."
+  "ready_lead": "25 questions, about 12 minutes. You can open these instructions again at any time with the ? button.",
+  "diversity_note": "Only the highlighted parts count. Ignore differences anywhere else in the picture.",
+  "exit": "Exit",
+  "exit_title": "Exit without saving?",
+  "exit_body": "Your answers will be deleted from this device and will not be used in the study.",
+  "exit_confirm": "Exit without saving",
+  "exit_cancel": "Keep going",
+  "exited_title": "You left the study",
+  "exited_body": "Nothing you answered will be used. Thank you for your time!",
+  "start_over": "Start over"
 }

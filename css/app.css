@@ -457,3 +457,15 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); ou
   .tips li { margin: 4px 0; }
   .ready { padding-top: 2vh; }
 }
+
+.card .emph { margin-top: 6px; padding: 4px 8px; border-radius: 6px; background: var(--hl-0); color: var(--hl-ink); font-weight: 600; }
+
+.info-pop .block { display: block; margin-top: 4px; }
+
+.confirm { max-width: 440px; margin-top: 10vh; }
+
+.confirm-buttons { display: flex; gap: 10px; justify-content: flex-end; flex-wrap: wrap; }
+
+.confirm-buttons .chip { min-height: 44px; padding: 4px 18px; }
+
+.danger { background: #b3261e; color: #fff; border: 0; border-radius: 10px; min-height: 44px; padding: 0 18px; font-weight: 600; }

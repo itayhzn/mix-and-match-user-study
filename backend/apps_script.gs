@@ -1,9 +1,10 @@
 /**
- * Stores the study's records in this spreadsheet: one row per record, in the sheet named after its type ("session" or
- * "response"). Columns are matched by name in row 1; a field without a column gets a new one, so the sheets need no
- * setup. Deploy as a web app (Execute as: Me, Who has access: Anyone) and put its /exec URL in js/config.js.
+ * Stores the study's records in this spreadsheet: one row per record, in the sheet named after its type ("session",
+ * "response" or "withdraw", the last when a participant leaves without saving). Columns are matched by name in row 1;
+ * a field without a column gets a new one, so the sheets need no setup. Deploy as a web app (Execute as: Me, Who has
+ * access: Anyone) and put its /exec URL in js/config.js.
  */
-const TYPES = ["session", "response"];
+const TYPES = ["session", "response", "withdraw"];
 const MAX_FIELD = 200;
 const TRIAL_ID = /^(Q\d{3}|C\d{2})$/;
 

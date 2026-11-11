@@ -10,7 +10,8 @@ const app = document.getElementById("app");
 const rotate = document.getElementById("rotate");
 let index = null;
 let state = null;
-let screen = null; // "welcome" | "trial" | "done"
+let screen = null; // "welcome" | "trial" | "done" | "exited"
+let restarting = false; // "Start over" after leaving: the onboarding, while the withdrawal may still be unsent
 let trial = null;
 let rotateDismissed = false;
 const cache = new Map();
@@ -117,7 +118,8 @@ function layoutStep() {
 function questionsStep() {
   return [el("h2", { text: t("questions_title") }),
     el("div", { class: "cards" }, QUESTIONS.map((q) => el("div", { class: "card" },
-      el("b", { text: t(`${q}_short`) }), el("p", { text: t(`${q}_full`) })))),
+      el("b", { text: t(`${q}_short`) }), el("p", { text: t(`${q}_full`) }),
+      q === "diversity" ? el("p", { class: "emph", text: t("diversity_note") }) : null))),
     el("p", { class: "note" }, el("span", { class: "key", text: "◀" }), " ", t("questions_left"), " ",
       el("span", { class: "key", text: "▶" }), " ", t("questions_right"), " ", t("questions_tie"))];
 }
@@ -172,9 +174,12 @@ function renderWelcome() {
 function begin(name) {
   const participant = uuid();
   const plan = makePlan(index, rng(participant));
+  // A withdrawal not yet acknowledged is sent before the new session.
+  const leftover = state?.withdrawn ? state.pending : [];
+  restarting = false;
   state = {
     participant_id: participant, name, lang, gallery_version: index.version, plan, answers: {}, drafts: {},
-    pending: [], round: 0, started_at: new Date().toISOString(),
+    pending: [...leftover], round: 0, started_at: new Date().toISOString(),
   };
   enqueue(state, {
     record_id: uuid(), type: "session", participant_id: participant, name, lang, started_at: state.started_at,
@@ -216,6 +221,7 @@ async function renderTrialScreen() {
     onAnswer: (answers) => { state.drafts[item.id] = answers; persist(); },
     onLang: () => { setLang(lang === "he" ? "en" : "he"); state.lang = lang; persist(); render(); },
     onHelp: showHelp,
+    onExit: confirmExit,
     onNext: (answers, timing) => answer(item, data, position, answers, timing),
   });
   // The next question's files, while this one is answered.
@@ -250,6 +256,47 @@ function showHelp() {
   document.body.append(dialog);
 }
 
+// ---------- Leaving ----------
+
+function confirmExit() {
+  const dialog = el("div", { class: "help", role: "alertdialog", "aria-modal": "true", "aria-label": t("exit_title") },
+    el("div", { class: "help-box confirm", dir: lang === "he" ? "rtl" : "ltr" },
+      el("h2", { text: t("exit_title") }), el("p", { text: t("exit_body") }),
+      el("div", { class: "confirm-buttons" },
+        el("button", { class: "chip", type: "button", onclick: () => dialog.remove(), text: t("exit_cancel") }),
+        el("button", { class: "danger", type: "button", onclick: () => { dialog.remove(); withdraw(); },
+          text: t("exit_confirm") }))));
+  document.body.append(dialog);
+  dialog.querySelector(".chip").focus();
+}
+
+/**
+ * Leaves the study: the answers on this device are deleted and the unsent ones never sent; a withdrawal record tells
+ * the analysis to drop the answers that were already sent.
+ */
+function withdraw() {
+  const record = {
+    record_id: uuid(), type: "withdraw", participant_id: state.participant_id, answered: Object.keys(state.answers).length,
+    lang, gallery_version: state.gallery_version, app_version: APP_VERSION, sent_at: new Date().toISOString(),
+  };
+  state = { withdrawn: true, participant_id: state.participant_id, lang, gallery_version: state.gallery_version,
+    pending: [record] };
+  persist();
+  sync();
+  render();
+}
+
+function renderExited() {
+  app.replaceChildren(el("div", { class: "page done" },
+    el("header", { class: "welcome-head" }, el("h1", { text: t("exited_title") }), languageToggle()),
+    el("p", { class: "lead", text: t("exited_body") }),
+    el("button", { class: "primary", type: "button", text: t("start_over"), onclick: () => {
+      restarting = true;
+      Object.assign(onboarding, { step: 0, name: "", consent: false });
+      render();
+    } })));
+}
+
 // ---------- Done ----------
 
 function renderDone() {
@@ -280,11 +327,13 @@ function extend() {
 function render() {
   trial?.destroy();
   trial = null;
-  if (!state) screen = "welcome";
+  if (!state || (state.withdrawn && restarting)) screen = "welcome";
+  else if (state.withdrawn) screen = "exited";
   else screen = currentPosition() < 0 ? "done" : "trial";
   updateRotate();
   if (screen === "welcome") renderWelcome();
   else if (screen === "trial") renderTrialScreen();
+  else if (screen === "exited") renderExited();
   else renderDone();
 }
 
