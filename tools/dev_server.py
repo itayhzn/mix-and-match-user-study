@@ -1,6 +1,7 @@
 """
 A local stand-in for GitHub Pages and the Apps Script: serves the site and appends every POST to /submit to a JSON
-lines file, answering {"ok": true} like the script does. For testing only.
+lines file, answering {"ok": true} like the script does. POST /fail toggles failing every request (503), POST /hang
+toggles leaving them unanswered for two minutes (like a request an iPhone suspended). For testing only.
 
     python3 tools/dev_server.py [--port 8000] [--records tools/records.jsonl]
     open http://localhost:8000/?submit=http://localhost:8000/submit
@@ -8,6 +9,7 @@ lines file, answering {"ok": true} like the script does. For testing only.
 import argparse
 import json
 import sys
+import time
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -18,6 +20,7 @@ ROOT = Path(__file__).resolve().parent.parent
 class Handler(SimpleHTTPRequestHandler):
     records = None
     fail = False
+    hang = False
 
     def end_headers(self):
         self.send_header("Access-Control-Allow-Origin", "*")
@@ -28,8 +31,14 @@ class Handler(SimpleHTTPRequestHandler):
         if self.path.split("?")[0] == "/fail":
             Handler.fail = not Handler.fail
             return self.reply({"fail": Handler.fail})
+        if self.path.split("?")[0] == "/hang":
+            Handler.hang = not Handler.hang
+            return self.reply({"hang": Handler.hang})
         if self.path.split("?")[0] != "/submit":
             return self.send_error(404)
+        if Handler.hang:
+            time.sleep(120)
+            return self.send_error(504)
         if Handler.fail:
             return self.send_error(503)
         body = self.rfile.read(int(self.headers.get("Content-Length", 0)))

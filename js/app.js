@@ -385,7 +385,11 @@ window.visualViewport?.addEventListener("resize", () => {
   cancelAnimationFrame(resizeFrame);
   resizeFrame = requestAnimationFrame(() => { updateRotate(); trial?.relayout(); });
 });
-window.addEventListener("online", sync);
+// Back online, or back on the page after the phone slept: send what is waiting.
+const resend = () => { if (state?.pending?.length && document.visibilityState === "visible") sync(); };
+window.addEventListener("online", resend);
+document.addEventListener("visibilitychange", resend);
+window.addEventListener("pageshow", resend);
 
 // ?debug: a small panel with what is waiting to be sent and the last problem, and a button that sends now.
 function debugPanel() {
@@ -394,7 +398,7 @@ function debugPanel() {
   const update = () => {
     panel.replaceChildren(
       el("div", { text: `v${APP_VERSION} · ${submitUrl ? "endpoint set" : "no endpoint"}` }),
-      el("div", { text: `pending ${state?.pending?.length ?? 0} · sent ${status.sent} (blind ${status.blind}) · rejected ${status.rejected}` }),
+      el("div", { text: `pending ${state?.pending?.length ?? 0} · sent ${status.sent} (blind ${status.blind}) · rejected ${status.rejected} · timeouts ${status.timeouts}` }),
       el("div", { text: `last error: ${status.lastError ?? "none"}` }),
       el("button", { type: "button", class: "chip", text: "Send now", onclick: () => { if (state) sync(); } }));
   };
